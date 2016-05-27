@@ -1,0 +1,26 @@
+<?php
+// created: 2016-05-26 10:50:55
+$mod_strings = array (
+  'LBL_FIRST_NAME' => 'Prénom:',
+  'LBL_EMAIL_ADDRESS' => 'Courriel',
+  'LBL_MOBILE_PHONE' => 'Portable',
+  'LBL_PRIMARY_ADDRESS_STREET' => 'Adresse',
+  'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Code postal',
+  'LBL_PRIMARY_ADDRESS_STATE' => 'Province',
+  'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Pays',
+  'LBL_ALT_ADDRESS_CITY' => 'Ville (langue d&#039;origine)',
+  'LBL_PRIMARY_ADDRESS_CITY' => 'Ville (français)',
+  'LBL_FAX_PHONE' => 'Télécopieur',
+  'LBL_ACCOUNT_NAME' => 'Compte:',
+  'LBL_ACCOUNT_ID' => 'Compte (ID):',
+  'LBL_ACCOUNT' => 'Compte',
+  'LBL_LIST_EMAIL_ADDRESS' => 'Courriel',
+  'LBL_EDITVIEW_PANEL1' => 'Information du Contact',
+  'LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE' => 'Responsables',
+  'LBL_SALUTATION' => 'Salutation:',
+  'LBL_ID_CONTACT' => 'id contact',
+  'LBL_GENRE' => 'Genre',
+  'LBL_COUNTRY' => 'Pays',
+  'LBL_MODIFIED' => 'Modifié',
+  'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
+);

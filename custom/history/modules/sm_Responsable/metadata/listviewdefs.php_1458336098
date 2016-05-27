@@ -1,0 +1,61 @@
+<?php
+$module_name = 'sm_Responsable';
+$listViewDefs [$module_name] = 
+array (
+  'PRIORITE' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'label' => 'LBL_PRIORITE',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+  ),
+  'SOUSFONCTION' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOUSFONCTION',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'ACTIF' => 
+  array (
+    'type' => 'bool',
+    'default' => true,
+    'label' => 'LBL_ACTIF',
+    'width' => '10%',
+  ),
+  'CONTACTS_SM_RESPONSABLE_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_CONTACTS_SM_RESPONSABLE_1_FROM_CONTACTS_TITLE',
+    'id' => 'CONTACTS_SM_RESPONSABLE_1CONTACTS_IDA',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'ACCOUNTS_SM_RESPONSABLE_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_ACCOUNTS_SM_RESPONSABLE_1_FROM_ACCOUNTS_TITLE',
+    'id' => 'ACCOUNTS_SM_RESPONSABLE_1ACCOUNTS_IDA',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '9%',
+    'label' => 'LBL_ASSIGNED_TO_NAME',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => false,
+  ),
+);
+?>
