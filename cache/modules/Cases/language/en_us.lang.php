@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-27 12:12:55
+// created: 2016-05-30 17:58:48
 $mod_strings = array (
   'ERR_DELETE_RECORD' => 'You must specify a record number to delete the account.',
   'LBL_TOOL_TIP_BOX_TITLE' => 'KnowledgeBase Suggestions',

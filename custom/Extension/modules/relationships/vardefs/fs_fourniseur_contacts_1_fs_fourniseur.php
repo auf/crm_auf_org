@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-17 16:08:58
+// created: 2016-05-30 12:38:49
 $dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_contacts_1"] = array (
   'name' => 'fs_fourniseur_contacts_1',
   'type' => 'link',

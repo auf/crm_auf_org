@@ -27,10 +27,6 @@ $layout_defs["Accounts"]["subpanel_setup"]['accounts_sm_responsable_1'] = array 
 
 
 //auto-generated file DO NOT EDIT
-$layout_defs['Accounts']['subpanel_setup']['accounts_sm_responsable_1']['override_subpanel_name'] = 'Account_subpanel_accounts_sm_responsable_1';
-
-
-//auto-generated file DO NOT EDIT
 $layout_defs['Accounts']['subpanel_setup']['accounts']['override_subpanel_name'] = 'Account_subpanel_accounts';
 
     $layout_defs["Accounts"]["subpanel_setup"]["accounts"]["top_buttons"] = array(
@@ -65,5 +61,9 @@ $layout_defs['Accounts']['subpanel_setup']['accounts']['override_subpanel_name']
             'mode' => 'MultiSelect',
         ),
     );
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_sm_responsable_1']['override_subpanel_name'] = 'Account_subpanel_accounts_sm_responsable_1';
 
 ?>

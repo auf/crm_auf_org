@@ -1,9 +1,45 @@
 <?php
-// created: 2016-05-27 08:51:47
+// created: 2016-05-27 20:45:31
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
-    0 => 'SecurityGroups',
+    0 => 'auf_implantation',
+    1 => 'fs_fourniseur',
+    2 => 'sm_Responsable',
+    3 => 'jjwg_Address_Cache',
+    4 => 'jjwg_Areas',
+    5 => 'jjwg_Markers',
+    6 => 'jjwg_Maps',
+    7 => 'AOW_WorkFlow',
+    8 => 'AOS_Quotes',
+    9 => 'AOS_Products',
+    10 => 'AOS_Product_Categories',
+    11 => 'AOS_PDF_Templates',
+    12 => 'AOS_Invoices',
+    13 => 'AOS_Contracts',
+    14 => 'AOR_Scheduled_Reports',
+    15 => 'AOR_Reports',
+    16 => 'FP_Event_Locations',
+    17 => 'FP_events',
+    18 => 'Reminders_Invitees',
+    19 => 'Reminders',
+    20 => 'AOK_KnowledgeBase',
+    21 => 'AOK_Knowledge_Base_Categories',
+    22 => 'AM_ProjectTemplates',
+    23 => 'Bugs',
+    24 => 'Cases',
+    25 => 'ProspectLists',
+    26 => 'Opportunities',
+    27 => 'Prospects',
+    28 => 'Accounts',
+    29 => 'Contacts',
+    30 => 'Leads',
+    31 => 'Notes',
+    32 => 'SecurityGroups',
+    33 => 'Meetings',
+    34 => 'Tasks',
+    35 => 'Calls',
+    36 => 'Home',
   ),
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -105,6 +141,7 @@ $sugar_config = array (
     'autofree' => false,
     'debug' => 0,
     'ssl' => false,
+    'collation' => 'utf8_general_ci',
   ),
   'default_action' => 'index',
   'default_charset' => 'UTF-8',
@@ -211,7 +248,7 @@ $sugar_config = array (
   'default_email_client' => 'sugar',
   'default_email_editor' => 'html',
   'default_export_charset' => 'UTF-8',
-  'default_language' => 'en_us',
+  'default_language' => 'fr_CA',
   'default_locale_name_format' => 's f l',
   'default_max_tabs' => 10,
   'default_module' => 'Home',
@@ -261,7 +298,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 1,
+  'js_lang_version' => 3,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -279,7 +316,7 @@ $sugar_config = array (
   'log_memory_usage' => false,
   'logger' => 
   array (
-    'level' => 'fatal',
+    'level' => 'error',
     'file' => 
     array (
       'ext' => '.log',
@@ -353,7 +390,7 @@ $sugar_config = array (
   'showDetailData' => true,
   'showThemePicker' => true,
   'site_url' => 'http://auf.metrixcrm.dev',
-  'slow_query_time_msec' => '100',
+  'slow_query_time_msec' => '300',
   'sugar_version' => '6.5.23',
   'sugarbeet' => false,
   'suitecrm_version' => '7.6.3',
@@ -398,4 +435,9 @@ $sugar_config = array (
   'use_real_names' => true,
   'vcal_time' => '2',
   'verify_client_ip' => true,
+  'default_module_favicon' => false,
+  'dashlet_auto_refresh_min' => '30',
+  'enable_action_menu' => true,
+  'stack_trace_errors' => false,
+  'developerMode' => false,
 );

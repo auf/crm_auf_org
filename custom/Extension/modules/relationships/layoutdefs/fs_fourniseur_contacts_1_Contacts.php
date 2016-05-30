@@ -1,5 +1,5 @@
 <?php
- // created: 2016-05-17 16:08:58
+ // created: 2016-05-30 12:38:49
 $layout_defs["Contacts"]["subpanel_setup"]['fs_fourniseur_contacts_1'] = array (
   'order' => 100,
   'module' => 'fs_fourniseur',

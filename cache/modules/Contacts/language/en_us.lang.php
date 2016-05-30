@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-27 12:12:55
+// created: 2016-05-30 17:58:47
 $mod_strings = array (
   'db_last_name' => 'LBL_LIST_LAST_NAME',
   'db_first_name' => 'LBL_LIST_FIRST_NAME',
@@ -201,8 +201,8 @@ $mod_strings = array (
   'LBL_PORTAL_ACCOUNT_DISABLED' => 'Account Disabled',
   'LBL_ID_CONTACT' => 'id contact',
   'LBL_GENRE' => 'Genre',
-  'LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE' => 'Responsable',
+  'LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE' => 'Responsables',
   'LBL_SM_RESPONSABLE_CONTACTS_1_FROM_SM_RESPONSABLE_TITLE' => 'Responsable',
-  'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'fourniseurs',
+  'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
   'LBL_SM_RESPONSABLE_CONTACTS_2_FROM_SM_RESPONSABLE_TITLE' => 'Responsable',
 );

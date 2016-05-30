@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-27 12:12:45
+// created: 2016-05-30 17:58:36
 $mod_strings = array (
   'LBL_DELETE_USER_CONFIRM' => 'When the User record is deleted, the corresponding Employee record will also be deleted. After the user is deleted, any workflow definitions and reports involving the user might need to be updated.<br/><br/> Deleting a User record cannot be undone.',
   'LBL_DELETE_GROUP_CONFIRM' => 'Souhaitez-vous vraiment supprimer cet utilisateur de groupe ? Cliquez sur OK pour confirmer.<br />Après cela vous aurez la possibilité de réassigner les enregistrements associés à cet utilisateur vers un autre utilisateur.',

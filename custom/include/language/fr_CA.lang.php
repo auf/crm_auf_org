@@ -322,3 +322,5 @@ $app_list_strings['parent_type_display']['Accounts']='Établissement';
 $app_list_strings['record_type_display_notes']['Accounts']='Établissement';
 $app_list_strings['moduleList']['fs_fourniseur']='Fournisseurs';
 $app_list_strings['moduleListSingular']['fs_fourniseur']='Fournisseur';
+
+$app_strings['LBL_NUM_C'] = 'No. Rue';

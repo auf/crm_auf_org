@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-26 11:30:34
+// created: 2016-05-30 12:26:04
 $mod_strings = array (
   'LBL_DATE_MODIFIED' => 'Modifié le :',
   'LBL_NAME' => 'Intitulé',
@@ -78,4 +78,6 @@ $mod_strings = array (
   'LBL_PARENT' => 'Parent',
   'LBL_EDITVIEW_PANEL9' => 'Membre des établissements :',
   'LBL_PAYS_TEXT' => 'Pays',
+  'LBL_BILLING_ADDRESS_STREET_NUM' => 'No. Rue',
+  'LBL_SHIPPING_ADDRESS_STREET_NUM' => 'shipping address street num',
 );

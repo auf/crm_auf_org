@@ -15,11 +15,6 @@ $dictionary["Meeting"]["fields"]["sm_responsable_activities_1_meetings"] = array
 
 
  // created: 2015-10-21 11:18:00
-$dictionary['Meeting']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
-
- 
-
- // created: 2015-10-21 11:18:00
 $dictionary['Meeting']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
@@ -31,6 +26,11 @@ $dictionary['Meeting']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
 
  // created: 2015-10-21 11:18:00
 $dictionary['Meeting']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
+
+ 
+
+ // created: 2015-10-21 11:18:00
+$dictionary['Meeting']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 
  
 ?>

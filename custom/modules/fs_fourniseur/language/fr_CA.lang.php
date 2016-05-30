@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-26 10:50:56
+// created: 2016-05-30 12:27:52
 $mod_strings = array (
   'LNK_NEW_RECORD' => 'Créer Fournisseurs',
   'LNK_LIST' => 'Vue Fournisseurs',
@@ -8,4 +8,6 @@ $mod_strings = array (
   'LBL_LIST_FORM_TITLE' => 'Fournisseur Liste',
   'LBL_SEARCH_FORM_TITLE' => 'Recherche Fournisseur',
   'LBL_HOMEPAGE_TITLE' => 'Mes Fournisseurs',
+  'LBL_SHIPPING_ADDRESS_STREET_NUM' => 'shipping address street num',
+  'LBL_BILLING_ADDRESS_STREET_NUM' => 'billing address street num',
 );

@@ -40,7 +40,7 @@
 $relationships = array (
   'fs_fourniseur_contacts_1' => 
   array (
-    'id' => '976a9a13-2a6d-71ee-32d4-573b7ac85ce0',
+    'id' => '5ae31009-4c61-dcee-73cb-574c6ccec1cc',
     'relationship_name' => 'fs_fourniseur_contacts_1',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -66,7 +66,7 @@ $relationships = array (
   ),
   'fs_fourniseur_modified_user' => 
   array (
-    'id' => 'a7ad1257-d2bb-1606-6bc8-573b7a06db4b',
+    'id' => 'aae5f903-ca6a-6c9c-e5a3-574c6c845af2',
     'relationship_name' => 'fs_fourniseur_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -92,7 +92,7 @@ $relationships = array (
   ),
   'fs_fourniseur_created_by' => 
   array (
-    'id' => 'b14eadae-bd9f-57a3-9413-573b7a7e1b54',
+    'id' => 'b4716493-f1de-06e8-e9b2-574c6c3a206b',
     'relationship_name' => 'fs_fourniseur_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -118,7 +118,7 @@ $relationships = array (
   ),
   'fs_fourniseur_assigned_user' => 
   array (
-    'id' => 'bafdb295-53fb-ba32-9f33-573b7ae62b4c',
+    'id' => 'bd22fba6-8072-9f02-c81b-574c6cf8a762',
     'relationship_name' => 'fs_fourniseur_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',

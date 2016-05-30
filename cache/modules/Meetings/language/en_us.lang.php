@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-27 12:12:55
+// created: 2016-05-30 17:58:48
 $mod_strings = array (
   'ERR_DELETE_RECORD' => 'A record number must be specified to delete the meeting.',
   'LBL_ACCEPT_THIS' => 'Accept?',

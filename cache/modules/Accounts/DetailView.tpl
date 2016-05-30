@@ -605,6 +605,40 @@ SUGAR.util.doWhen(function(){
 <tr>
 {counter name="fieldsUsed"}
 <td width='12.5%' scope="col">
+{if !$fields.billing_address_street_num_c.hidden}
+{capture name="label" assign="label"}{sugar_translate label='LBL_BILLING_ADDRESS_STREET_NUM' module='Accounts'}{/capture}
+{$label|strip_semicolon}:
+{/if}
+</td>
+<td class="inlineEdit" type="varchar" field="billing_address_street_num_c" width='37.5%'  >
+{if !$fields.billing_address_street_num_c.hidden}
+{counter name="panelFieldCount"}
+
+{if strlen($fields.billing_address_street_num_c.value) <= 0}
+{assign var="value" value=$fields.billing_address_street_num_c.default_value }
+{else}
+{assign var="value" value=$fields.billing_address_street_num_c.value }
+{/if} 
+<span class="sugar_field" id="{$fields.billing_address_street_num_c.name}">{$fields.billing_address_street_num_c.value}</span>
+{/if}
+<div class="inlineEditIcon"> {sugar_getimage name="inline_edit_icon.svg" attr='border="0" ' alt="$alt_edit"}</div>			</td>
+{counter name="fieldsUsed"}
+<td width='12.5%' scope="col">
+&nbsp;
+</td>
+<td class="" type="" field="" width='37.5%'  >
+</td>
+</tr>
+{/capture}
+{if $fieldsUsed > 0 && $fieldsUsed != $fieldsHidden}
+{$tableRow}
+{/if}
+{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
+{counter name="fieldsHidden" start=0 print=false assign="fieldsHidden"}
+{capture name="tr" assign="tableRow"}
+<tr>
+{counter name="fieldsUsed"}
+<td width='12.5%' scope="col">
 {if !$fields.billing_address_street.hidden}
 {capture name="label" assign="label"}{sugar_translate label='LBL_BILLING_ADDRESS' module='Accounts'}{/capture}
 {$label|strip_semicolon}:

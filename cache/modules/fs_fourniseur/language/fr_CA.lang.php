@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-27 12:12:40
+// created: 2016-05-30 17:58:29
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -117,5 +117,7 @@ $mod_strings = array (
   'LBL_NEW_FORM_TITLE' => 'Nouveau fourniseurs',
   'LNK_IMPORT_FS_FOURNISEUR' => 'Import Fournisseurs',
   'LBL_FS_FOURNISEUR_SUBPANEL_TITLE' => 'fourniseurs',
+  'LBL_SHIPPING_ADDRESS_STREET_NUM' => 'shipping address street num',
+  'LBL_BILLING_ADDRESS_STREET_NUM' => 'billing address street num',
   'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contacts',
 );

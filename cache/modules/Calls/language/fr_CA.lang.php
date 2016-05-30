@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-27 12:12:23
+// created: 2016-05-30 17:58:22
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -141,5 +141,4 @@ $mod_strings = array (
   'LBL_RESCHEDULE_PANEL' => 'Replanifier',
   'LBL_RESCHEDULE_HISTORY' => 'Historique des tentatives d\'appel',
   'LBL_ACCOUNT' => 'Compte',
-  'LBL_SM_RESPONSABLE_ACTIVITIES_1_CALLS_FROM_SM_RESPONSABLE_TITLE' => 'Activités:Responsable',
 );

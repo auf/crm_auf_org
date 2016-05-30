@@ -2,6 +2,12 @@
  //WARNING: The contents of this file are auto-generated
 
 
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['sm_Responsable'] = 'Responsable';
+
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -41,28 +47,18 @@
  ********************************************************************************/
 
 
-$app_list_strings['fs_fourniseur_type_dom'][''] = '';
-$app_list_strings['fs_fourniseur_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['fs_fourniseur_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['fs_fourniseur_type_dom']['Customer'] = 'Customer';
-$app_list_strings['fs_fourniseur_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['fs_fourniseur_type_dom']['Investor'] = 'Investor';
-$app_list_strings['fs_fourniseur_type_dom']['Partner'] = 'Partner';
-$app_list_strings['fs_fourniseur_type_dom']['Press'] = 'Press';
-$app_list_strings['fs_fourniseur_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['fs_fourniseur_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['fs_fourniseur_type_dom']['Other'] = 'Other';
-$app_list_strings['fs_fourniseur_type_dom']['Provider'] = 'Поставщик';
-$app_list_strings['fs_fourniseur_type_dom']['Delivery service'] = 'Служба доставки';
-$app_list_strings['moduleList']['fs_company'] = 'fourniseurs';
-$app_list_strings['moduleList']['fs_ODA'] = 'LBL_FIRM';
-$app_list_strings['moduleList']['fs_fourniseur'] = 'fourniseurs';
-
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
-$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
-$app_list_strings['record_type_display_notes']['sm_Responsable'] = 'Responsable';
+$app_list_strings['auf_implantation_type_dom'][''] = '';
+$app_list_strings['auf_implantation_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['auf_implantation_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['auf_implantation_type_dom']['Customer'] = 'Customer';
+$app_list_strings['auf_implantation_type_dom']['Integrator'] = 'Integrator';
+$app_list_strings['auf_implantation_type_dom']['Investor'] = 'Investor';
+$app_list_strings['auf_implantation_type_dom']['Partner'] = 'Partner';
+$app_list_strings['auf_implantation_type_dom']['Press'] = 'Press';
+$app_list_strings['auf_implantation_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['auf_implantation_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['auf_implantation_type_dom']['Other'] = 'Other';
+$app_list_strings['moduleList']['auf_implantation'] = 'Implantation';
 
 
 /*********************************************************************************
@@ -147,17 +143,21 @@ $app_list_strings['priorite_list'][''] = '';
  ********************************************************************************/
 
 
-$app_list_strings['auf_implantation_type_dom'][''] = '';
-$app_list_strings['auf_implantation_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['auf_implantation_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['auf_implantation_type_dom']['Customer'] = 'Customer';
-$app_list_strings['auf_implantation_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['auf_implantation_type_dom']['Investor'] = 'Investor';
-$app_list_strings['auf_implantation_type_dom']['Partner'] = 'Partner';
-$app_list_strings['auf_implantation_type_dom']['Press'] = 'Press';
-$app_list_strings['auf_implantation_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['auf_implantation_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['auf_implantation_type_dom']['Other'] = 'Other';
-$app_list_strings['moduleList']['auf_implantation'] = 'Implantation';
+$app_list_strings['fs_fourniseur_type_dom'][''] = '';
+$app_list_strings['fs_fourniseur_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['fs_fourniseur_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['fs_fourniseur_type_dom']['Customer'] = 'Customer';
+$app_list_strings['fs_fourniseur_type_dom']['Integrator'] = 'Integrator';
+$app_list_strings['fs_fourniseur_type_dom']['Investor'] = 'Investor';
+$app_list_strings['fs_fourniseur_type_dom']['Partner'] = 'Partner';
+$app_list_strings['fs_fourniseur_type_dom']['Press'] = 'Press';
+$app_list_strings['fs_fourniseur_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['fs_fourniseur_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['fs_fourniseur_type_dom']['Other'] = 'Other';
+$app_list_strings['fs_fourniseur_type_dom']['Provider'] = 'Поставщик';
+$app_list_strings['fs_fourniseur_type_dom']['Delivery service'] = 'Служба доставки';
+$app_list_strings['moduleList']['fs_company'] = 'fourniseurs';
+$app_list_strings['moduleList']['fs_ODA'] = 'LBL_FIRM';
+$app_list_strings['moduleList']['fs_fourniseur'] = 'fourniseurs';
 
 ?>
