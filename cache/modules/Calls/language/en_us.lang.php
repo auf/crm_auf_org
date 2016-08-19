@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:48
+// created: 2016-08-18 15:34:16
 $mod_strings = array (
   'LBL_BLANK' => ' ',
   'LBL_MODULE_NAME' => 'Calls',
@@ -55,7 +55,7 @@ $mod_strings = array (
   'LBL_REMINDER_EMAIL_ALL_INVITEES' => 'Email all invitees',
   'LBL_EMAIL_REMINDER' => 'Email Reminder',
   'LBL_EMAIL_REMINDER_TIME' => 'Email Reminder Time',
-  'LBL_SEND_BUTTON_TITLE' => 'Save & Send Invites [Alt+I]',
+  'LBL_SEND_BUTTON_TITLE' => 'Save & Send Invites',
   'LBL_SEND_BUTTON_KEY' => 'I',
   'LBL_SEND_BUTTON_LABEL' => 'Save & Send Invites',
   'LBL_DATE_END' => 'End Date',
@@ -126,4 +126,9 @@ $mod_strings = array (
   'LBL_RESCHEDULE_PANEL' => 'Reschedule',
   'LBL_RESCHEDULE_HISTORY' => 'Call Attempt History',
   'LBL_SM_RESPONSABLE_ACTIVITIES_1_CALLS_FROM_SM_RESPONSABLE_TITLE' => 'Activités:Responsable',
+  'LBL_FS_FOURNISEUR_ACTIVITIES_1_CALLS_FROM_FS_FOURNISEUR_TITLE' => 'Activités:Fournisseurs',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_CALLS_FROM_AOS_QUOTES_TITLE' => 'Activités1:Devis',
+  'LBL_PROP_PROPOSITION_ACTIVITIES_1_CALLS_FROM_PROP_PROPOSITION_TITLE' => 'Activités:Prop_Proposition',
+  'LBL_PART_PARTENARIAT_ACTIVITIES_1_CALLS_FROM_PART_PARTENARIAT_TITLE' => 'Activités:part_Partenariat',
+  'LBL_AOS_INVOICES_ACTIVITIES_1_CALLS_FROM_AOS_INVOICES_TITLE' => 'Activités:Factures',
 );

@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:48
+// created: 2016-08-18 15:34:31
 $mod_strings = array (
   'ERR_DELETE_RECORD' => 'You must specify a record number to delete the account.',
   'LBL_ACCOUNT_ID' => 'Account ID:',
@@ -67,4 +67,9 @@ $mod_strings = array (
   'LBL_DATE_MODIFIED' => 'Date Modified',
   'LBL_DELETED' => 'Deleted',
   'LBL_SM_RESPONSABLE_ACTIVITIES_1_NOTES_FROM_SM_RESPONSABLE_TITLE' => 'Activités:Responsable',
+  'LBL_FS_FOURNISEUR_ACTIVITIES_1_NOTES_FROM_FS_FOURNISEUR_TITLE' => 'Activités:Fournisseurs',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_NOTES_FROM_AOS_QUOTES_TITLE' => 'Activités:Devis',
+  'LBL_PROP_PROPOSITION_ACTIVITIES_1_NOTES_FROM_PROP_PROPOSITION_TITLE' => 'Activités:Prop_Proposition',
+  'LBL_PART_PARTENARIAT_ACTIVITIES_1_NOTES_FROM_PART_PARTENARIAT_TITLE' => 'Activités:part_Partenariat',
+  'LBL_AOS_INVOICES_ACTIVITIES_1_NOTES_FROM_AOS_INVOICES_TITLE' => 'Activités:Factures',
 );

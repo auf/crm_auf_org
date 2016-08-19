@@ -33,48 +33,23 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_EDITVIEW_PANEL1' => 
+        'LBL_CONTACT_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_PANEL_ADVANCED' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
-      'lbl_editview_panel1' => 
+      'lbl_contact_information' => 
       array (
         0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'genre_c',
-            'studio' => 'visible',
-            'label' => 'LBL_GENRE',
-          ),
-          1 => 
-          array (
-            'name' => 'jjwg_maps_address_c',
-            'label' => 'LBL_JJWG_MAPS_ADDRESS',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'salutation',
-            'comment' => 'Contact salutation (e.g., Mr, Ms)',
-            'label' => 'LBL_SALUTATION',
-          ),
-          1 => 
-          array (
-            'name' => 'primary_address_city',
-            'comment' => 'City for primary address',
-            'label' => 'LBL_PRIMARY_ADDRESS_CITY',
-          ),
-        ),
-        2 => 
         array (
           0 => 
           array (
@@ -83,22 +58,55 @@ array (
           ),
           1 => 
           array (
-            'name' => 'alt_address_city',
-            'comment' => 'City for alternate address',
-            'label' => 'LBL_ALT_ADDRESS_CITY',
+            'name' => 'last_name',
           ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'phone_work',
+            'comment' => 'Work phone number of the contact',
+            'label' => 'LBL_OFFICE_PHONE',
+          ),
+          1 => 
+          array (
+            'name' => 'phone_mobile',
+            'comment' => 'Mobile phone number of the contact',
+            'label' => 'LBL_MOBILE_PHONE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'title',
+            'comment' => 'The title of the contact',
+            'label' => 'LBL_TITLE',
+          ),
+          1 => 'department',
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'last_name',
+            'name' => 'account_name',
+            'displayParams' => 
+            array (
+              'key' => 'billing',
+              'copy' => 'primary',
+              'billingKey' => 'primary',
+              'additionalFields' => 
+              array (
+                'phone_office' => 'phone_work',
+              ),
+            ),
           ),
           1 => 
           array (
-            'name' => 'primary_address_state',
-            'comment' => 'State for primary address',
-            'label' => 'LBL_PRIMARY_ADDRESS_STATE',
+            'name' => 'phone_fax',
+            'comment' => 'Contact fax number',
+            'label' => 'LBL_FAX_PHONE',
           ),
         ),
         4 => 
@@ -109,50 +117,60 @@ array (
             'studio' => 'false',
             'label' => 'LBL_EMAIL_ADDRESS',
           ),
-          1 => 
-          array (
-            'name' => 'primary_address_postalcode',
-            'comment' => 'Postal code for primary address',
-            'label' => 'LBL_PRIMARY_ADDRESS_POSTALCODE',
-          ),
         ),
         5 => 
         array (
           0 => 
           array (
-            'name' => 'phone_work',
-            'comment' => 'Work phone number of the contact',
-            'label' => 'LBL_OFFICE_PHONE',
-          ),
-          1 => 
-          array (
-            'name' => 'country_c',
-            'studio' => 'visible',
-            'label' => 'LBL_COUNTRY',
+            'name' => 'primary_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'primary',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
           ),
         ),
         6 => 
         array (
           0 => 
           array (
-            'name' => 'phone_mobile',
-            'comment' => 'Mobile phone number of the contact',
-            'label' => 'LBL_MOBILE_PHONE',
+            'name' => 'description',
+            'label' => 'LBL_DESCRIPTION',
           ),
-          1 => 
-          array (
-            'name' => 'phone_fax',
-            'comment' => 'Contact fax number',
-            'label' => 'LBL_FAX_PHONE',
-          ),
+          1 => '',
         ),
         7 => 
         array (
           0 => 
           array (
-            'name' => 'description',
-            'label' => 'LBL_DESCRIPTION',
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
+        ),
+      ),
+      'LBL_PANEL_ADVANCED' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'lead_source',
+            'comment' => 'How did the contact come about',
+            'label' => 'LBL_LEAD_SOURCE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'report_to_name',
+            'label' => 'LBL_REPORTS_TO',
+          ),
+          1 => 'campaign_name',
         ),
       ),
     ),

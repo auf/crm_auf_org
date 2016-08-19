@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:48
+// created: 2016-08-18 15:34:16
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Tasks',
   'LBL_TASK' => 'Tasks: ',
@@ -73,4 +73,11 @@ $mod_strings = array (
   'LBL_EXPORT_PARENT_ID' => 'Related To ID',
   'LBL_RELATED_TO' => 'Related to:',
   'LBL_SM_RESPONSABLE_ACTIVITIES_1_TASKS_FROM_SM_RESPONSABLE_TITLE' => 'Activités:Responsable',
+  'LBL_FS_FOURNISEUR_ACTIVITIES_1_TASKS_FROM_FS_FOURNISEUR_TITLE' => 'Activités:Fournisseurs',
+  'LBL_FS_FOURNISEUR_TASKS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_TASKS_FROM_AOS_QUOTES_TITLE' => 'Activités:Devis',
+  'LBL_PROP_PROPOSITION_ACTIVITIES_1_TASKS_FROM_PROP_PROPOSITION_TITLE' => 'Activités:Prop_Proposition',
+  'LBL_PART_PARTENARIAT_ACTIVITIES_1_TASKS_FROM_PART_PARTENARIAT_TITLE' => 'Activités:part_Partenariat',
+  'LBL_AOS_QUOTES_TASKS_1_FROM_AOS_QUOTES_TITLE' => 'Devis',
+  'LBL_AOS_INVOICES_ACTIVITIES_1_TASKS_FROM_AOS_INVOICES_TITLE' => 'Activités:Factures',
 );

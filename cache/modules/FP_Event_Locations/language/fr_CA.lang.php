@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:25
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -36,9 +36,9 @@ $mod_strings = array (
   'LBL_ADDRESS' => 'Adresse',
   'LBL_ADDRESS_CITY' => 'Ville',
   'LBL_ADDRESS_COUNTRY' => 'Pays',
-  'LBL_ADDRESS_POSTALCODE' => 'Code postal',
+  'LBL_ADDRESS_POSTALCODE' => 'Code Postal',
   'LBL_ADDRESS_STATE' => 'Conté',
   'LBL_CAPACITY' => 'Capacité',
   'LBL_EDITVIEW_PANEL1' => 'Adresse',
-  'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Évènements',
+  'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Événement',
 );

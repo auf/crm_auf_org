@@ -36,6 +36,15 @@ array (
         ),
       ),
       'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_TASK_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -64,6 +73,19 @@ array (
         array (
           0 => 
           array (
+            'name' => 'cre_fic_four_coda_c',
+            'label' => 'LBL_CRE_FIC_FOUR_CODA',
+          ),
+          1 => 
+          array (
+            'name' => 'demandeur_c',
+            'label' => 'LBL_DEMANDEUR',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'date_start',
             'type' => 'datetimecombo',
             'displayParams' => 
@@ -74,11 +96,25 @@ array (
           ),
           1 => 
           array (
+            'name' => 'assignea_c',
+            'label' => 'LBL_ASSIGNEA',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_entered',
+            'comment' => 'Date record created',
+            'label' => 'LBL_DATE_ENTERED',
+          ),
+          1 => 
+          array (
             'name' => 'parent_name',
             'label' => 'LBL_LIST_RELATED_TO',
           ),
         ),
-        2 => 
+        4 => 
         array (
           0 => 
           array (
@@ -96,7 +132,7 @@ array (
             'label' => 'LBL_CONTACT_NAME',
           ),
         ),
-        3 => 
+        5 => 
         array (
           0 => 
           array (
@@ -106,8 +142,12 @@ array (
               'required' => true,
             ),
           ),
+          1 => 
+          array (
+            'name' => 'aos_quotes_tasks_1_name',
+          ),
         ),
-        4 => 
+        6 => 
         array (
           0 => 
           array (
@@ -118,19 +158,34 @@ array (
             'name' => 'sm_responsable_activities_1_tasks_name',
           ),
         ),
-        5 => 
+        7 => 
         array (
           0 => 
           array (
             'name' => 'sm_responsable_activities_1_tasks_name',
           ),
+          1 => 
+          array (
+            'name' => 'fs_fourniseur_activities_1_tasks_name',
+          ),
         ),
-      ),
-      'LBL_PANEL_ASSIGNMENT' => 
-      array (
-        0 => 
+        8 => 
         array (
-          0 => 'assigned_user_name',
+          0 => 
+          array (
+            'name' => 'fs_fourniseur_activities_1_tasks_name',
+          ),
+          1 => 
+          array (
+            'name' => 'fs_fourniseur_activities_1_tasks_name',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fs_fourniseur_tasks_1_name',
+          ),
         ),
       ),
     ),

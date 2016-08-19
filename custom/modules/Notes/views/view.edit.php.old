@@ -1,0 +1,63 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+require_once('include/json_config.php');
+//require_once('include/MVC/View/views/view.edit.php');
+
+class NotesViewEdit extends ViewEdit
+	{
+	function NotesViewEdit()
+		{
+		parent::ViewEdit();
+		$this->useForSubpanel = true;
+		$this->useModuleQuickCreateTemplate = true;
+		}
+
+	function display()
+		{
+
+		/*echo "<script>
+				$(document).ready(function()
+				{	
+			render = function()
+				{
+					var remove_fields = ['nocontrat_c']; 
+					
+					//you can add the fields you want to hide here
+					$.each(remove_fields, function(key, value)
+					{
+						var dd_val = $('#type_c').val();
+						if(dd_val != 'Contrat')
+						{
+							$('#' + value).hide();
+							$('#' + value + '_label').css('color', 'white');
+							$('#nocontrat_c').parent().parent().hide();
+						}
+						else
+						{
+							$('#' + value).show();
+							$('#' + value + '_label').show();
+							$('#' + value + '_label').css('color', 'black');
+							$('#nocontrat_c').parent().parent().show();
+						}
+					});
+				}
+					
+				
+				
+
+				//render();
+				
+					
+					$('#type_c').change(function()
+					{
+						render();
+					});
+				});
+	
+				
+			</script>";*/
+
+		parent::display();
+		}
+	}

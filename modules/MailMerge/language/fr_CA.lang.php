@@ -53,7 +53,7 @@ $mod_strings = array (
   'LBL_MAILMERGE_TEMPLATES' => 'Modèle utilisé pour le Publipostage: ',
   'LBL_STEP_2' => 'Etape 2: Sélectionner les éléments à publiposter',
   'LBL_MAILMERGE_OBJECTS' => 'Sélectionner les éléments: ',
-  'LBL_STEP_3' => 'Etablir l\'association avec Contact',
+  'LBL_STEP_3' => 'Etablir l`association avec Contact',
   'LBL_STEP_4' => 'Vérifier et Compléter',
   'LBL_SELECTED_MODULE' => 'Module Sélectionné: ',
   'LBL_SELECTED_TEMPLATE' => 'Modèle sélectionné: ',
@@ -75,7 +75,7 @@ $mod_strings = array (
   'LBL_TEMPLATE_NOTICE' => 'Les modèles sont des documents Microsoft Word contenant des champs de publipostage qui ont étés uploadés et stockés dans le module Documents.',
   'LBL_CONTAINS_CONTACT_INFO' => 'Le modèle sélectionné contient des informations liés à des .',
   'LBL_ADDIN_NOTICE' => 'This requires the installation of SuiteCRM Mail Merge add-in to Microsoft Word.',
-  'LBL_BROWSER_NOTICE' => 'Vous devez disposer d\'Internet Explorer 6.0 ou supérieur pour effectuer le publipostage.',
+  'LBL_BROWSER_NOTICE' => 'Vous devez disposer d`Internet Explorer 6.0 ou supérieur pour effectuer le publipostage.',
   'LBL_REMOVE' => 'Supprimer' /*for 508 compliance fix*/,
   'LBL_ADD' => 'Ajouter' /*for 508 compliance fix*/,
   'LBL_BROWSER_REQUIREMENT' => 'Ceci requière IE 6.0 ou suivant pour Windows.',
@@ -83,7 +83,7 @@ $mod_strings = array (
   'LBL_SELECT_ONE' => 'Veuillez sélectionner au moins un élément.',
   'LBL_AVAILABLE' => 'Disponible',
   'LBL_SELECTED' => 'Sélection',
-  'LBL_RELATED_INFO_SELECTION' => 'Utilisez les sélections ci-dessous pour identifier les informations correspondantes que vous souhaitez voir afficher dans votre document fusionné. Passez cette étape si votre modèle de document ne contient pas d\'information correspondante.',
+  'LBL_RELATED_INFO_SELECTION' => 'Utilisez les sélections ci-dessous pour identifier les informations correspondantes que vous souhaitez voir afficher dans votre document fusionné. Passez cette étape si votre modèle de document ne contient pas d`information correspondante.',
 
 );
 

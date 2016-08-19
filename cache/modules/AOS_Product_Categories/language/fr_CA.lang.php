@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:27
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -28,7 +28,7 @@ $mod_strings = array (
   'LNK_NEW_RECORD' => 'Créer des catégories de produits',
   'LNK_LIST' => 'Voir Catégories de produits ',
   'LNK_IMPORT_AOS_PRODUCT_CATEGORIES' => 'Importer Catégories de produits',
-  'LBL_SEARCH_FORM_TITLE' => 'recherche d\'une Catégories de produits',
+  'LBL_SEARCH_FORM_TITLE' => 'recherche d&#039;une Catégories de produits',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'Voir l\'Historique',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
   'LBL_AOS_PRODUCT_CATEGORIES_SUBPANEL_TITLE' => 'Catégories de produits',

@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:25
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -71,9 +71,9 @@ $mod_strings = array (
   'LBL_ERROR_MSG_4' => ' emails have failed to send. Please check that all the contacts you are inviting have a valid email address. (See the SuiteCRM error log file)',
   'LBL_ERROR_MSG_5' => 'Modèle d\'email non valide',
   'LBL_EMAIL_INVITE' => 'Envoyer l\'invitation par mail',
-  'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Contacts',
-  'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Localisations',
-  'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Prospects',
+  'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Contact',
+  'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Localisation',
+  'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Prospect',
   'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Cibles',
   'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Délégués',
   'LBL_ACCEPT_REPORT' => 'Attendance',

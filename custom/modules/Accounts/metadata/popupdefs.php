@@ -5,23 +5,15 @@ $popupMeta = array (
     'orderBy' => 'name',
     'whereClauses' => array (
   'name' => 'accounts.name',
-  'billing_address_city' => 'accounts.billing_address_city',
-  'account_type' => 'accounts.account_type',
-  'industry' => 'accounts.industry',
-  'billing_address_state' => 'accounts.billing_address_state',
-  'email' => 'accounts.email',
-  'assigned_user_id' => 'accounts.assigned_user_id',
-  'pays_iso2_c' => 'accounts_cstm.pays_iso2_c',
+  'qualite_c' => 'accounts_cstm.qualite_c',
+  'type_etablissement_c' => 'accounts_cstm.type_etablissement_c',
+  'shipping_address_country' => 'accounts.shipping_address_country',
 ),
     'searchInputs' => array (
   0 => 'name',
-  1 => 'billing_address_city',
-  3 => 'account_type',
-  4 => 'industry',
-  5 => 'billing_address_state',
-  7 => 'email',
-  8 => 'assigned_user_id',
-  9 => 'pays_iso2_c',
+  10 => 'qualite_c',
+  11 => 'type_etablissement_c',
+  12 => 'shipping_address_country',
 ),
     'create' => array (
   'formBase' => 'AccountFormBase.php',
@@ -35,62 +27,33 @@ $popupMeta = array (
   'createButton' => 'LNK_NEW_ACCOUNT',
 ),
     'searchdefs' => array (
+  'qualite_c' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'label' => 'LBL_QUALITE',
+    'width' => '10%',
+    'name' => 'qualite_c',
+  ),
+  'type_etablissement_c' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'label' => 'LBL_TYPE_ETABLISSEMENT',
+    'width' => '10%',
+    'name' => 'type_etablissement_c',
+  ),
   'name' => 
   array (
     'name' => 'name',
     'width' => '10%',
   ),
-  'account_type' => 
+  'shipping_address_country' => 
   array (
     'type' => 'enum',
-    'label' => 'LBL_TYPE',
+    'label' => 'LBL_SHIPPING_ADDRESS_COUNTRY',
     'width' => '10%',
-    'name' => 'account_type',
-  ),
-  'industry' => 
-  array (
-    'type' => 'enum',
-    'label' => 'LBL_INDUSTRY',
-    'width' => '10%',
-    'name' => 'industry',
-  ),
-  'billing_address_city' => 
-  array (
-    'name' => 'billing_address_city',
-    'width' => '10%',
-  ),
-  'billing_address_state' => 
-  array (
-    'name' => 'billing_address_state',
-    'width' => '10%',
-  ),
-  'pays_iso2_c' => 
-  array (
-    'type' => 'enum',
-    'studio' => 'visible',
-    'label' => 'LBL_PAYS_ISO2_C',
-    'width' => '10%',
-    'name' => 'pays_iso2_c',
-  ),
-  'email' => 
-  array (
-    'name' => 'email',
-    'width' => '10%',
-  ),
-  'assigned_user_id' => 
-  array (
-    'name' => 'assigned_user_id',
-    'label' => 'LBL_ASSIGNED_TO',
-    'type' => 'enum',
-    'function' => 
-    array (
-      'name' => 'get_user_array',
-      'params' => 
-      array (
-        0 => false,
-      ),
-    ),
-    'width' => '10%',
+    'name' => 'shipping_address_country',
   ),
 ),
     'listviewdefs' => array (
@@ -102,27 +65,13 @@ $popupMeta = array (
     'default' => true,
     'name' => 'name',
   ),
-  'ACCOUNT_TYPE' => 
+  'TYPE_ETABLISSEMENT_C' => 
   array (
     'type' => 'enum',
-    'label' => 'LBL_TYPE',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_TYPE_ETABLISSEMENT',
     'width' => '10%',
-    'default' => true,
-    'name' => 'account_type',
-  ),
-  'BILLING_ADDRESS_CITY' => 
-  array (
-    'width' => '10%',
-    'label' => 'LBL_LIST_CITY',
-    'default' => true,
-    'name' => 'billing_address_city',
-  ),
-  'BILLING_ADDRESS_STATE' => 
-  array (
-    'width' => '7%',
-    'label' => 'LBL_STATE',
-    'default' => true,
-    'name' => 'billing_address_state',
   ),
   'BILLING_ADDRESS_COUNTRY' => 
   array (
@@ -137,6 +86,14 @@ $popupMeta = array (
     'label' => 'LBL_LIST_ASSIGNED_USER',
     'default' => true,
     'name' => 'assigned_user_name',
+  ),
+  'DOMAINE_C' => 
+  array (
+    'type' => 'multienum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_DOMAINE',
+    'width' => '10%',
   ),
 ),
 );

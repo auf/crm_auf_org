@@ -12,10 +12,9 @@ class ListViewHooksClass
 		 	 "id_region_g_c" =>array("tblname"=>"ref_region","listname"=>"id_region_a_c_list","field"=>"nom"),	 	 	 	 
 	       );
 
-         
-
-
-
+	$fetch_vals = array();
+	$k='';
+	$v='';
 
 		  foreach($dynamic_dd_fileds as $k=>$v){
                  $fetch_vals = $this->populate_list($v['tblname'],$v['field']);

@@ -19,20 +19,21 @@ array (
           'field' => '30',
         ),
       ),
-      'useTabs' => true,
+      'useTabs' => false,
       'tabDefs' => 
       array (
         'LBL_NOTE_INFORMATION' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_PANEL_ASSIGNMENT' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -43,8 +44,8 @@ array (
           0 => 'contact_name',
           1 => 
           array (
-            'name' => 'parent_name',
-            'customLabel' => '{sugar_translate label=\'LBL_MODULE_NAME\' module=$fields.parent_type.value}',
+            'name' => 'nocontrat_c',
+            'label' => 'LBL_NOCONTRAT ',
           ),
         ),
         1 => 
@@ -54,35 +55,64 @@ array (
             'name' => 'name',
             'label' => 'LBL_SUBJECT',
           ),
+          1 => 
+          array (
+            'name' => 'parent_name',
+            'customLabel' => '{sugar_translate label=\'LBL_MODULE_NAME\' module=$fields.parent_type.value}',
+          ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'filename',
+            'name' => 'date_de_debut_c',
+            'label' => 'LBL_DATE_DE_DEBUT',
+          ),
+          1 => 
+          array (
+            'name' => 'date_de_fin_c',
+            'label' => 'LBL_DATE_DE_FIN',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'description',
-            'label' => 'LBL_NOTE_STATUS',
+            'name' => 'filename',
+          ),
+          1 => 
+          array (
+            'name' => 'statut_c',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUT',
           ),
         ),
         4 => 
         array (
-          0 => 'assigned_user_name',
-          1 => 
+          0 => 
           array (
-            'name' => 'sm_responsable_activities_1_notes_name',
+            'name' => 'type_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPE',
           ),
         ),
         5 => 
         array (
           0 => 
           array (
-            'name' => 'sm_responsable_activities_1_notes_name',
+            'name' => 'description',
+            'label' => 'LBL_NOTE_STATUS',
+          ),
+          1 => 
+          array (
+            'name' => 'fs_fourniseur_activities_1_notes_name',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fs_fourniseur_activities_1_notes_name',
           ),
         ),
       ),
@@ -90,17 +120,7 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'date_modified',
-            'label' => 'LBL_DATE_MODIFIED',
-            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
-          ),
-          1 => 
-          array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
-          ),
+          0 => 'assigned_user_name',
         ),
       ),
     ),

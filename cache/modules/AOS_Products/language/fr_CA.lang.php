@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:27
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -40,17 +40,18 @@ $mod_strings = array (
   'LBL_COST' => 'Coût',
   'LBL_PRICE' => 'Prix',
   'LBL_URL' => 'URL',
-  'LBL_CONTACT' => 'Contacts',
+  'LBL_CONTACT' => 'Contact',
   'LBL_PRODUCT_IMAGE' => 'Image du produit',
   'LBL_IMAGE_UPLOAD_FAIL' => 'ERREUR : Le fichier téléchargé dépasse la taille maximale : Taille maximale :',
   'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Catégorie de produit',
   'LBL_AOS_PRODUCT_CATEGORY' => 'ID de la catégorie produit',
   'LBL_AOS_PRODUCT_CATEGORIES' => 'Catégories de produits',
-  'LBL_COST_USDOLLAR' => 'Coût (devise par défaut)',
-  'LBL_PRICE_USDOLLAR' => 'Prix (devise par défaut)',
+  'LBL_COST_USDOLLAR' => 'Coût (Devise par défaut)',
+  'LBL_PRICE_USDOLLAR' => 'Prix (Devise par défaut)',
   'LBL_FILE_URL' => 'URL du Fichier',
   'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'Purchases',
   'LBL_PRODUCTS_PURCHASES' => 'Purchases',
   'LBL_AOS_QUOTE_NAME' => 'Devis',
   'LBL_ACCOUNT_NAME' => 'Comptes',
+  'LBL_FS_FOURNISEUR_AOS_PRODUCTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
 );

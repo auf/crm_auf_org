@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:28
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -45,5 +45,5 @@ $mod_strings = array (
   'LBL_MARKER_CLOSEST_MATCHING_ADDRESS' => 'Adresse correspondante la plus proche :',
   'LBL_MARKER_MARKER_STATUS' => 'Status du Marqueur',
   'LBL_MARKER_EDIT_DESCRIPTION' => 'Cliquez et glissez le marqueur.',
-  'LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE' => 'Cartes',
+  'LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE' => 'Carte',
 );

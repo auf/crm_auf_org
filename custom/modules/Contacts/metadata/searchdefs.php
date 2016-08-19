@@ -1,21 +1,11 @@
 <?php
-// created: 2016-05-26 18:14:33
-$searchdefs['Contacts'] = array (
-  'templateMeta' => 
-  array (
-    'maxColumns' => '3',
-    'maxColumnsBasic' => '4',
-    'widths' => 
-    array (
-      'label' => '10',
-      'field' => '30',
-    ),
-  ),
+$searchdefs ['Contacts'] = 
+array (
   'layout' => 
   array (
     'basic_search' => 
     array (
-      0 => 
+      'name' => 
       array (
         'type' => 'name',
         'link' => true,
@@ -24,16 +14,7 @@ $searchdefs['Contacts'] = array (
         'default' => true,
         'name' => 'name',
       ),
-      1 => 
-      array (
-        'type' => 'enum',
-        'default' => true,
-        'studio' => 'visible',
-        'label' => 'LBL_COUNTRY',
-        'width' => '10%',
-        'name' => 'country_c',
-      ),
-      2 => 
+      'phone_work' => 
       array (
         'type' => 'phone',
         'label' => 'LBL_OFFICE_PHONE',
@@ -41,13 +22,30 @@ $searchdefs['Contacts'] = array (
         'default' => true,
         'name' => 'phone_work',
       ),
-      3 => 
+      'primary_address_street_num_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_PRIMARY_ADDRESS_STREET_NUM',
+        'width' => '10%',
+        'name' => 'primary_address_street_num_c',
+      ),
+      'primary_address_street' => 
       array (
         'type' => 'varchar',
         'label' => 'LBL_PRIMARY_ADDRESS_STREET',
         'width' => '10%',
         'default' => true,
         'name' => 'primary_address_street',
+      ),
+      'country_c' => 
+      array (
+        'type' => 'enum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_COUNTRY',
+        'width' => '10%',
+        'name' => 'country_c',
       ),
     ),
     'advanced_search' => 
@@ -151,4 +149,15 @@ $searchdefs['Contacts'] = array (
       ),
     ),
   ),
+  'templateMeta' => 
+  array (
+    'maxColumns' => '3',
+    'maxColumnsBasic' => '4',
+    'widths' => 
+    array (
+      'label' => '10',
+      'field' => '30',
+    ),
+  ),
 );
+?>

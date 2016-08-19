@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:47
+// created: 2016-08-18 15:34:16
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Opportunities',
   'LBL_MODULE_TITLE' => 'Opportunities: Home',
@@ -104,4 +104,8 @@ $mod_strings = array (
   'LBL_EXPORT_NAME' => 'Name',
   'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails',
   'TWITTER_USER_C' => 'Twitter User',
+  'LBL_FS_FOURNISEUR_OPPORTUNITIES_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
+  'LBL_OPPORTUNITIES_PROP_PROPOSITION_1_FROM_PROP_PROPOSITION_TITLE' => 'Propositions',
+  'LBL_OPPORTUNITIES_PART_PARTENARIAT_1_FROM_PART_PARTENARIAT_TITLE' => 'Partenariats',
+  'LBL_OPPORTUNITIES_AOS_QUOTES_1_FROM_AOS_QUOTES_TITLE' => 'Partenariat',
 );

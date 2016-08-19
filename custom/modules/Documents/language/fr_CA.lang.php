@@ -1,0 +1,26 @@
+<?php
+// created: 2016-08-15 14:34:32
+$mod_strings = array (
+  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Établissement',
+  'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Projets',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
+  'LBL_CONTRACT_NAME' => 'Nom du Contrat',
+  'LBL_CONTRACT_STATUS' => 'Statut Contrat',
+  'LBL_DET_IS_TEMPLATE' => 'Modèle ?',
+  'LBL_DET_RELATED_DOCUMENT' => 'Document relatif',
+  'LBL_DET_RELATED_DOCUMENT_VERSION' => 'Version du Document lié',
+  'LBL_DET_TEMPLATE_TYPE' => 'Type de Document',
+  'LBL_DOC_ACTIVE_DATE' => 'Date de publication',
+  'LBL_DOC_EXP_DATE' => 'Date expiration',
+  'LBL_DOC_NAME' => 'Nom du Document',
+  'LBL_DOC_STATUS' => 'Statut',
+  'LBL_DOC_VERSION' => 'Version',
+  'LBL_FILENAME' => 'Nom du Fichier',
+  'LBL_LASTEST_REVISION_NAME' => 'Nom de la dernière révision',
+  'LBL_LAST_REV_CREATOR' => 'Version initialisée par',
+  'LBL_SELECTED_REVISION_NAME' => 'Nom de la révision sélectionné',
+  'LBL_SF_SUBCATEGORY' => 'Sous Catégorie',
+  'LBL_LEADS' => 'Prospect',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contact',
+  'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
+);

@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:26
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -23,7 +23,7 @@ $mod_strings = array (
   'LBL_EMAIL_NON_PRIMARY' => 'Email(s) secondaire(s)',
   'LBL_ASSIGNED_TO' => 'Assigné à :',
   'LBL_ASSIGNED_USER' => 'Assigné à :',
-  'LBL_EMAIL_RECIPIENTS' => 'Destinataires :',
+  'LBL_EMAIL_RECIPIENTS' => 'Destinataires',
   'LBL_USERS_ASSIGNED_LINK' => 'Utilisateurs Assignés',
   'LBL_USERS_CREATED_LINK' => 'Créé par Utilisateurs',
   'LBL_USERS_MODIFIED_LINK' => 'Utilisateurs modifiés',
@@ -40,7 +40,7 @@ $mod_strings = array (
   'LBL_AOR_SCHEDULED_REPORTS_SUBPANEL_TITLE' => 'Rapports planifiés',
   'LBL_NEW_FORM_TITLE' => 'Nouveaux rapports planifiés',
   'LBL_SCHEDULE' => 'Programme',
-  'LBL_AOR_REPORT_NAME' => 'Rapports',
+  'LBL_AOR_REPORT_NAME' => 'Rapport',
   'LBL_SCHEDULED_REPORTS_INFORMATION' => 'Rapports planifiés',
   'LBL_LAST_RUN' => 'Dernière exécution ',
   'LBL_STATUS' => 'Statut',

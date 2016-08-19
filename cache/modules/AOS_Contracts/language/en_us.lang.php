@@ -1,9 +1,6 @@
 <?php
-// created: 2016-05-30 17:58:48
+// created: 2016-08-18 15:34:16
 $mod_strings = array (
-  'LBL_ASSIGNED_TO_NAME' => 'Contract Manager',
-  'LBL_CONTRACT_ACCOUNT' => 'Account',
-  'LBL_OPPORTUNITY' => 'Opportunity',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
@@ -18,6 +15,14 @@ $mod_strings = array (
   'LBL_CREATED_USER' => 'Created by User',
   'LBL_MODIFIED_USER' => 'Modified by User',
   'LBL_LIST_NAME' => 'Name',
+  'LBL_EDIT_BUTTON' => 'Edit',
+  'LBL_REMOVE' => 'Remove',
+  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Contract Manager',
+  'LBL_SECURITYGROUPS' => 'Security Groups',
+  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+  'LBL_CONTRACT_ACCOUNT' => 'Account',
+  'LBL_OPPORTUNITY' => 'Opportunity',
   'LBL_LIST_FORM_TITLE' => 'Contracts List',
   'LBL_MODULE_NAME' => 'Contracts',
   'LBL_MODULE_TITLE' => 'Contracts: Home',
@@ -86,4 +91,6 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_USDOLLAR' => 'Shipping Tax (Default Currency)',
   'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Shipping Tax (Default Currency)',
   'LBL_GRAND_TOTAL_USDOLLAR' => 'Grand Total (Default Currency)',
+  'LBL_AUF_IMPLANTATION_AOS_CONTRACTS_1_FROM_AUF_IMPLANTATION_TITLE' => 'Implantation',
+  'LBL_FS_FOURNISEUR_AOS_CONTRACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
 );

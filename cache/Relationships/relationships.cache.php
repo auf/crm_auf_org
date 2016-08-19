@@ -7626,6 +7626,444 @@
     'join_key_lhs' => 'securitygroup_id',
     'join_key_rhs' => 'user_id',
   ),
+  'aos_invoices_activities_1_tasks' => 
+  array (
+    'name' => 'aos_invoices_activities_1_tasks',
+    'relationships' => 
+    array (
+      'aos_invoices_activities_1_tasks' => 
+      array (
+        'lhs_module' => 'AOS_Invoices',
+        'lhs_table' => 'aos_invoices',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Tasks',
+        'rhs_table' => 'tasks',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Invoices',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Invoices',
+    'lhs_table' => 'aos_invoices',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Invoices',
+  ),
+  'fs_fourniseur_aos_contracts_1' => 
+  array (
+    'name' => 'fs_fourniseur_aos_contracts_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'fs_fourniseur_aos_contracts_1' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'AOS_Contracts',
+        'rhs_table' => 'aos_contracts',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'fs_fourniseur_aos_contracts_1_c',
+        'join_key_lhs' => 'fs_fourniseur_aos_contracts_1fs_fourniseur_ida',
+        'join_key_rhs' => 'fs_fourniseur_aos_contracts_1aos_contracts_idb',
+      ),
+    ),
+    'table' => 'fs_fourniseur_aos_contracts_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'fs_fourniseur_aos_contracts_1fs_fourniseur_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'fs_fourniseur_aos_contracts_1aos_contracts_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'fs_fourniseur_aos_contracts_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'fs_fourniseur_aos_contracts_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_aos_contracts_1fs_fourniseur_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'fs_fourniseur_aos_contracts_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_aos_contracts_1aos_contracts_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Contracts',
+    'rhs_table' => 'aos_contracts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'fs_fourniseur_aos_contracts_1_c',
+    'join_key_lhs' => 'fs_fourniseur_aos_contracts_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_aos_contracts_1aos_contracts_idb',
+  ),
+  'fs_fourniseur_tasks_1' => 
+  array (
+    'name' => 'fs_fourniseur_tasks_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'fs_fourniseur_tasks_1' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Tasks',
+        'rhs_table' => 'tasks',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'fs_fourniseur_tasks_1_c',
+        'join_key_lhs' => 'fs_fourniseur_tasks_1fs_fourniseur_ida',
+        'join_key_rhs' => 'fs_fourniseur_tasks_1tasks_idb',
+      ),
+    ),
+    'table' => 'fs_fourniseur_tasks_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'fs_fourniseur_tasks_1fs_fourniseur_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'fs_fourniseur_tasks_1tasks_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'fs_fourniseur_tasks_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'fs_fourniseur_tasks_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_tasks_1fs_fourniseur_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'fs_fourniseur_tasks_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_tasks_1tasks_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'fs_fourniseur_tasks_1_c',
+    'join_key_lhs' => 'fs_fourniseur_tasks_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_tasks_1tasks_idb',
+  ),
+  'prop_proposition_activities_1_tasks' => 
+  array (
+    'name' => 'prop_proposition_activities_1_tasks',
+    'relationships' => 
+    array (
+      'prop_proposition_activities_1_tasks' => 
+      array (
+        'lhs_module' => 'Prop_Proposition',
+        'lhs_table' => 'prop_proposition',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Tasks',
+        'rhs_table' => 'tasks',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'Prop_Proposition',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'Prop_Proposition',
+    'lhs_table' => 'prop_proposition',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'Prop_Proposition',
+  ),
+  'sm_responsable_activities_1_notes' => 
+  array (
+    'name' => 'sm_responsable_activities_1_notes',
+    'relationships' => 
+    array (
+      'sm_responsable_activities_1_notes' => 
+      array (
+        'lhs_module' => 'sm_Responsable',
+        'lhs_table' => 'sm_responsable',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Notes',
+        'rhs_table' => 'notes',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'sm_Responsable',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'sm_Responsable',
+    'lhs_table' => 'sm_responsable',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Notes',
+    'rhs_table' => 'notes',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'sm_Responsable',
+  ),
+  'aos_invoices_activities_1_emails' => 
+  array (
+    'name' => 'aos_invoices_activities_1_emails',
+    'relationships' => 
+    array (
+      'aos_invoices_activities_1_emails' => 
+      array (
+        'lhs_module' => 'AOS_Invoices',
+        'lhs_table' => 'aos_invoices',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Emails',
+        'rhs_table' => 'emails',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Invoices',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Invoices',
+    'lhs_table' => 'aos_invoices',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Emails',
+    'rhs_table' => 'emails',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Invoices',
+  ),
+  'auf_implantation_contacts_1' => 
+  array (
+    'name' => 'auf_implantation_contacts_1',
+    'true_relationship_type' => 'many-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'auf_implantation_contacts_1' => 
+      array (
+        'lhs_module' => 'auf_implantation',
+        'lhs_table' => 'auf_implantation',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Contacts',
+        'rhs_table' => 'contacts',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'auf_implantation_contacts_1_c',
+        'join_key_lhs' => 'auf_implantation_contacts_1auf_implantation_ida',
+        'join_key_rhs' => 'auf_implantation_contacts_1contacts_idb',
+      ),
+    ),
+    'table' => 'auf_implantation_contacts_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'auf_implantation_contacts_1auf_implantation_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'auf_implantation_contacts_1contacts_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'auf_implantation_contacts_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'auf_implantation_contacts_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'auf_implantation_contacts_1auf_implantation_ida',
+          1 => 'auf_implantation_contacts_1contacts_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'auf_implantation',
+    'lhs_table' => 'auf_implantation',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Contacts',
+    'rhs_table' => 'contacts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'auf_implantation_contacts_1_c',
+    'join_key_lhs' => 'auf_implantation_contacts_1auf_implantation_ida',
+    'join_key_rhs' => 'auf_implantation_contacts_1contacts_idb',
+  ),
+  'fs_fourniseur_activities_1_notes' => 
+  array (
+    'name' => 'fs_fourniseur_activities_1_notes',
+    'relationships' => 
+    array (
+      'fs_fourniseur_activities_1_notes' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Notes',
+        'rhs_table' => 'notes',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'fs_fourniseur',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Notes',
+    'rhs_table' => 'notes',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'fs_fourniseur',
+  ),
   'sm_responsable_activities_1_calls' => 
   array (
     'name' => 'sm_responsable_activities_1_calls',
@@ -7657,18 +8095,1938 @@
     'relationship_role_column' => 'parent_type',
     'relationship_role_column_value' => 'sm_Responsable',
   ),
-  'sm_responsable_activities_1_tasks' => 
+  'sm_responsable_leads_1' => 
   array (
-    'name' => 'sm_responsable_activities_1_tasks',
+    'name' => 'sm_responsable_leads_1',
+    'true_relationship_type' => 'one-to-many',
     'relationships' => 
     array (
-      'sm_responsable_activities_1_tasks' => 
+      'sm_responsable_leads_1' => 
       array (
         'lhs_module' => 'sm_Responsable',
         'lhs_table' => 'sm_responsable',
         'lhs_key' => 'id',
+        'rhs_module' => 'Leads',
+        'rhs_table' => 'leads',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sm_responsable_leads_1_c',
+        'join_key_lhs' => 'sm_responsable_leads_1sm_responsable_ida',
+        'join_key_rhs' => 'sm_responsable_leads_1leads_idb',
+      ),
+    ),
+    'table' => 'sm_responsable_leads_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sm_responsable_leads_1sm_responsable_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sm_responsable_leads_1leads_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sm_responsable_leads_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sm_responsable_leads_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sm_responsable_leads_1sm_responsable_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sm_responsable_leads_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sm_responsable_leads_1leads_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sm_Responsable',
+    'lhs_table' => 'sm_responsable',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Leads',
+    'rhs_table' => 'leads',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sm_responsable_leads_1_c',
+    'join_key_lhs' => 'sm_responsable_leads_1sm_responsable_ida',
+    'join_key_rhs' => 'sm_responsable_leads_1leads_idb',
+  ),
+  'aos_invoices_activities_1_meetings' => 
+  array (
+    'name' => 'aos_invoices_activities_1_meetings',
+    'relationships' => 
+    array (
+      'aos_invoices_activities_1_meetings' => 
+      array (
+        'lhs_module' => 'AOS_Invoices',
+        'lhs_table' => 'aos_invoices',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Meetings',
+        'rhs_table' => 'meetings',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Invoices',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Invoices',
+    'lhs_table' => 'aos_invoices',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Meetings',
+    'rhs_table' => 'meetings',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Invoices',
+  ),
+  'prospectlists_sm_responsable_1' => 
+  array (
+    'name' => 'prospectlists_sm_responsable_1',
+    'true_relationship_type' => 'many-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'prospectlists_sm_responsable_1' => 
+      array (
+        'lhs_module' => 'ProspectLists',
+        'lhs_table' => 'prospect_lists',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sm_Responsable',
+        'rhs_table' => 'sm_responsable',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'prospectlists_sm_responsable_1_c',
+        'join_key_lhs' => 'prospectlists_sm_responsable_1prospectlists_ida',
+        'join_key_rhs' => 'prospectlists_sm_responsable_1sm_responsable_idb',
+      ),
+    ),
+    'table' => 'prospectlists_sm_responsable_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'prospectlists_sm_responsable_1prospectlists_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'prospectlists_sm_responsable_1sm_responsable_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'prospectlists_sm_responsable_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'prospectlists_sm_responsable_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'prospectlists_sm_responsable_1prospectlists_ida',
+          1 => 'prospectlists_sm_responsable_1sm_responsable_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'ProspectLists',
+    'lhs_table' => 'prospect_lists',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sm_Responsable',
+    'rhs_table' => 'sm_responsable',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'prospectlists_sm_responsable_1_c',
+    'join_key_lhs' => 'prospectlists_sm_responsable_1prospectlists_ida',
+    'join_key_rhs' => 'prospectlists_sm_responsable_1sm_responsable_idb',
+  ),
+  'fs_fourniseur_leads_1' => 
+  array (
+    'name' => 'fs_fourniseur_leads_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'fs_fourniseur_leads_1' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Leads',
+        'rhs_table' => 'leads',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'fs_fourniseur_leads_1_c',
+        'join_key_lhs' => 'fs_fourniseur_leads_1fs_fourniseur_ida',
+        'join_key_rhs' => 'fs_fourniseur_leads_1leads_idb',
+      ),
+    ),
+    'table' => 'fs_fourniseur_leads_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'fs_fourniseur_leads_1fs_fourniseur_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'fs_fourniseur_leads_1leads_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'fs_fourniseur_leads_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'fs_fourniseur_leads_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_leads_1fs_fourniseur_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'fs_fourniseur_leads_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_leads_1leads_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Leads',
+    'rhs_table' => 'leads',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'fs_fourniseur_leads_1_c',
+    'join_key_lhs' => 'fs_fourniseur_leads_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_leads_1leads_idb',
+  ),
+  'accounts_sm_responsable_1' => 
+  array (
+    'name' => 'accounts_sm_responsable_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'accounts_sm_responsable_1' => 
+      array (
+        'lhs_module' => 'Accounts',
+        'lhs_table' => 'accounts',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sm_Responsable',
+        'rhs_table' => 'sm_responsable',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'accounts_sm_responsable_1_c',
+        'join_key_lhs' => 'accounts_sm_responsable_1accounts_ida',
+        'join_key_rhs' => 'accounts_sm_responsable_1sm_responsable_idb',
+      ),
+    ),
+    'table' => 'accounts_sm_responsable_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'accounts_sm_responsable_1accounts_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'accounts_sm_responsable_1sm_responsable_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'accounts_sm_responsable_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'accounts_sm_responsable_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'accounts_sm_responsable_1accounts_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'accounts_sm_responsable_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'accounts_sm_responsable_1sm_responsable_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'Accounts',
+    'lhs_table' => 'accounts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sm_Responsable',
+    'rhs_table' => 'sm_responsable',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'accounts_sm_responsable_1_c',
+    'join_key_lhs' => 'accounts_sm_responsable_1accounts_ida',
+    'join_key_rhs' => 'accounts_sm_responsable_1sm_responsable_idb',
+  ),
+  'opportunities_aos_quotes_1' => 
+  array (
+    'name' => 'opportunities_aos_quotes_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'opportunities_aos_quotes_1' => 
+      array (
+        'lhs_module' => 'Opportunities',
+        'lhs_table' => 'opportunities',
+        'lhs_key' => 'id',
+        'rhs_module' => 'AOS_Quotes',
+        'rhs_table' => 'aos_quotes',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'opportunities_aos_quotes_1_c',
+        'join_key_lhs' => 'opportunities_aos_quotes_1opportunities_ida',
+        'join_key_rhs' => 'opportunities_aos_quotes_1aos_quotes_idb',
+      ),
+    ),
+    'table' => 'opportunities_aos_quotes_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'opportunities_aos_quotes_1opportunities_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'opportunities_aos_quotes_1aos_quotes_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'opportunities_aos_quotes_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'opportunities_aos_quotes_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'opportunities_aos_quotes_1opportunities_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'opportunities_aos_quotes_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'opportunities_aos_quotes_1aos_quotes_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'Opportunities',
+    'lhs_table' => 'opportunities',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Quotes',
+    'rhs_table' => 'aos_quotes',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'opportunities_aos_quotes_1_c',
+    'join_key_lhs' => 'opportunities_aos_quotes_1opportunities_ida',
+    'join_key_rhs' => 'opportunities_aos_quotes_1aos_quotes_idb',
+  ),
+  'fs_fourniseur_campaigns_1' => 
+  array (
+    'name' => 'fs_fourniseur_campaigns_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'fs_fourniseur_campaigns_1' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Campaigns',
+        'rhs_table' => 'campaigns',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'fs_fourniseur_campaigns_1_c',
+        'join_key_lhs' => 'fs_fourniseur_campaigns_1fs_fourniseur_ida',
+        'join_key_rhs' => 'fs_fourniseur_campaigns_1campaigns_idb',
+      ),
+    ),
+    'table' => 'fs_fourniseur_campaigns_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'fs_fourniseur_campaigns_1fs_fourniseur_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'fs_fourniseur_campaigns_1campaigns_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'fs_fourniseur_campaigns_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'fs_fourniseur_campaigns_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_campaigns_1fs_fourniseur_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'fs_fourniseur_campaigns_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_campaigns_1campaigns_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Campaigns',
+    'rhs_table' => 'campaigns',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'fs_fourniseur_campaigns_1_c',
+    'join_key_lhs' => 'fs_fourniseur_campaigns_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_campaigns_1campaigns_idb',
+  ),
+  'fs_fourniseur_opportunities_1' => 
+  array (
+    'name' => 'fs_fourniseur_opportunities_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'fs_fourniseur_opportunities_1' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Opportunities',
+        'rhs_table' => 'opportunities',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'fs_fourniseur_opportunities_1_c',
+        'join_key_lhs' => 'fs_fourniseur_opportunities_1fs_fourniseur_ida',
+        'join_key_rhs' => 'fs_fourniseur_opportunities_1opportunities_idb',
+      ),
+    ),
+    'table' => 'fs_fourniseur_opportunities_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'fs_fourniseur_opportunities_1fs_fourniseur_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'fs_fourniseur_opportunities_1opportunities_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'fs_fourniseur_opportunities_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'fs_fourniseur_opportunities_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_opportunities_1fs_fourniseur_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'fs_fourniseur_opportunities_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_opportunities_1opportunities_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Opportunities',
+    'rhs_table' => 'opportunities',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'fs_fourniseur_opportunities_1_c',
+    'join_key_lhs' => 'fs_fourniseur_opportunities_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_opportunities_1opportunities_idb',
+  ),
+  'prop_proposition_activities_1_calls' => 
+  array (
+    'name' => 'prop_proposition_activities_1_calls',
+    'relationships' => 
+    array (
+      'prop_proposition_activities_1_calls' => 
+      array (
+        'lhs_module' => 'Prop_Proposition',
+        'lhs_table' => 'prop_proposition',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Calls',
+        'rhs_table' => 'calls',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'Prop_Proposition',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'Prop_Proposition',
+    'lhs_table' => 'prop_proposition',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Calls',
+    'rhs_table' => 'calls',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'Prop_Proposition',
+  ),
+  'fs_fourniseur_contacts_1' => 
+  array (
+    'name' => 'fs_fourniseur_contacts_1',
+    'true_relationship_type' => 'many-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'fs_fourniseur_contacts_1' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Contacts',
+        'rhs_table' => 'contacts',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'fs_fourniseur_contacts_1_c',
+        'join_key_lhs' => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
+        'join_key_rhs' => 'fs_fourniseur_contacts_1contacts_idb',
+      ),
+    ),
+    'table' => 'fs_fourniseur_contacts_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'fs_fourniseur_contacts_1contacts_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'fs_fourniseur_contacts_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'fs_fourniseur_contacts_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
+          1 => 'fs_fourniseur_contacts_1contacts_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Contacts',
+    'rhs_table' => 'contacts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'fs_fourniseur_contacts_1_c',
+    'join_key_lhs' => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_contacts_1contacts_idb',
+  ),
+  'aos_quotes_activities_1_tasks' => 
+  array (
+    'name' => 'aos_quotes_activities_1_tasks',
+    'relationships' => 
+    array (
+      'aos_quotes_activities_1_tasks' => 
+      array (
+        'lhs_module' => 'AOS_Quotes',
+        'lhs_table' => 'aos_quotes',
+        'lhs_key' => 'id',
         'rhs_module' => 'Tasks',
         'rhs_table' => 'tasks',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Quotes',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Quotes',
+    'lhs_table' => 'aos_quotes',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Quotes',
+  ),
+  'aos_quotes_activities_1_meetings' => 
+  array (
+    'name' => 'aos_quotes_activities_1_meetings',
+    'relationships' => 
+    array (
+      'aos_quotes_activities_1_meetings' => 
+      array (
+        'lhs_module' => 'AOS_Quotes',
+        'lhs_table' => 'aos_quotes',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Meetings',
+        'rhs_table' => 'meetings',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Quotes',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Quotes',
+    'lhs_table' => 'aos_quotes',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Meetings',
+    'rhs_table' => 'meetings',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Quotes',
+  ),
+  'opportunities_part_partenariat_1' => 
+  array (
+    'name' => 'opportunities_part_partenariat_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'opportunities_part_partenariat_1' => 
+      array (
+        'lhs_module' => 'Opportunities',
+        'lhs_table' => 'opportunities',
+        'lhs_key' => 'id',
+        'rhs_module' => 'part_Partenariat',
+        'rhs_table' => 'part_partenariat',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'opportunities_part_partenariat_1_c',
+        'join_key_lhs' => 'opportunities_part_partenariat_1opportunities_ida',
+        'join_key_rhs' => 'opportunities_part_partenariat_1part_partenariat_idb',
+      ),
+    ),
+    'table' => 'opportunities_part_partenariat_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'opportunities_part_partenariat_1opportunities_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'opportunities_part_partenariat_1part_partenariat_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'opportunities_part_partenariat_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'opportunities_part_partenariat_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'opportunities_part_partenariat_1opportunities_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'opportunities_part_partenariat_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'opportunities_part_partenariat_1part_partenariat_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'Opportunities',
+    'lhs_table' => 'opportunities',
+    'lhs_key' => 'id',
+    'rhs_module' => 'part_Partenariat',
+    'rhs_table' => 'part_partenariat',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'opportunities_part_partenariat_1_c',
+    'join_key_lhs' => 'opportunities_part_partenariat_1opportunities_ida',
+    'join_key_rhs' => 'opportunities_part_partenariat_1part_partenariat_idb',
+  ),
+  'prop_proposition_activities_1_emails' => 
+  array (
+    'name' => 'prop_proposition_activities_1_emails',
+    'relationships' => 
+    array (
+      'prop_proposition_activities_1_emails' => 
+      array (
+        'lhs_module' => 'Prop_Proposition',
+        'lhs_table' => 'prop_proposition',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Emails',
+        'rhs_table' => 'emails',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'Prop_Proposition',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'Prop_Proposition',
+    'lhs_table' => 'prop_proposition',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Emails',
+    'rhs_table' => 'emails',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'Prop_Proposition',
+  ),
+  'aos_quotes_activities_1_notes' => 
+  array (
+    'name' => 'aos_quotes_activities_1_notes',
+    'relationships' => 
+    array (
+      'aos_quotes_activities_1_notes' => 
+      array (
+        'lhs_module' => 'AOS_Quotes',
+        'lhs_table' => 'aos_quotes',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Notes',
+        'rhs_table' => 'notes',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Quotes',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Quotes',
+    'lhs_table' => 'aos_quotes',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Notes',
+    'rhs_table' => 'notes',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Quotes',
+  ),
+  'prop_proposition_activities_1_notes' => 
+  array (
+    'name' => 'prop_proposition_activities_1_notes',
+    'relationships' => 
+    array (
+      'prop_proposition_activities_1_notes' => 
+      array (
+        'lhs_module' => 'Prop_Proposition',
+        'lhs_table' => 'prop_proposition',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Notes',
+        'rhs_table' => 'notes',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'Prop_Proposition',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'Prop_Proposition',
+    'lhs_table' => 'prop_proposition',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Notes',
+    'rhs_table' => 'notes',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'Prop_Proposition',
+  ),
+  'aos_quotes_activities_1_calls' => 
+  array (
+    'name' => 'aos_quotes_activities_1_calls',
+    'relationships' => 
+    array (
+      'aos_quotes_activities_1_calls' => 
+      array (
+        'lhs_module' => 'AOS_Quotes',
+        'lhs_table' => 'aos_quotes',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Calls',
+        'rhs_table' => 'calls',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Quotes',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Quotes',
+    'lhs_table' => 'aos_quotes',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Calls',
+    'rhs_table' => 'calls',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Quotes',
+  ),
+  'part_partenariat_activities_1_meetings' => 
+  array (
+    'name' => 'part_partenariat_activities_1_meetings',
+    'relationships' => 
+    array (
+      'part_partenariat_activities_1_meetings' => 
+      array (
+        'lhs_module' => 'part_Partenariat',
+        'lhs_table' => 'part_partenariat',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Meetings',
+        'rhs_table' => 'meetings',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'part_Partenariat',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'part_Partenariat',
+    'lhs_table' => 'part_partenariat',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Meetings',
+    'rhs_table' => 'meetings',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'part_Partenariat',
+  ),
+  'fs_fourniseur_activities_1_emails' => 
+  array (
+    'name' => 'fs_fourniseur_activities_1_emails',
+    'relationships' => 
+    array (
+      'fs_fourniseur_activities_1_emails' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Emails',
+        'rhs_table' => 'emails',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'fs_fourniseur',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Emails',
+    'rhs_table' => 'emails',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'fs_fourniseur',
+  ),
+  'part_partenariat_activities_1_notes' => 
+  array (
+    'name' => 'part_partenariat_activities_1_notes',
+    'relationships' => 
+    array (
+      'part_partenariat_activities_1_notes' => 
+      array (
+        'lhs_module' => 'part_Partenariat',
+        'lhs_table' => 'part_partenariat',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Notes',
+        'rhs_table' => 'notes',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'part_Partenariat',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'part_Partenariat',
+    'lhs_table' => 'part_partenariat',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Notes',
+    'rhs_table' => 'notes',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'part_Partenariat',
+  ),
+  'aos_invoices_activities_1_notes' => 
+  array (
+    'name' => 'aos_invoices_activities_1_notes',
+    'relationships' => 
+    array (
+      'aos_invoices_activities_1_notes' => 
+      array (
+        'lhs_module' => 'AOS_Invoices',
+        'lhs_table' => 'aos_invoices',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Notes',
+        'rhs_table' => 'notes',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Invoices',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Invoices',
+    'lhs_table' => 'aos_invoices',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Notes',
+    'rhs_table' => 'notes',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Invoices',
+  ),
+  'sm_responsable_contacts_1' => 
+  array (
+    'name' => 'sm_responsable_contacts_1',
+    'true_relationship_type' => 'one-to-one',
+    'relationships' => 
+    array (
+      'sm_responsable_contacts_1' => 
+      array (
+        'lhs_module' => 'sm_Responsable',
+        'lhs_table' => 'sm_responsable',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Contacts',
+        'rhs_table' => 'contacts',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sm_responsable_contacts_1_c',
+        'join_key_lhs' => 'sm_responsable_contacts_1sm_responsable_ida',
+        'join_key_rhs' => 'sm_responsable_contacts_1contacts_idb',
+      ),
+    ),
+    'table' => 'sm_responsable_contacts_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sm_responsable_contacts_1sm_responsable_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sm_responsable_contacts_1contacts_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sm_responsable_contacts_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sm_responsable_contacts_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sm_responsable_contacts_1sm_responsable_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sm_responsable_contacts_1_idb2',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sm_responsable_contacts_1contacts_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sm_Responsable',
+    'lhs_table' => 'sm_responsable',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Contacts',
+    'rhs_table' => 'contacts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sm_responsable_contacts_1_c',
+    'join_key_lhs' => 'sm_responsable_contacts_1sm_responsable_ida',
+    'join_key_rhs' => 'sm_responsable_contacts_1contacts_idb',
+  ),
+  'auf_implantation_aos_contracts_1' => 
+  array (
+    'name' => 'auf_implantation_aos_contracts_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'auf_implantation_aos_contracts_1' => 
+      array (
+        'lhs_module' => 'auf_implantation',
+        'lhs_table' => 'auf_implantation',
+        'lhs_key' => 'id',
+        'rhs_module' => 'AOS_Contracts',
+        'rhs_table' => 'aos_contracts',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'auf_implantation_aos_contracts_1_c',
+        'join_key_lhs' => 'auf_implantation_aos_contracts_1auf_implantation_ida',
+        'join_key_rhs' => 'auf_implantation_aos_contracts_1aos_contracts_idb',
+      ),
+    ),
+    'table' => 'auf_implantation_aos_contracts_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'auf_implantation_aos_contracts_1auf_implantation_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'auf_implantation_aos_contracts_1aos_contracts_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'auf_implantation_aos_contracts_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'auf_implantation_aos_contracts_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'auf_implantation_aos_contracts_1auf_implantation_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'auf_implantation_aos_contracts_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'auf_implantation_aos_contracts_1aos_contracts_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'auf_implantation',
+    'lhs_table' => 'auf_implantation',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Contracts',
+    'rhs_table' => 'aos_contracts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'auf_implantation_aos_contracts_1_c',
+    'join_key_lhs' => 'auf_implantation_aos_contracts_1auf_implantation_ida',
+    'join_key_rhs' => 'auf_implantation_aos_contracts_1aos_contracts_idb',
+  ),
+  'opportunities_prop_proposition_1' => 
+  array (
+    'name' => 'opportunities_prop_proposition_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'opportunities_prop_proposition_1' => 
+      array (
+        'lhs_module' => 'Opportunities',
+        'lhs_table' => 'opportunities',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Prop_Proposition',
+        'rhs_table' => 'prop_proposition',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'opportunities_prop_proposition_1_c',
+        'join_key_lhs' => 'opportunities_prop_proposition_1opportunities_ida',
+        'join_key_rhs' => 'opportunities_prop_proposition_1prop_proposition_idb',
+      ),
+    ),
+    'table' => 'opportunities_prop_proposition_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'opportunities_prop_proposition_1opportunities_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'opportunities_prop_proposition_1prop_proposition_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'opportunities_prop_proposition_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'opportunities_prop_proposition_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'opportunities_prop_proposition_1opportunities_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'opportunities_prop_proposition_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'opportunities_prop_proposition_1prop_proposition_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'Opportunities',
+    'lhs_table' => 'opportunities',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Prop_Proposition',
+    'rhs_table' => 'prop_proposition',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'opportunities_prop_proposition_1_c',
+    'join_key_lhs' => 'opportunities_prop_proposition_1opportunities_ida',
+    'join_key_rhs' => 'opportunities_prop_proposition_1prop_proposition_idb',
+  ),
+  'part_partenariat_activities_1_calls' => 
+  array (
+    'name' => 'part_partenariat_activities_1_calls',
+    'relationships' => 
+    array (
+      'part_partenariat_activities_1_calls' => 
+      array (
+        'lhs_module' => 'part_Partenariat',
+        'lhs_table' => 'part_partenariat',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Calls',
+        'rhs_table' => 'calls',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'part_Partenariat',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'part_Partenariat',
+    'lhs_table' => 'part_partenariat',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Calls',
+    'rhs_table' => 'calls',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'part_Partenariat',
+  ),
+  'am_projectholidays_project' => 
+  array (
+    'name' => 'am_projectholidays_project',
+    'true_relationship_type' => 'one-to-many',
+    'relationships' => 
+    array (
+      'am_projectholidays_project' => 
+      array (
+        'lhs_module' => 'Project',
+        'lhs_table' => 'project',
+        'lhs_key' => 'id',
+        'rhs_module' => 'AM_ProjectHolidays',
+        'rhs_table' => 'am_projectholidays',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'am_projectholidays_project_c',
+        'join_key_lhs' => 'am_projectholidays_projectproject_ida',
+        'join_key_rhs' => 'am_projectholidays_projectam_projectholidays_idb',
+      ),
+    ),
+    'table' => 'am_projectholidays_project_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'am_projectholidays_projectproject_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'am_projectholidays_projectam_projectholidays_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'am_projectholidays_projectspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'am_projectholidays_project_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'am_projectholidays_projectproject_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'am_projectholidays_project_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'am_projectholidays_projectam_projectholidays_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'Project',
+    'lhs_table' => 'project',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AM_ProjectHolidays',
+    'rhs_table' => 'am_projectholidays',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'am_projectholidays_project_c',
+    'join_key_lhs' => 'am_projectholidays_projectproject_ida',
+    'join_key_rhs' => 'am_projectholidays_projectam_projectholidays_idb',
+  ),
+  'aos_quotes_activities_1_emails' => 
+  array (
+    'name' => 'aos_quotes_activities_1_emails',
+    'relationships' => 
+    array (
+      'aos_quotes_activities_1_emails' => 
+      array (
+        'lhs_module' => 'AOS_Quotes',
+        'lhs_table' => 'aos_quotes',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Emails',
+        'rhs_table' => 'emails',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Quotes',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Quotes',
+    'lhs_table' => 'aos_quotes',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Emails',
+    'rhs_table' => 'emails',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Quotes',
+  ),
+  'fs_fourniseur_activities_1_tasks' => 
+  array (
+    'name' => 'fs_fourniseur_activities_1_tasks',
+    'relationships' => 
+    array (
+      'fs_fourniseur_activities_1_tasks' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Tasks',
+        'rhs_table' => 'tasks',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'fs_fourniseur',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'fs_fourniseur',
+  ),
+  'part_partenariat_activities_1_tasks' => 
+  array (
+    'name' => 'part_partenariat_activities_1_tasks',
+    'relationships' => 
+    array (
+      'part_partenariat_activities_1_tasks' => 
+      array (
+        'lhs_module' => 'part_Partenariat',
+        'lhs_table' => 'part_partenariat',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Tasks',
+        'rhs_table' => 'tasks',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'part_Partenariat',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'part_Partenariat',
+    'lhs_table' => 'part_partenariat',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'part_Partenariat',
+  ),
+  'part_partenariat_activities_1_emails' => 
+  array (
+    'name' => 'part_partenariat_activities_1_emails',
+    'relationships' => 
+    array (
+      'part_partenariat_activities_1_emails' => 
+      array (
+        'lhs_module' => 'part_Partenariat',
+        'lhs_table' => 'part_partenariat',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Emails',
+        'rhs_table' => 'emails',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'part_Partenariat',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'part_Partenariat',
+    'lhs_table' => 'part_partenariat',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Emails',
+    'rhs_table' => 'emails',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'part_Partenariat',
+  ),
+  'prop_proposition_activities_1_meetings' => 
+  array (
+    'name' => 'prop_proposition_activities_1_meetings',
+    'relationships' => 
+    array (
+      'prop_proposition_activities_1_meetings' => 
+      array (
+        'lhs_module' => 'Prop_Proposition',
+        'lhs_table' => 'prop_proposition',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Meetings',
+        'rhs_table' => 'meetings',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'Prop_Proposition',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'Prop_Proposition',
+    'lhs_table' => 'prop_proposition',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Meetings',
+    'rhs_table' => 'meetings',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'Prop_Proposition',
+  ),
+  'auf_implantation_users_1' => 
+  array (
+    'name' => 'auf_implantation_users_1',
+    'true_relationship_type' => 'many-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'auf_implantation_users_1' => 
+      array (
+        'lhs_module' => 'auf_implantation',
+        'lhs_table' => 'auf_implantation',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Users',
+        'rhs_table' => 'users',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'auf_implantation_users_1_c',
+        'join_key_lhs' => 'auf_implantation_users_1auf_implantation_ida',
+        'join_key_rhs' => 'auf_implantation_users_1users_idb',
+      ),
+    ),
+    'table' => 'auf_implantation_users_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'auf_implantation_users_1auf_implantation_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'auf_implantation_users_1users_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'auf_implantation_users_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'auf_implantation_users_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'auf_implantation_users_1auf_implantation_ida',
+          1 => 'auf_implantation_users_1users_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'auf_implantation',
+    'lhs_table' => 'auf_implantation',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Users',
+    'rhs_table' => 'users',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'auf_implantation_users_1_c',
+    'join_key_lhs' => 'auf_implantation_users_1auf_implantation_ida',
+    'join_key_rhs' => 'auf_implantation_users_1users_idb',
+  ),
+  'fs_fourniseur_activities_1_calls' => 
+  array (
+    'name' => 'fs_fourniseur_activities_1_calls',
+    'relationships' => 
+    array (
+      'fs_fourniseur_activities_1_calls' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Calls',
+        'rhs_table' => 'calls',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'fs_fourniseur',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Calls',
+    'rhs_table' => 'calls',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'fs_fourniseur',
+  ),
+  'sm_responsable_activities_1_emails' => 
+  array (
+    'name' => 'sm_responsable_activities_1_emails',
+    'relationships' => 
+    array (
+      'sm_responsable_activities_1_emails' => 
+      array (
+        'lhs_module' => 'sm_Responsable',
+        'lhs_table' => 'sm_responsable',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Emails',
+        'rhs_table' => 'emails',
         'rhs_key' => 'parent_id',
         'relationship_type' => 'one-to-many',
         'relationship_role_column' => 'parent_type',
@@ -7681,8 +10039,8 @@
     'lhs_module' => 'sm_Responsable',
     'lhs_table' => 'sm_responsable',
     'lhs_key' => 'id',
-    'rhs_module' => 'Tasks',
-    'rhs_table' => 'tasks',
+    'rhs_module' => 'Emails',
+    'rhs_table' => 'emails',
     'rhs_key' => 'parent_id',
     'relationship_type' => 'one-to-many',
     'relationship_role_column' => 'parent_type',
@@ -7785,427 +10143,266 @@
     'join_key_lhs' => 'contacts_sm_responsable_1contacts_ida',
     'join_key_rhs' => 'contacts_sm_responsable_1sm_responsable_idb',
   ),
-  'fs_fourniseur_contacts_1' => 
+  'auf_implantation_auf_implantation_1' => 
   array (
-    'name' => 'fs_fourniseur_contacts_1',
+    'name' => 'auf_implantation_auf_implantation_1',
     'true_relationship_type' => 'many-to-many',
     'from_studio' => true,
     'relationships' => 
     array (
-      'fs_fourniseur_contacts_1' => 
+      'auf_implantation_auf_implantation_1' => 
+      array (
+        'lhs_module' => 'auf_implantation',
+        'lhs_table' => 'auf_implantation',
+        'lhs_key' => 'id',
+        'rhs_module' => 'auf_implantation',
+        'rhs_table' => 'auf_implantation',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'auf_implantation_auf_implantation_1_c',
+        'join_key_lhs' => 'auf_implantation_auf_implantation_1auf_implantation_ida',
+        'join_key_rhs' => 'auf_implantation_auf_implantation_1auf_implantation_idb',
+      ),
+    ),
+    'table' => 'auf_implantation_auf_implantation_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'auf_implantation_auf_implantation_1auf_implantation_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'auf_implantation_auf_implantation_1auf_implantation_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'auf_implantation_auf_implantation_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'auf_implantation_auf_implantation_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'auf_implantation_auf_implantation_1auf_implantation_ida',
+          1 => 'auf_implantation_auf_implantation_1auf_implantation_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'auf_implantation',
+    'lhs_table' => 'auf_implantation',
+    'lhs_key' => 'id',
+    'rhs_module' => 'auf_implantation',
+    'rhs_table' => 'auf_implantation',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'auf_implantation_auf_implantation_1_c',
+    'join_key_lhs' => 'auf_implantation_auf_implantation_1auf_implantation_ida',
+    'join_key_rhs' => 'auf_implantation_auf_implantation_1auf_implantation_idb',
+  ),
+  'aos_invoices_activities_1_calls' => 
+  array (
+    'name' => 'aos_invoices_activities_1_calls',
+    'relationships' => 
+    array (
+      'aos_invoices_activities_1_calls' => 
+      array (
+        'lhs_module' => 'AOS_Invoices',
+        'lhs_table' => 'aos_invoices',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Calls',
+        'rhs_table' => 'calls',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'AOS_Invoices',
+      ),
+    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
+    'lhs_module' => 'AOS_Invoices',
+    'lhs_table' => 'aos_invoices',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Calls',
+    'rhs_table' => 'calls',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Invoices',
+  ),
+  'auf_implantation_accounts_1' => 
+  array (
+    'name' => 'auf_implantation_accounts_1',
+    'true_relationship_type' => 'one-to-one',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'auf_implantation_accounts_1' => 
+      array (
+        'lhs_module' => 'auf_implantation',
+        'lhs_table' => 'auf_implantation',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Accounts',
+        'rhs_table' => 'accounts',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'auf_implantation_accounts_1_c',
+        'join_key_lhs' => 'auf_implantation_accounts_1auf_implantation_ida',
+        'join_key_rhs' => 'auf_implantation_accounts_1accounts_idb',
+      ),
+    ),
+    'table' => 'auf_implantation_accounts_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'auf_implantation_accounts_1auf_implantation_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'auf_implantation_accounts_1accounts_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'auf_implantation_accounts_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'auf_implantation_accounts_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'auf_implantation_accounts_1auf_implantation_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'auf_implantation_accounts_1_idb2',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'auf_implantation_accounts_1accounts_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'auf_implantation',
+    'lhs_table' => 'auf_implantation',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Accounts',
+    'rhs_table' => 'accounts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'auf_implantation_accounts_1_c',
+    'join_key_lhs' => 'auf_implantation_accounts_1auf_implantation_ida',
+    'join_key_rhs' => 'auf_implantation_accounts_1accounts_idb',
+  ),
+  'fs_fourniseur_activities_1_meetings' => 
+  array (
+    'name' => 'fs_fourniseur_activities_1_meetings',
+    'relationships' => 
+    array (
+      'fs_fourniseur_activities_1_meetings' => 
       array (
         'lhs_module' => 'fs_fourniseur',
         'lhs_table' => 'fs_fourniseur',
         'lhs_key' => 'id',
-        'rhs_module' => 'Contacts',
-        'rhs_table' => 'contacts',
-        'rhs_key' => 'id',
-        'relationship_type' => 'many-to-many',
-        'join_table' => 'fs_fourniseur_contacts_1_c',
-        'join_key_lhs' => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
-        'join_key_rhs' => 'fs_fourniseur_contacts_1contacts_idb',
+        'rhs_module' => 'Meetings',
+        'rhs_table' => 'meetings',
+        'rhs_key' => 'parent_id',
+        'relationship_type' => 'one-to-many',
+        'relationship_role_column' => 'parent_type',
+        'relationship_role_column_value' => 'fs_fourniseur',
       ),
     ),
-    'table' => 'fs_fourniseur_contacts_1_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'fs_fourniseur_contacts_1contacts_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'fs_fourniseur_contacts_1spk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'fs_fourniseur_contacts_1_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
-          1 => 'fs_fourniseur_contacts_1contacts_idb',
-        ),
-      ),
-    ),
+    'fields' => '',
+    'indices' => '',
+    'table' => '',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
     'lhs_key' => 'id',
-    'rhs_module' => 'Contacts',
-    'rhs_table' => 'contacts',
-    'rhs_key' => 'id',
-    'relationship_type' => 'many-to-many',
-    'join_table' => 'fs_fourniseur_contacts_1_c',
-    'join_key_lhs' => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
-    'join_key_rhs' => 'fs_fourniseur_contacts_1contacts_idb',
-  ),
-  'accounts_sm_responsable_1' => 
-  array (
-    'name' => 'accounts_sm_responsable_1',
-    'true_relationship_type' => 'one-to-many',
-    'from_studio' => true,
-    'relationships' => 
-    array (
-      'accounts_sm_responsable_1' => 
-      array (
-        'lhs_module' => 'Accounts',
-        'lhs_table' => 'accounts',
-        'lhs_key' => 'id',
-        'rhs_module' => 'sm_Responsable',
-        'rhs_table' => 'sm_responsable',
-        'rhs_key' => 'id',
-        'relationship_type' => 'many-to-many',
-        'join_table' => 'accounts_sm_responsable_1_c',
-        'join_key_lhs' => 'accounts_sm_responsable_1accounts_ida',
-        'join_key_rhs' => 'accounts_sm_responsable_1sm_responsable_idb',
-      ),
-    ),
-    'table' => 'accounts_sm_responsable_1_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'accounts_sm_responsable_1accounts_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'accounts_sm_responsable_1sm_responsable_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'accounts_sm_responsable_1spk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'accounts_sm_responsable_1_ida1',
-        'type' => 'index',
-        'fields' => 
-        array (
-          0 => 'accounts_sm_responsable_1accounts_ida',
-        ),
-      ),
-      2 => 
-      array (
-        'name' => 'accounts_sm_responsable_1_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'accounts_sm_responsable_1sm_responsable_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'Accounts',
-    'lhs_table' => 'accounts',
-    'lhs_key' => 'id',
-    'rhs_module' => 'sm_Responsable',
-    'rhs_table' => 'sm_responsable',
-    'rhs_key' => 'id',
-    'relationship_type' => 'many-to-many',
-    'join_table' => 'accounts_sm_responsable_1_c',
-    'join_key_lhs' => 'accounts_sm_responsable_1accounts_ida',
-    'join_key_rhs' => 'accounts_sm_responsable_1sm_responsable_idb',
-  ),
-  'sm_responsable_activities_1_notes' => 
-  array (
-    'name' => 'sm_responsable_activities_1_notes',
-    'relationships' => 
-    array (
-      'sm_responsable_activities_1_notes' => 
-      array (
-        'lhs_module' => 'sm_Responsable',
-        'lhs_table' => 'sm_responsable',
-        'lhs_key' => 'id',
-        'rhs_module' => 'Notes',
-        'rhs_table' => 'notes',
-        'rhs_key' => 'parent_id',
-        'relationship_type' => 'one-to-many',
-        'relationship_role_column' => 'parent_type',
-        'relationship_role_column_value' => 'sm_Responsable',
-      ),
-    ),
-    'fields' => '',
-    'indices' => '',
-    'table' => '',
-    'lhs_module' => 'sm_Responsable',
-    'lhs_table' => 'sm_responsable',
-    'lhs_key' => 'id',
-    'rhs_module' => 'Notes',
-    'rhs_table' => 'notes',
+    'rhs_module' => 'Meetings',
+    'rhs_table' => 'meetings',
     'rhs_key' => 'parent_id',
     'relationship_type' => 'one-to-many',
     'relationship_role_column' => 'parent_type',
-    'relationship_role_column_value' => 'sm_Responsable',
+    'relationship_role_column_value' => 'fs_fourniseur',
   ),
-  'sm_responsable_contacts_1' => 
+  'sm_responsable_activities_1_tasks' => 
   array (
-    'name' => 'sm_responsable_contacts_1',
-    'true_relationship_type' => 'one-to-one',
+    'name' => 'sm_responsable_activities_1_tasks',
     'relationships' => 
     array (
-      'sm_responsable_contacts_1' => 
+      'sm_responsable_activities_1_tasks' => 
       array (
         'lhs_module' => 'sm_Responsable',
         'lhs_table' => 'sm_responsable',
         'lhs_key' => 'id',
-        'rhs_module' => 'Contacts',
-        'rhs_table' => 'contacts',
-        'rhs_key' => 'id',
-        'relationship_type' => 'many-to-many',
-        'join_table' => 'sm_responsable_contacts_1_c',
-        'join_key_lhs' => 'sm_responsable_contacts_1sm_responsable_ida',
-        'join_key_rhs' => 'sm_responsable_contacts_1contacts_idb',
-      ),
-    ),
-    'table' => 'sm_responsable_contacts_1_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sm_responsable_contacts_1sm_responsable_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sm_responsable_contacts_1contacts_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sm_responsable_contacts_1spk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sm_responsable_contacts_1_ida1',
-        'type' => 'index',
-        'fields' => 
-        array (
-          0 => 'sm_responsable_contacts_1sm_responsable_ida',
-        ),
-      ),
-      2 => 
-      array (
-        'name' => 'sm_responsable_contacts_1_idb2',
-        'type' => 'index',
-        'fields' => 
-        array (
-          0 => 'sm_responsable_contacts_1contacts_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sm_Responsable',
-    'lhs_table' => 'sm_responsable',
-    'lhs_key' => 'id',
-    'rhs_module' => 'Contacts',
-    'rhs_table' => 'contacts',
-    'rhs_key' => 'id',
-    'relationship_type' => 'many-to-many',
-    'join_table' => 'sm_responsable_contacts_1_c',
-    'join_key_lhs' => 'sm_responsable_contacts_1sm_responsable_ida',
-    'join_key_rhs' => 'sm_responsable_contacts_1contacts_idb',
-  ),
-  'am_projectholidays_project' => 
-  array (
-    'name' => 'am_projectholidays_project',
-    'true_relationship_type' => 'one-to-many',
-    'relationships' => 
-    array (
-      'am_projectholidays_project' => 
-      array (
-        'lhs_module' => 'Project',
-        'lhs_table' => 'project',
-        'lhs_key' => 'id',
-        'rhs_module' => 'AM_ProjectHolidays',
-        'rhs_table' => 'am_projectholidays',
-        'rhs_key' => 'id',
-        'relationship_type' => 'many-to-many',
-        'join_table' => 'am_projectholidays_project_c',
-        'join_key_lhs' => 'am_projectholidays_projectproject_ida',
-        'join_key_rhs' => 'am_projectholidays_projectam_projectholidays_idb',
-      ),
-    ),
-    'table' => 'am_projectholidays_project_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'am_projectholidays_projectproject_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'am_projectholidays_projectam_projectholidays_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'am_projectholidays_projectspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'am_projectholidays_project_ida1',
-        'type' => 'index',
-        'fields' => 
-        array (
-          0 => 'am_projectholidays_projectproject_ida',
-        ),
-      ),
-      2 => 
-      array (
-        'name' => 'am_projectholidays_project_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'am_projectholidays_projectam_projectholidays_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'Project',
-    'lhs_table' => 'project',
-    'lhs_key' => 'id',
-    'rhs_module' => 'AM_ProjectHolidays',
-    'rhs_table' => 'am_projectholidays',
-    'rhs_key' => 'id',
-    'relationship_type' => 'many-to-many',
-    'join_table' => 'am_projectholidays_project_c',
-    'join_key_lhs' => 'am_projectholidays_projectproject_ida',
-    'join_key_rhs' => 'am_projectholidays_projectam_projectholidays_idb',
-  ),
-  'sm_responsable_activities_1_emails' => 
-  array (
-    'name' => 'sm_responsable_activities_1_emails',
-    'relationships' => 
-    array (
-      'sm_responsable_activities_1_emails' => 
-      array (
-        'lhs_module' => 'sm_Responsable',
-        'lhs_table' => 'sm_responsable',
-        'lhs_key' => 'id',
-        'rhs_module' => 'Emails',
-        'rhs_table' => 'emails',
+        'rhs_module' => 'Tasks',
+        'rhs_table' => 'tasks',
         'rhs_key' => 'parent_id',
         'relationship_type' => 'one-to-many',
         'relationship_role_column' => 'parent_type',
@@ -8218,8 +10415,8 @@
     'lhs_module' => 'sm_Responsable',
     'lhs_table' => 'sm_responsable',
     'lhs_key' => 'id',
-    'rhs_module' => 'Emails',
-    'rhs_table' => 'emails',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
     'rhs_key' => 'parent_id',
     'relationship_type' => 'one-to-many',
     'relationship_role_column' => 'parent_type',
@@ -13707,39 +15904,6 @@
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),
-  'sm_responsable_modified_user' => 
-  array (
-    'name' => 'sm_responsable_modified_user',
-    'lhs_module' => 'Users',
-    'lhs_table' => 'users',
-    'lhs_key' => 'id',
-    'rhs_module' => 'sm_Responsable',
-    'rhs_table' => 'sm_responsable',
-    'rhs_key' => 'modified_user_id',
-    'relationship_type' => 'one-to-many',
-  ),
-  'sm_responsable_created_by' => 
-  array (
-    'name' => 'sm_responsable_created_by',
-    'lhs_module' => 'Users',
-    'lhs_table' => 'users',
-    'lhs_key' => 'id',
-    'rhs_module' => 'sm_Responsable',
-    'rhs_table' => 'sm_responsable',
-    'rhs_key' => 'created_by',
-    'relationship_type' => 'one-to-many',
-  ),
-  'sm_responsable_assigned_user' => 
-  array (
-    'name' => 'sm_responsable_assigned_user',
-    'lhs_module' => 'Users',
-    'lhs_table' => 'users',
-    'lhs_key' => 'id',
-    'rhs_module' => 'sm_Responsable',
-    'rhs_table' => 'sm_responsable',
-    'rhs_key' => 'assigned_user_id',
-    'relationship_type' => 'one-to-many',
-  ),
   'fs_fourniseur_modified_user' => 
   array (
     'name' => 'fs_fourniseur_modified_user',
@@ -13916,6 +16080,39 @@
         'default' => 0,
       ),
     ),
+  ),
+  'sm_responsable_modified_user' => 
+  array (
+    'name' => 'sm_responsable_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sm_Responsable',
+    'rhs_table' => 'sm_responsable',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sm_responsable_created_by' => 
+  array (
+    'name' => 'sm_responsable_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sm_Responsable',
+    'rhs_table' => 'sm_responsable',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sm_responsable_assigned_user' => 
+  array (
+    'name' => 'sm_responsable_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sm_Responsable',
+    'rhs_table' => 'sm_responsable',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
   ),
   'auf_implantation_modified_user' => 
   array (

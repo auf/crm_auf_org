@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:28
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -45,5 +45,5 @@ $mod_strings = array (
   'LBL_AREA_EDIT_RESET' => 'Réinitialiser',
   'LBL_AREA_EDIT_USE_AREA_COORDINATES' => 'Utiliser les coordonnées de la zone',
   'LBL_AREA_EDIT_COORDINATE_RESULTS' => 'Coordonnées géographiques (lng,lat,elv):',
-  'LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_MAPS_TITLE' => 'Cartes',
+  'LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_MAPS_TITLE' => 'Carte',
 );

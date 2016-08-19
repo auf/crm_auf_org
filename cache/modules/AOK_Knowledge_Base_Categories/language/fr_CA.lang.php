@@ -1,15 +1,15 @@
 <?php
-// created: 2016-05-30 17:58:24
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de Création',
-  'LBL_DATE_MODIFIED' => 'Date de modification',
+  'LBL_DATE_MODIFIED' => 'Date de Modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
   'LBL_MODIFIED_NAME' => 'Modifié par Nom',
   'LBL_CREATED' => 'Créé par',
   'LBL_CREATED_ID' => 'Créé par (ID)',
-  'LBL_DESCRIPTION' => 'Description:',
+  'LBL_DESCRIPTION' => 'Description',
   'LBL_DELETED' => 'Supprimer',
   'LBL_NAME' => 'Nom',
   'LBL_CREATED_USER' => 'Créé par Utilisateur',
@@ -18,7 +18,7 @@ $mod_strings = array (
   'LBL_EDIT_BUTTON' => 'Modification',
   'LBL_REMOVE' => 'Enlever',
   'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigné à:',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
   'LBL_LIST_FORM_TITLE' => 'KB Categories List',
   'LBL_MODULE_NAME' => 'KB Categories',
   'LBL_MODULE_TITLE' => 'KB Categories',
@@ -31,5 +31,5 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
   'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
   'LBL_NEW_FORM_TITLE' => 'New KB Categories',
-  'LBL_AOK_KB_TITLE' => 'Base de Connaissances',
+  'LBL_AOK_KB_TITLE' => 'Base de connaissances',
 );

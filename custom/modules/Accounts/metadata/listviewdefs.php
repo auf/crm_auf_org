@@ -15,12 +15,37 @@ array (
     'link' => true,
     'default' => true,
   ),
+  'QUALITE_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_QUALITE',
+    'width' => '10%',
+  ),
   'TYPE_ETABLISSEMENT_C' => 
   array (
     'type' => 'enum',
     'default' => true,
     'studio' => 'visible',
     'label' => 'LBL_TYPE_ETABLISSEMENT',
+    'width' => '10%',
+  ),
+  'PARENT_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_MEMBER_OF',
+    'id' => 'PARENT_ID',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'PAYS_ISO2_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_PAYS_ISO2_C',
     'width' => '10%',
   ),
   'ID_REGION_A_C' => 
@@ -31,36 +56,26 @@ array (
     'label' => 'LBL_ID_REGION_A',
     'width' => '10%',
   ),
-  'PAYS_TEXT_C' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_PAYS_TEXT',
-    'width' => '10%',
-  ),
-  'ID_REGION_G_C' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_ID_REGION_G',
-    'width' => '10%',
-  ),
-  'QUALITE_C' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_QUALITE',
-    'width' => '10%',
-  ),
   'STATUT_C' => 
   array (
     'type' => 'varchar',
     'default' => true,
     'label' => 'LBL_STATUT',
     'width' => '10%',
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_LIST_ASSIGNED_USER',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+  ),
+  'BILLING_ADDRESS_COUNTRY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_BILLING_ADDRESS_COUNTRY',
+    'default' => false,
   ),
   'ACCOUNT_TYPE' => 
   array (
@@ -80,6 +95,12 @@ array (
     'label' => 'LBL_ANNUAL_REVENUE',
     'default' => false,
   ),
+  'BILLING_ADDRESS_CITY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_LIST_CITY',
+    'default' => false,
+  ),
   'EMAIL1' => 
   array (
     'width' => '15%',
@@ -95,24 +116,16 @@ array (
     'label' => 'LBL_DATE_ENTERED',
     'default' => false,
   ),
-  'ASSIGNED_USER_NAME' => 
-  array (
-    'width' => '10%',
-    'label' => 'LBL_LIST_ASSIGNED_USER',
-    'module' => 'Employees',
-    'id' => 'ASSIGNED_USER_ID',
-    'default' => false,
-  ),
   'PHONE_OFFICE' => 
   array (
     'width' => '10%',
     'label' => 'LBL_LIST_PHONE',
     'default' => false,
   ),
-  'BILLING_ADDRESS_CITY' => 
+  'SHIPPING_ADDRESS_COUNTRY' => 
   array (
     'width' => '10%',
-    'label' => 'LBL_LIST_CITY',
+    'label' => 'LBL_SHIPPING_ADDRESS_COUNTRY',
     'default' => false,
   ),
   'PHONE_FAX' => 
@@ -161,12 +174,6 @@ array (
   array (
     'width' => '10%',
     'label' => 'LBL_SHIPPING_ADDRESS_POSTALCODE',
-    'default' => false,
-  ),
-  'SHIPPING_ADDRESS_COUNTRY' => 
-  array (
-    'width' => '10%',
-    'label' => 'LBL_SHIPPING_ADDRESS_COUNTRY',
     'default' => false,
   ),
   'RATING' => 

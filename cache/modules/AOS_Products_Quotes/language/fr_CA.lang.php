@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:27
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -50,9 +50,9 @@ $mod_strings = array (
   'LBL_PRODUCT' => 'Produit',
   'LBL_SERVICE_MODULE_NAME' => 'Services',
   'LBL_LIST_NUM' => 'Numéro',
-  'LBL_PARENT_ID' => 'Parent (ID):',
+  'LBL_PARENT_ID' => 'Parent (ID)',
   'LBL_GROUP_NAME' => 'Groupe',
-  'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Prix coûtant (Devise par défaut)',
+  'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Prix Coûtant (Devise par défaut)',
   'LBL_PRODUCT_LIST_PRICE_USDOLLAR' => 'Prix de liste (Devise par défaut)',
   'LBL_PRODUCT_UNIT_PRICE_USDOLLAR' => 'Prix unitaire (Devise par défaut)',
   'LBL_PRODUCT_TOTAL_PRICE_USDOLLAR' => 'Prix total (Devise par défaut)',

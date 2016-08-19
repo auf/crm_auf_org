@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 12:38:49
+// created: 2016-07-25 16:16:29
 $dictionary["fs_fourniseur_contacts_1"] = array (
   'true_relationship_type' => 'many-to-many',
   'from_studio' => true,

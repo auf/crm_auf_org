@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:28
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -30,10 +30,10 @@ $mod_strings = array (
   'LBL_MAP_CUSTOM_MARKER' => 'Marqueur personnalisé',
   'LBL_MAP_CUSTOM_AREA' => 'Zone personnalisée',
   'LBL_HOMEPAGE_TITLE' => 'Liste des cartes',
-  'LBL_FLEX_RELATE' => 'Relatif à (centre) :',
-  'LBL_MODULE_TYPE' => 'Type de module à afficher :',
-  'LBL_DISTANCE' => 'Distance (rayon) :',
-  'LBL_UNIT_TYPE' => 'Type d\'unité :',
+  'LBL_FLEX_RELATE' => 'Relatif à (centre)',
+  'LBL_MODULE_TYPE' => 'Type de module à afficher',
+  'LBL_DISTANCE' => 'Distance (rayon)',
+  'LBL_UNIT_TYPE' => 'Type d&#039;unité',
   'LBL_MAP_ACTION' => 'Afficher sur la carte',
   'LBL_MAP_DISPLAY' => 'Affichage de la carte',
   'LBL_MAP_LEGEND' => 'Légende :',
@@ -151,4 +151,10 @@ $mod_strings = array (
   'LBL_CONFIG_CUSTOM_CONTROLLER_DESC' => 'Remarque importante : Tous les paramètres enregistrés se trouvent dans la table « config » dans la catégorie « vis-à-vis ». Note, un fichier personnalisé controller.php ne devrait plus être utilisé pour substituer les paramètres.',
   'LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE' => 'Zones',
   'LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE' => 'Marqueurs',
+  'LBL_ACCOUNTS' => 'Établissement',
+  'LBL_OPPORTUNITIES' => 'Projets',
+  'LBL_PROJECTS' => '(DNU) Projets',
+  'LBL_CONTACTS' => 'Contact',
+  'LBL_LEADS' => 'Prospect',
+  'LBL_MEETINGS' => 'Réunion',
 );

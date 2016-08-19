@@ -38,13 +38,16 @@
  ********************************************************************************/
 
 *}
-<script type="text/javascript" src='{sugar_getjspath file="include/SugarFields/Fields/Address/SugarFieldAddress.js"}'></script>
+<script type="text/javascript" src='{sugar_getjspath file="custom/include/SugarFields/Fields/Address/SugarFieldAddress.js"}'></script>
 {{assign var="key" value=$displayParams.key|upper}}
 {{assign var="num_c" value=$displayParams.key|cat:'_address_street_num_c'}}
 {{assign var="street" value=$displayParams.key|cat:'_address_street'}}
 {{assign var="city" value=$displayParams.key|cat:'_address_city'}}
+{{assign var="ville_lg_origine_c" value='ville_lg_origine_c'}}
+{{assign var="cedex_c" value='cedex_c'}}
 {{assign var="state" value=$displayParams.key|cat:'_address_state'}}
 {{assign var="country" value=$displayParams.key|cat:'_address_country'}}
+{{assign var="pays_text_c" value='pays_text_c'}}
 {{assign var="postalcode" value=$displayParams.key|cat:'_address_postalcode'}}
 <fieldset id='{{$key}}_address_fieldset'>
 <legend>{sugar_translate label='LBL_{{$key}}_ADDRESS' module='{{$module}}'}</legend>
@@ -52,7 +55,7 @@
 
 <tr>
 <td id="{{$num_c}}_label" width='{{$def.templateMeta.widths[$smarty.foreach.colIteration.index].label}}%' scope='row' >
-<label for='{{$num_c}}'>{sugar_translate label='LBL_NUM_C' module='{{$module}}'}:</label>
+<label for='{{$num_c}}'>{sugar_translate label='LBL_NUM' module='{{$module}}'}:</label>
 {if $fields.{{$num_c}}.required || {{if $num_c|lower|in_array:$displayParams.required}}true{{else}}false{{/if}}}
 <span class="required">{$APP.LBL_REQUIRED_SYMBOL}</span>
 {/if}
@@ -93,6 +96,36 @@
 </td>
 </tr>
 
+
+<tr>
+
+<td id="{{$ville_lg_origine_c}}_label" width='{{$def.templateMeta.widths[$smarty.foreach.colIteration.index].label}}%' scope='row' >
+<label for="{{$ville_lg_origine_c}}">{sugar_translate label='LBL_VILLE_LG_ORIGINE' module='{{$module}}'}:
+{if $fields.{{$ville_lg_origine_c}}.required || {{if $ville_lg_origine_c|lower|in_array:$displayParams.required}}true{{else}}false{{/if}}}
+<span class="required">{$APP.LBL_REQUIRED_SYMBOL}</span>
+{/if}
+</td>
+<td>
+<input type="text" name="{{$ville_lg_origine_c}}" id="{{$ville_lg_origine_c}}" size="{{$displayParams.size|default:30}}" {{if !empty($vardef.len)}}maxlength='{{$vardef.len}}'{{/if}} value='{$fields.{{$ville_lg_origine_c}}.value}' tabindex="{{$tabindex}}">
+</td>
+</tr>
+
+
+
+
+<tr>
+
+<td id="{{$cedex_c}}_label" width='{{$def.templateMeta.widths[$smarty.foreach.colIteration.index].label}}%' scope='row' >
+<label for="{{$cedex_c}}">{sugar_translate label='LBL_CEDEX' module='{{$module}}'}:
+{if $fields.{{$cedex_c}}.required || {{if $cedex_c|lower|in_array:$displayParams.required}}true{{else}}false{{/if}}}
+<span class="required">{$APP.LBL_REQUIRED_SYMBOL}</span>
+{/if}
+</td>
+<td>
+<input type="text" name="{{$cedex_c}}" id="{{$cedex_c}}" size="{{$displayParams.size|default:30}}" {{if !empty($vardef.len)}}maxlength='{{$vardef.len}}'{{/if}} value='{$fields.{{$cedex_c}}.value}' tabindex="{{$tabindex}}">
+</td>
+</tr>
+
 <tr>
 <td id="{{$state}}_label" width='{{$def.templateMeta.widths[$smarty.foreach.colIteration.index].label}}%' scope='row' >
 <label for="{{$state}}">{sugar_translate label='LBL_STATE' module='{{$module}}'}:</label>
@@ -129,9 +162,17 @@
 {/if}
 </td>
 <td>
-<input type="text" name="{{$country}}" id="{{$country}}" size="{{$displayParams.size|default:30}}" {{if !empty($vardef.len)}}maxlength='{{$vardef.len}}'{{/if}} value='{$fields.{{$country}}.value}' tabindex="{{$tabindex}}">
+<select name="{{$country}}" width="{{$displayParams.size|default:30}}" id="{{$country}}" title="{{$vardef.help}}" tabindex="{{$tabindex}}" {{if isset($displayParams.script)}}{{$displayParams.script}}{{/if}}>
+{if isset($fields.{{$country}}.value) && $fields.{{$country}}.value != ''}
+ {html_options options=$fields.{{$country}}.options selected=$fields.{{$country}}.value}
+{else}
+ {html_options options=$fields.{{$country}}.options selected=$fields.{{$country}}.default_value}
+{/if}
+</select>
 </td>
 </tr>
+
+
 
 {{if $displayParams.copy}}
 <tr>

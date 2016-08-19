@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.29, created on 2016-05-30 17:59:10
+<?php /* Smarty version 2.6.29, created on 2016-08-18 15:34:43
          compiled from modules/Reminders/tpls/reminders.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'html_options', 'modules/Reminders/tpls/reminders.tpl', 80, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'html_options', 'modules/Reminders/tpls/reminders.tpl', 81, false),)), $this); ?>
 
 <?php if ($this->_tpl_vars['remindersDisabled'] == 'false' || ! $this->_tpl_vars['remindersDisabled']): ?>
 	<?php $this->assign('REMINDERS_DISABLED', false); ?>

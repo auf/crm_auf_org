@@ -722,31 +722,6 @@
       'bean_name' => 'sm_Responsable',
       'vname' => 'LBL_SM_RESPONSABLE_ACTIVITIES_1_MEETINGS_FROM_SM_RESPONSABLE_TITLE',
     ),
-    'jjwg_maps_address_c' => 
-    array (
-      'inline_edit' => 1,
-      'required' => false,
-      'source' => 'custom_fields',
-      'name' => 'jjwg_maps_address_c',
-      'vname' => 'LBL_JJWG_MAPS_ADDRESS',
-      'type' => 'varchar',
-      'massupdate' => '0',
-      'default' => NULL,
-      'no_default' => false,
-      'comments' => 'Address',
-      'help' => 'Address',
-      'importable' => 'true',
-      'duplicate_merge' => 'disabled',
-      'duplicate_merge_dom_value' => '0',
-      'audited' => false,
-      'reportable' => true,
-      'unified_search' => false,
-      'merge_filter' => 'disabled',
-      'len' => '255',
-      'size' => '20',
-      'id' => 'Meetingsjjwg_maps_address_c',
-      'custom_module' => 'Meetings',
-    ),
     'jjwg_maps_geocode_status_c' => 
     array (
       'inline_edit' => 1,
@@ -771,6 +746,26 @@
       'size' => '20',
       'id' => 'Meetingsjjwg_maps_geocode_status_c',
       'custom_module' => 'Meetings',
+    ),
+    'aos_quotes_activities_1_meetings' => 
+    array (
+      'name' => 'aos_quotes_activities_1_meetings',
+      'type' => 'link',
+      'relationship' => 'aos_quotes_activities_1_meetings',
+      'source' => 'non-db',
+      'module' => 'AOS_Quotes',
+      'bean_name' => 'AOS_Quotes',
+      'vname' => 'LBL_AOS_QUOTES_ACTIVITIES_1_MEETINGS_FROM_AOS_QUOTES_TITLE',
+    ),
+    'prop_proposition_activities_1_meetings' => 
+    array (
+      'name' => 'prop_proposition_activities_1_meetings',
+      'type' => 'link',
+      'relationship' => 'prop_proposition_activities_1_meetings',
+      'source' => 'non-db',
+      'module' => 'Prop_Proposition',
+      'bean_name' => 'Prop_Proposition',
+      'vname' => 'LBL_PROP_PROPOSITION_ACTIVITIES_1_MEETINGS_FROM_PROP_PROPOSITION_TITLE',
     ),
     'jjwg_maps_lat_c' => 
     array (
@@ -799,6 +794,41 @@
       'id' => 'Meetingsjjwg_maps_lat_c',
       'custom_module' => 'Meetings',
     ),
+    'jjwg_maps_address_c' => 
+    array (
+      'inline_edit' => 1,
+      'required' => false,
+      'source' => 'custom_fields',
+      'name' => 'jjwg_maps_address_c',
+      'vname' => 'LBL_JJWG_MAPS_ADDRESS',
+      'type' => 'varchar',
+      'massupdate' => '0',
+      'default' => NULL,
+      'no_default' => false,
+      'comments' => 'Address',
+      'help' => 'Address',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+      'id' => 'Meetingsjjwg_maps_address_c',
+      'custom_module' => 'Meetings',
+    ),
+    'part_partenariat_activities_1_meetings' => 
+    array (
+      'name' => 'part_partenariat_activities_1_meetings',
+      'type' => 'link',
+      'relationship' => 'part_partenariat_activities_1_meetings',
+      'source' => 'non-db',
+      'module' => 'part_Partenariat',
+      'bean_name' => 'part_Partenariat',
+      'vname' => 'LBL_PART_PARTENARIAT_ACTIVITIES_1_MEETINGS_FROM_PART_PARTENARIAT_TITLE',
+    ),
     'jjwg_maps_lng_c' => 
     array (
       'inline_edit' => 1,
@@ -825,6 +855,26 @@
       'precision' => '8',
       'id' => 'Meetingsjjwg_maps_lng_c',
       'custom_module' => 'Meetings',
+    ),
+    'aos_invoices_activities_1_meetings' => 
+    array (
+      'name' => 'aos_invoices_activities_1_meetings',
+      'type' => 'link',
+      'relationship' => 'aos_invoices_activities_1_meetings',
+      'source' => 'non-db',
+      'module' => 'AOS_Invoices',
+      'bean_name' => 'AOS_Invoices',
+      'vname' => 'LBL_AOS_INVOICES_ACTIVITIES_1_MEETINGS_FROM_AOS_INVOICES_TITLE',
+    ),
+    'fs_fourniseur_activities_1_meetings' => 
+    array (
+      'name' => 'fs_fourniseur_activities_1_meetings',
+      'type' => 'link',
+      'relationship' => 'fs_fourniseur_activities_1_meetings',
+      'source' => 'non-db',
+      'module' => 'fs_fourniseur',
+      'bean_name' => 'fs_fourniseur',
+      'vname' => 'LBL_FS_FOURNISEUR_ACTIVITIES_1_MEETINGS_FROM_FS_FOURNISEUR_TITLE',
     ),
   ),
   'relationships' => 

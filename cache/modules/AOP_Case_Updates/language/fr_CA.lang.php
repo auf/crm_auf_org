@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:26
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création:',
@@ -34,7 +34,9 @@ $mod_strings = array (
   'LNK_IMPORT_AOP_CASE_UPDATES' => 'Importer les mises à jour de Ticket',
   'LBL_AOP_CASE_UPDATES_SUBPANEL_TITLE' => 'Mises à jour du Ticket',
   'LBL_CASE_NAME' => 'Ticket',
-  'LBL_CONTACT_NAME' => 'Contacts',
+  'LBL_CONTACT_NAME' => 'Contact',
   'LBL_INTERNAL' => 'Mise à jour en interne',
   'LBL_AOP_CASE_ATTACHMENTS' => 'Pièces jointes :',
+  'LBL_CONTACT' => 'Contact',
+  'LBL_NOTES' => 'Note',
 );

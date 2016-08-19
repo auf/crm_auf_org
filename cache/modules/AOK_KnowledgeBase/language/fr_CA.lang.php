@@ -1,9 +1,9 @@
 <?php
-// created: 2016-05-30 17:58:24
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de Création',
-  'LBL_DATE_MODIFIED' => 'Date de modification',
+  'LBL_DATE_MODIFIED' => 'Date de Modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
   'LBL_MODIFIED_NAME' => 'Modifié par Nom',
@@ -18,10 +18,10 @@ $mod_strings = array (
   'LBL_EDIT_BUTTON' => 'Modification',
   'LBL_REMOVE' => 'Enlever',
   'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigné à:',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
   'LBL_SECURITYGROUPS' => 'Groupes de sécurité',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
-  'LBL_ADDITIONAL_INFO' => 'Etat',
+  'LBL_ADDITIONAL_INFO' => 'État',
   'LBL_LIST_FORM_TITLE' => 'Knowledge Base List',
   'LBL_MODULE_NAME' => 'Base de connaissances',
   'LBL_MODULE_TITLE' => 'Base de connaissances',
@@ -40,5 +40,5 @@ $mod_strings = array (
   'LBL_AUTHOR' => 'Auteur',
   'LBL_APPROVER_USER_ID' => 'Approver (related User ID)',
   'LBL_APPROVER' => 'Approver',
-  'LBL_AOK_KB_CATEGORIES_TITLE' => 'Categories',
+  'LBL_AOK_KB_CATEGORIES_TITLE' => 'Catégories',
 );

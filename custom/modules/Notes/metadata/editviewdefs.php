@@ -38,6 +38,21 @@ function deleteAttachmentCallBack(text)
 {literal} } {/literal}
 </script>
 <script>toggle_portal_flag(); function toggle_portal_flag()  {literal} { {/literal} {$TOGGLE_JS} {literal} } {/literal} </script>',
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_NOTE_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_PANEL_ASSIGNMENT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -46,7 +61,11 @@ function deleteAttachmentCallBack(text)
         0 => 
         array (
           0 => 'contact_name',
-          1 => 'parent_name',
+          1 => 
+          array (
+            'name' => 'nocontrat_c',
+            'label' => 'LBL_NOCONTRAT ',
+          ),
         ),
         1 => 
         array (
@@ -58,12 +77,41 @@ function deleteAttachmentCallBack(text)
               'size' => 60,
             ),
           ),
+          1 => 'parent_name',
         ),
         2 => 
         array (
-          0 => 'filename',
+          0 => 
+          array (
+            'name' => 'date_de_debut_c',
+            'label' => 'LBL_DATE_DE_DEBUT',
+          ),
+          1 => 
+          array (
+            'name' => 'date_de_fin_c',
+            'label' => 'LBL_DATE_DE_FIN',
+          ),
         ),
         3 => 
+        array (
+          0 => 'filename',
+          1 => 
+          array (
+            'name' => 'statut_c',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUT',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'type_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPE',
+          ),
+        ),
+        5 => 
         array (
           0 => 
           array (
@@ -72,14 +120,14 @@ function deleteAttachmentCallBack(text)
           ),
           1 => 
           array (
-            'name' => 'sm_responsable_activities_1_notes_name',
+            'name' => 'fs_fourniseur_activities_1_notes_name',
           ),
         ),
-        4 => 
+        6 => 
         array (
           0 => 
           array (
-            'name' => 'sm_responsable_activities_1_notes_name',
+            'name' => 'fs_fourniseur_activities_1_notes_name',
           ),
         ),
       ),

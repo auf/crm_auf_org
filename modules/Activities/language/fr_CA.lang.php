@@ -25,7 +25,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * 02110-1301 USA.
  *
  * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
- * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ * SW2-130, Cupertino, CA 95014, USA. or at Courriel address contact@sugarcrm.com.
  *
  * The interactive user interfaces in modified source and object code versions
  * of this program must display Appropriate Legal Notices, as required under
@@ -75,14 +75,14 @@ $mod_strings = array (
   'LNK_NEW_MEETING' => 'Planifier Réunion',
   'LNK_NEW_TASK' => 'Créer Tâche',
   'LNK_NEW_NOTE' => 'Créer Note',
-  'LNK_NEW_EMAIL' => 'Créer Email Archivé',
+  'LNK_NEW_Courriel' => 'Créer Courriel Archivé',
   'LNK_CALL_LIST' => 'Appels',
   'LNK_MEETING_LIST' => 'Réunions',
   'LNK_TASK_LIST' => 'Tâches',
   'LNK_NOTE_LIST' => 'Notes',
-  'LNK_EMAIL_LIST' => 'Voir les Emails',
+  'LNK_Courriel_LIST' => 'Voir les Courriels',
   'LBL_DELETE_ACTIVITY' => 'Etes-vous sûr de vouloir supprimer cette activité ?',
-  'ERR_DELETE_RECORD' => 'Un numéro d\'enregistrement doit être spécifié pour toute suppression.',
+  'ERR_DELETE_RECORD' => 'Un numéro d`enregistrement doit être spécifié pour toute suppression.',
   'NTC_REMOVE_INVITEE' => 'Etes-vous sûr(e) de vouloir supprimer ce participant de la réunion ?',
   'LBL_INVITEE' => 'Participants',
   'LBL_LIST_DIRECTION' => 'Direction',
@@ -105,11 +105,11 @@ $mod_strings = array (
   'LBL_NEW_NOTE_BUTTON_TITLE' => 'Créer Note',
   'LBL_NEW_NOTE_BUTTON_KEY' => 'T',
   'LBL_NEW_NOTE_BUTTON_LABEL' => 'Créer Note',
-  'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archiver Email',
-  'LBL_TRACK_EMAIL_BUTTON_KEY' => 'K',
-  'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Archiver Email',
+  'LBL_TRACK_Courriel_BUTTON_TITLE' => 'Archiver Courriel',
+  'LBL_TRACK_Courriel_BUTTON_KEY' => 'K',
+  'LBL_TRACK_Courriel_BUTTON_LABEL' => 'Archiver Courriel',
   'LBL_LIST_STATUS' => 'Statut',
-  'LBL_LIST_DUE_DATE' => 'Date d\'échéance',
+  'LBL_LIST_DUE_DATE' => 'Date d`échéance',
   'LBL_LIST_LAST_MODIFIED' => 'Date de modification',
   'NTC_NONE_SCHEDULED' => 'Aucun prévus.',
   'appointment_filter_dom' => array(

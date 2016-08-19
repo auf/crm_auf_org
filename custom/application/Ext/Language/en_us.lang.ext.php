@@ -5,7 +5,7 @@
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
 $app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
 $app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
-$app_list_strings['record_type_display_notes']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['fs_fourniseur'] = 'Fournisseurs';
 
 
 /*********************************************************************************
@@ -61,6 +61,12 @@ $app_list_strings['auf_implantation_type_dom']['Other'] = 'Other';
 $app_list_strings['moduleList']['auf_implantation'] = 'Implantation';
 
 
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['Prop_Proposition'] = 'Prop_Proposition';
+
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -102,6 +108,18 @@ $app_list_strings['moduleList']['auf_implantation'] = 'Implantation';
 
 $app_list_strings['moduleList']['sm_Responsable'] = 'Responsable';
 $app_list_strings['priorite_list'][''] = '';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['sm_Responsable'] = 'Responsable';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['part_Partenariat'] = 'part_Partenariat';
 
 
 /*********************************************************************************
@@ -154,10 +172,43 @@ $app_list_strings['fs_fourniseur_type_dom']['Press'] = 'Press';
 $app_list_strings['fs_fourniseur_type_dom']['Prospect'] = 'Prospect';
 $app_list_strings['fs_fourniseur_type_dom']['Reseller'] = 'Reseller';
 $app_list_strings['fs_fourniseur_type_dom']['Other'] = 'Other';
-$app_list_strings['fs_fourniseur_type_dom']['Provider'] = 'Поставщик';
-$app_list_strings['fs_fourniseur_type_dom']['Delivery service'] = 'Служба доставки';
 $app_list_strings['moduleList']['fs_company'] = 'fourniseurs';
 $app_list_strings['moduleList']['fs_ODA'] = 'LBL_FIRM';
 $app_list_strings['moduleList']['fs_fourniseur'] = 'fourniseurs';
+$app_list_strings['_type_dom'][''] = '';
+$app_list_strings['_type_dom']['Analyst'] = 'Analista';
+$app_list_strings['_type_dom']['Competitor'] = 'Competidor';
+$app_list_strings['_type_dom']['Customer'] = 'Cliente';
+$app_list_strings['_type_dom']['Integrator'] = 'Integrador';
+$app_list_strings['_type_dom']['Investor'] = 'Inversor';
+$app_list_strings['_type_dom']['Partner'] = 'Partner';
+$app_list_strings['_type_dom']['Press'] = 'Prensa';
+$app_list_strings['_type_dom']['Prospect'] = 'Prospecto';
+$app_list_strings['_type_dom']['Reseller'] = 'Revendedor';
+$app_list_strings['_type_dom']['Other'] = 'Otro';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['AOS_Quotes'] = 'Devis';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['fs_fourniseur'] = 'Fournisseurs';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['AOS_Quotes'] = 'Devis';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['parent_type_display']['sm_Responsable'] = 'Responsable';
+$app_list_strings['record_type_display_notes']['AOS_Invoices'] = 'Factures';
 
 ?>

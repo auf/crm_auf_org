@@ -1,0 +1,26 @@
+<?php
+// created: 2016-08-15 14:34:31
+$mod_strings = array (
+  'LBL_ACCOUNT_NAME' => 'Nom du Compte',
+  'LBL_ACCOUNT_ID' => 'Compte (ID)',
+  'LBL_ACCOUNT' => 'Compte',
+  'LBL_PROJECTS' => '(DNU) Projets',
+  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
+  'LBL_CASE_NUMBER' => 'Numéro du Ticket',
+  'LBL_DATE_ENTERED' => 'Créé le',
+  'LBL_DATE_MODIFIED' => 'Modifié le',
+  'LBL_DESCRIPTION' => 'Description',
+  'LBL_NUMBER' => 'Numéro',
+  'LBL_PRIORITY' => 'Priorité',
+  'LBL_RESOLUTION' => 'État',
+  'LBL_STATUS' => 'Statut',
+  'LBL_SUBJECT' => 'Sujet',
+  'LBL_CONTACT_CREATED_BY_NAME' => 'Créé par le contact',
+  'LBL_TASKS' => 'Tâche',
+  'LBL_NOTES' => 'Note',
+  'LBL_MEETINGS' => 'Réunion',
+  'LBL_EMAILS' => 'Courriel',
+  'LBL_CALLS' => 'Appel',
+  'LBL_BUGS' => 'Bugs',
+  'LBL_CONTACTS' => 'Contact',
+);

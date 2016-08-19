@@ -1,5 +1,5 @@
 <?php
-// created: 2016-03-04 16:47:33
+// created: 2016-06-08 17:40:17
 $searchFields['Contacts'] = array (
   'first_name' => 
   array (
@@ -211,6 +211,14 @@ $searchFields['Contacts'] = array (
     'query_type' => 'default',
   ),
   'phone_fax' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'joomla_account_id' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'alt_address_country' => 
   array (
     'query_type' => 'default',
   ),

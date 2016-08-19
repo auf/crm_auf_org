@@ -1112,23 +1112,23 @@ class jjwg_Maps extends jjwg_Maps_sugar {
         if (!in_array($type, array('billing', 'shipping', 'primary', 'alt', 'custom', 'address')))
             $type = 'billing';
         $GLOBALS['log']->debug(__METHOD__.' $type: '.print_r($type, true));
-        $address_fields = array('billing_address_street', 'billing_address_city', 'billing_address_state', 'billing_address_postalcode', 'billing_address_country');
+        $address_fields = array('billing_address_street_num_c','billing_address_street', 'billing_address_city', 'billing_address_state', 'billing_address_postalcode', 'billing_address_country');
         $address_parts = array();
         switch ($type) {
             case 'billing':
-                $address_fields = array('billing_address_street', 'billing_address_city', 'billing_address_state', 'billing_address_postalcode', 'billing_address_country');
+                $address_fields = array('billing_address_street_num_c','billing_address_street', 'billing_address_city', 'billing_address_state', 'billing_address_postalcode', 'billing_address_country');
                 break;
             case 'shipping':
-                $address_fields = array('shipping_address_street', 'shipping_address_city', 'shipping_address_state', 'shipping_address_postalcode', 'shipping_address_country');
+                $address_fields = array('shipping_address_street_num_c','shipping_address_street', 'shipping_address_city', 'shipping_address_state', 'shipping_address_postalcode', 'shipping_address_country');
                 break;
             case 'primary':
-                $address_fields = array('primary_address_street', 'primary_address_city', 'primary_address_state', 'primary_address_postalcode', 'primary_address_country');
+                $address_fields = array('primary_address_street_num_c','primary_address_street', 'primary_address_city', 'primary_address_state', 'primary_address_postalcode', 'primary_address_country');
                 break;
             case 'alt':
-                $address_fields = array('alt_address_street', 'alt_address_city', 'alt_address_state', 'alt_address_postalcode', 'alt_address_country');
+                $address_fields = array('alt_address_street_num_c','alt_address_street', 'alt_address_city', 'alt_address_state', 'alt_address_postalcode', 'alt_address_country');
                 break;
             case 'address':
-                $address_fields = array('address_street', 'address_city', 'address_state', 'address_postalcode', 'address_country');
+                $address_fields = array('address_street_num_c','address_street', 'address_city', 'address_state', 'address_postalcode', 'address_country');
                 break;
         }
         $GLOBALS['log']->debug(__METHOD__.' $address_fields: '.print_r($address_fields, true));
@@ -1143,7 +1143,12 @@ class jjwg_Maps extends jjwg_Maps_sugar {
             $address = preg_replace('/[\n\r]+/', ' ', trim($address));
             $address = preg_replace("/[\t\s]+/", ' ', $address);
             $GLOBALS['log']->debug(__METHOD__.' $address: '.print_r($address, true));
-            return trim($address);
+
+			// a.n  ajout no rue dans le geocoding pour google map
+			$address = trim($address);
+			$address = $address_parts['billing_address_street_num_c'].$address;
+			
+            return $address;
         } else {
             return false;
         }

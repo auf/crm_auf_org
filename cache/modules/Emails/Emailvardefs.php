@@ -422,6 +422,56 @@
       'bean_name' => 'Meeting',
       'source' => 'non-db',
     ),
+    'aos_quotes_activities_1_emails' => 
+    array (
+      'name' => 'aos_quotes_activities_1_emails',
+      'type' => 'link',
+      'relationship' => 'aos_quotes_activities_1_emails',
+      'source' => 'non-db',
+      'module' => 'AOS_Quotes',
+      'bean_name' => 'AOS_Quotes',
+      'vname' => 'LBL_AOS_QUOTES_ACTIVITIES_1_EMAILS_FROM_AOS_QUOTES_TITLE',
+    ),
+    'fs_fourniseur_activities_1_emails' => 
+    array (
+      'name' => 'fs_fourniseur_activities_1_emails',
+      'type' => 'link',
+      'relationship' => 'fs_fourniseur_activities_1_emails',
+      'source' => 'non-db',
+      'module' => 'fs_fourniseur',
+      'bean_name' => 'fs_fourniseur',
+      'vname' => 'LBL_FS_FOURNISEUR_ACTIVITIES_1_EMAILS_FROM_FS_FOURNISEUR_TITLE',
+    ),
+    'prop_proposition_activities_1_emails' => 
+    array (
+      'name' => 'prop_proposition_activities_1_emails',
+      'type' => 'link',
+      'relationship' => 'prop_proposition_activities_1_emails',
+      'source' => 'non-db',
+      'module' => 'Prop_Proposition',
+      'bean_name' => 'Prop_Proposition',
+      'vname' => 'LBL_PROP_PROPOSITION_ACTIVITIES_1_EMAILS_FROM_PROP_PROPOSITION_TITLE',
+    ),
+    'aos_invoices_activities_1_emails' => 
+    array (
+      'name' => 'aos_invoices_activities_1_emails',
+      'type' => 'link',
+      'relationship' => 'aos_invoices_activities_1_emails',
+      'source' => 'non-db',
+      'module' => 'AOS_Invoices',
+      'bean_name' => 'AOS_Invoices',
+      'vname' => 'LBL_AOS_INVOICES_ACTIVITIES_1_EMAILS_FROM_AOS_INVOICES_TITLE',
+    ),
+    'part_partenariat_activities_1_emails' => 
+    array (
+      'name' => 'part_partenariat_activities_1_emails',
+      'type' => 'link',
+      'relationship' => 'part_partenariat_activities_1_emails',
+      'source' => 'non-db',
+      'module' => 'part_Partenariat',
+      'bean_name' => 'part_Partenariat',
+      'vname' => 'LBL_PART_PARTENARIAT_ACTIVITIES_1_EMAILS_FROM_PART_PARTENARIAT_TITLE',
+    ),
   ),
   'relationships' => 
   array (

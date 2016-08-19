@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:26
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -45,7 +45,7 @@ $mod_strings = array (
   'LBL_COMPANY_SIGNED_DATE' => 'Date de signature interne',
   'LBL_RENEWAL_REMINDER_DATE' => 'Date de rappel de renouvellement',
   'LBL_CONTRACT_TYPE' => 'Type de contrat',
-  'LBL_CONTACT' => 'Contacts',
+  'LBL_CONTACT' => 'Contact',
   'LBL_ADD_GROUP' => 'Ajouter un groupe',
   'LBL_DELETE_GROUP' => 'Effacer un groupe',
   'LBL_GROUP_NAME' => 'Nom du groupe',
@@ -91,4 +91,9 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_USDOLLAR' => 'Taxe de transport (devise par défaut)',
   'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Taxe de transport (devise par défaut)',
   'LBL_GRAND_TOTAL_USDOLLAR' => 'Total global (devise par défaut)',
+  'LBL_AUF_IMPLANTATION_AOS_CONTRACTS_1_FROM_AUF_IMPLANTATION_TITLE' => 'Implantation',
+  'LBL_EDITVIEW_PANEL1' => 'Demande MC',
+  'LBL_NUM_CONTRAT' => 'Numéro contrat',
+  'LBL_EMAILS' => 'Courriel',
+  'LBL_FS_FOURNISEUR_AOS_CONTRACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
 );

@@ -9,7 +9,7 @@
 
      public function populate_list($tblname,$field,$pays=0){
         $id = 'id';
-        if($tblname=='ref_pays' || $tblname=='ref_zoneadministrative' ||  $tblname=='ref_region'){$id = 'code';}
+        if($tblname=='ref_pays' || $tblname=='ref_zoneadministrative' ||  $tblname=='ref_region' ||  $tblname=='ref_implantation'  ){$id = 'code';}
         if($pays==1){$id = 'id';}
 	    $query = "SELECT  ".$field." as v,".$id." as id FROM ".$tblname." order by ".$field." asc";
 	    

@@ -1,22 +1,14 @@
 <?php
-// created: 2016-01-12 09:42:27
+// created: 2016-06-28 17:33:02
 $subpanel_layout['list_fields'] = array (
   'name' => 
   array (
     'type' => 'name',
     'vname' => 'LBL_NAME',
-    'width' => '10%',    
-   'widget_class' => 'SubPanelDetailViewLink',
-    'module' => 'Accounts',
     'width' => '23%',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'module' => 'Accounts',
     'default' => true,
-  ),
-  'intit_lg_fr_c' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'vname' => 'LBL_INTIT_LG_FR',
-    'width' => '10%',
   ),
   'type_etablissement_c' => 
   array (
@@ -26,42 +18,36 @@ $subpanel_layout['list_fields'] = array (
     'vname' => 'LBL_TYPE_ETABLISSEMENT',
     'width' => '10%',
   ),
-  'billing_address_country' => 
+  'parent_name' => 
   array (
-    'type' => 'varchar',
-    'vname' => 'LBL_BILLING_ADDRESS_COUNTRY',
-    'width' => '7%',
+    'type' => 'relate',
+    'link' => true,
+    'vname' => 'LBL_MEMBER_OF',
+    'id' => 'PARENT_ID',
+    'width' => '10%',
     'default' => true,
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => 'Accounts',
+    'target_record_key' => 'parent_id',
   ),
-  'id_region_a_c' => 
+  'parent_c' => 
   array (
-    'type' => 'enum',
+    'type' => 'relate',
     'default' => true,
     'studio' => 'visible',
-    'vname' => 'LBL_ID_REGION_A',
+    'vname' => 'LBL_PARENT',
+    'id' => 'ACCOUNT_ID_C',
+    'link' => true,
     'width' => '10%',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => 'Accounts',
+    'target_record_key' => 'account_id_c',
   ),
-  'id_region_g_c' => 
+  'shipping_address_country' => 
   array (
     'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'vname' => 'LBL_ID_REGION_G',
+    'vname' => 'LBL_SHIPPING_ADDRESS_COUNTRY',
     'width' => '10%',
-  ),
-  'qualite_c' => 
-  array (
-    'type' => 'enum',
     'default' => true,
-    'studio' => 'visible',
-    'vname' => 'LBL_QUALITE',
-    'width' => '10%',
-  ),
-  'statut_c' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'vname' => 'LBL_STATUT',
-    'width' => '10%',
   ),
 );

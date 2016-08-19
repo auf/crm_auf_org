@@ -1,5 +1,28 @@
 <?php
-// created: 2015-12-21 14:03:31
+// created: 2016-08-15 14:34:31
 $mod_strings = array (
   'LBL_ACCOUNT' => 'Compte',
+  'LBL_OPPORTUNITY' => 'Projet',
+  'LBL_PROJECTS' => '(DNU) Projets',
+  'LBL_CONTACT_NAME' => 'Contact',
+  'LBL_DATE' => 'Date de début',
+  'LBL_DATE_TIME' => 'Date et Heure début',
+  'LBL_DESCRIPTION' => 'Description',
+  'LBL_DIRECTION' => 'Type',
+  'LBL_DURATION' => 'Durée',
+  'LBL_DURATION_HOURS' => 'Durée en Heures',
+  'LBL_DURATION_MINUTES' => 'Durée en Minutes',
+  'LBL_REMINDER' => 'Notification',
+  'LBL_STATUS' => 'Statut',
+  'LBL_SUBJECT' => 'Sujet',
+  'LNK_NEW_CALL' => 'Planifier Appel',
+  'LNK_CALL_LIST' => 'Appels',
+  'LNK_IMPORT_CALLS' => 'Import Appels',
+  'LBL_LIST_FORM_TITLE' => 'Liste des Appel',
+  'LBL_SEARCH_FORM_TITLE' => 'Rechercher un Appel',
+  'LBL_LEADS' => 'Prospect',
+  'LBL_CONTACTS' => 'Contact',
+  'LBL_CONTRACT' => 'Contrat',
+  'LBL_NOTES' => 'Note',
+  'LBL_AOS_INVOICES_ACTIVITIES_1_CALLS_FROM_AOS_INVOICES_TITLE' => 'Activités:Facture',
 );

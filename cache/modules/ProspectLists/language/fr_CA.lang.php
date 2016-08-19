@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:21
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
   'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
@@ -53,4 +53,5 @@ $mod_strings = array (
   'LBL_DOMAIN' => 'Aucun courriel au Domaine',
   'LBL_LIST_PROSPECTLIST_NAME' => 'Nom',
   'LBL_MORE_DETAIL' => 'Plus de détails',
+  'LBL_PROSPECTLISTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE' => 'Responsables',
 );

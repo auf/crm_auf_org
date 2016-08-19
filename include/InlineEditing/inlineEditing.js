@@ -96,7 +96,7 @@ function buildEditField(){
 
             }
         }
-    });
+   });
     $(".inlineEdit").dblclick(function(e) {
         e.preventDefault();
         //depending on what view you are using will find the id,module,type of field, and field name from the view

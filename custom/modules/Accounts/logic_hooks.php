@@ -7,6 +7,8 @@ $hook_array = Array();
 $hook_array['after_ui_frame'] = Array(); 
 $hook_array['before_save'] = Array(); 
 $hook_array['before_save'][] = Array(77, 'updateGeocodeInfo', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'updateGeocodeInfo'); 
+$hook_array['before_save'][] = Array(0, '', 'custom/modules/Accounts/before_save_acc.php','before_save_acc', 'before_save_acc'); 
+$hook_array['before_save'][] = Array(0, '', 'custom/modules/update_country_field_pays_c_hook.php','update_country_field_pays_c_hook', 'accounts_type_module_update_country_field_pays_c_hook'); 
 $hook_array['after_save'] = Array(); 
 $hook_array['after_save'][] = Array(77, 'updateRelatedMeetingsGeocodeInfo', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'updateRelatedMeetingsGeocodeInfo'); 
 $hook_array['after_save'][] = Array(78, 'updateRelatedProjectGeocodeInfo', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'updateRelatedProjectGeocodeInfo'); 
@@ -16,8 +18,8 @@ $hook_array['after_relationship_add'] = Array();
 $hook_array['after_relationship_add'][] = Array(77, 'addRelationship', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'addRelationship'); 
 $hook_array['after_relationship_delete'] = Array(); 
 $hook_array['after_relationship_delete'][] = Array(77, 'deleteRelationship', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'deleteRelationship'); 
-$hook_array['before_save'][] = Array(0, '', 'custom/modules/Accounts/before_save_acc.php','before_save_acc', 'before_save_acc'); 
-$hook_array['process_record'][] = Array(1, 'show right values for dds', 'custom/modules/Accounts/ListViewHooksClass.php','ListViewHooksClass', 'populate_dd_lbls');
+
+//$hook_array['process_record'][] = Array(1, 'show right values for dds', 'custom/modules/Accounts/ListViewHooksClass.php','ListViewHooksClass', 'populate_dd_lbls');
 
 
 ?>

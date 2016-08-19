@@ -896,6 +896,56 @@
       'bean_name' => 'AOS_Line_Item_Groups',
       'source' => 'non-db',
     ),
+    'aos_invoices_activities_1_emails' => 
+    array (
+      'name' => 'aos_invoices_activities_1_emails',
+      'type' => 'link',
+      'relationship' => 'aos_invoices_activities_1_emails',
+      'source' => 'non-db',
+      'module' => 'Emails',
+      'bean_name' => 'Email',
+      'vname' => 'LBL_AOS_INVOICES_ACTIVITIES_1_EMAILS_FROM_EMAILS_TITLE',
+    ),
+    'aos_invoices_activities_1_notes' => 
+    array (
+      'name' => 'aos_invoices_activities_1_notes',
+      'type' => 'link',
+      'relationship' => 'aos_invoices_activities_1_notes',
+      'source' => 'non-db',
+      'module' => 'Notes',
+      'bean_name' => 'Note',
+      'vname' => 'LBL_AOS_INVOICES_ACTIVITIES_1_NOTES_FROM_NOTES_TITLE',
+    ),
+    'aos_invoices_activities_1_tasks' => 
+    array (
+      'name' => 'aos_invoices_activities_1_tasks',
+      'type' => 'link',
+      'relationship' => 'aos_invoices_activities_1_tasks',
+      'source' => 'non-db',
+      'module' => 'Tasks',
+      'bean_name' => 'Task',
+      'vname' => 'LBL_AOS_INVOICES_ACTIVITIES_1_TASKS_FROM_TASKS_TITLE',
+    ),
+    'aos_invoices_activities_1_calls' => 
+    array (
+      'name' => 'aos_invoices_activities_1_calls',
+      'type' => 'link',
+      'relationship' => 'aos_invoices_activities_1_calls',
+      'source' => 'non-db',
+      'module' => 'Calls',
+      'bean_name' => 'Call',
+      'vname' => 'LBL_AOS_INVOICES_ACTIVITIES_1_CALLS_FROM_CALLS_TITLE',
+    ),
+    'aos_invoices_activities_1_meetings' => 
+    array (
+      'name' => 'aos_invoices_activities_1_meetings',
+      'type' => 'link',
+      'relationship' => 'aos_invoices_activities_1_meetings',
+      'source' => 'non-db',
+      'module' => 'Meetings',
+      'bean_name' => 'Meeting',
+      'vname' => 'LBL_AOS_INVOICES_ACTIVITIES_1_MEETINGS_FROM_MEETINGS_TITLE',
+    ),
   ),
   'relationships' => 
   array (

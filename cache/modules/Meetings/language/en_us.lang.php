@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:48
+// created: 2016-08-18 15:34:16
 $mod_strings = array (
   'ERR_DELETE_RECORD' => 'A record number must be specified to delete the meeting.',
   'LBL_ACCEPT_THIS' => 'Accept?',
@@ -140,4 +140,9 @@ $mod_strings = array (
   'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Add All Invitees',
   'LBL_REMINDERS_ADD_REMINDER' => 'Add reminder',
   'LBL_SM_RESPONSABLE_ACTIVITIES_1_MEETINGS_FROM_SM_RESPONSABLE_TITLE' => 'Activités:Responsable',
+  'LBL_FS_FOURNISEUR_ACTIVITIES_1_MEETINGS_FROM_FS_FOURNISEUR_TITLE' => 'Activités:Fournisseurs',
+  'LBL_PROP_PROPOSITION_ACTIVITIES_1_MEETINGS_FROM_PROP_PROPOSITION_TITLE' => 'Activités:Prop_Proposition',
+  'LBL_PART_PARTENARIAT_ACTIVITIES_1_MEETINGS_FROM_PART_PARTENARIAT_TITLE' => 'Activités:part_Partenariat',
+  'LBL_AOS_INVOICES_ACTIVITIES_1_MEETINGS_FROM_AOS_INVOICES_TITLE' => 'Activités:Factures',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_MEETINGS_FROM_AOS_QUOTES_TITLE' => 'Activités1:Devis',
 );

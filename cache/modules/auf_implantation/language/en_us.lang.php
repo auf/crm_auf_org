@@ -1,8 +1,6 @@
 <?php
-// created: 2016-05-30 17:58:47
+// created: 2016-08-18 15:34:31
 $mod_strings = array (
-  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
@@ -19,6 +17,8 @@ $mod_strings = array (
   'LBL_LIST_NAME' => 'Name',
   'LBL_EDIT_BUTTON' => 'Edit',
   'LBL_REMOVE' => 'Remove',
+  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Are you sure you want to remove this account from this project?',
   'ERR_DELETE_RECORD' => 'A record number must be specified to delete the account.',
   'LBL_ACCOUNT_NAME' => 'Company Name:',
@@ -96,7 +96,7 @@ $mod_strings = array (
   'LNK_ACCOUNT_LIST' => 'Accounts',
   'LNK_NEW_ACCOUNT' => 'Create Account',
   'MSG_DUPLICATE' => 'The account record you are about to create might be a duplicate of an account record that already exists. Account records containing similar names are listed below.<br>Click Create Account to continue creating this new account, or select an existing account listed below.',
-  'MSG_SHOW_DUPLICATES' => 'The account record you are about to create might be a duplicate of an account record that already exists. Account records containing similar names are listed below.<br>Click Save to continue creating this new account, or click Cancel to return to the module without creating the account.',
+  'MSG_SHOW_DUPLICATES' => 'The account record you are about to create might be a duplicate of an account record that already exists. Account records containing similar names are listed below.Click Save to continue creating this new account, or click Cancel to return to the module without creating the account.',
   'NTC_COPY_BILLING_ADDRESS' => 'Copy billing address to shipping address',
   'NTC_COPY_BILLING_ADDRESS2' => 'Copy to shipping',
   'NTC_COPY_SHIPPING_ADDRESS' => 'Copy shipping address to billing address',
@@ -108,11 +108,17 @@ $mod_strings = array (
   'LBL_MODULE_NAME' => 'Implantation',
   'LBL_MODULE_TITLE' => 'Implantation',
   'LBL_HOMEPAGE_TITLE' => 'My Implantation',
-  'LNK_NEW_RECORD' => 'Create Implantation',
-  'LNK_LIST' => 'View Implantation',
-  'LNK_IMPORT_AUF_IMPLANTATION' => 'Import Implantation',
+  'LNK_NEW_RECORD' => 'Create Implantations',
+  'LNK_LIST' => 'View Implantations',
+  'LNK_IMPORT_AUF_IMPLANTATION' => 'Import Implantations',
   'LBL_SEARCH_FORM_TITLE' => 'Search Implantation',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
   'LBL_AUF_IMPLANTATION_SUBPANEL_TITLE' => 'Implantation',
   'LBL_NEW_FORM_TITLE' => 'New Implantation',
+  'LBL_AUF_IMPLANTATION_AUF_IMPLANTATION_1_FROM_AUF_IMPLANTATION_R_TITLE' => 'Implantations',
+  'LBL_AUF_IMPLANTATION_AOS_CONTRACTS_1_FROM_AOS_CONTRACTS_TITLE' => 'Contrats',
+  'LBL_AUF_IMPLANTATION_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contacts',
+  'LBL_AUF_IMPLANTATION_AUF_IMPLANTATION_1_FROM_AUF_IMPLANTATION_L_TITLE' => 'Implantation',
+  'LBL_AUF_IMPLANTATION_USERS_1_FROM_USERS_TITLE' => 'Utilisateurs',
+  'LBL_AUF_IMPLANTATION_ACCOUNTS_1_FROM_ACCOUNTS_TITLE' => 'Établissements',
 );

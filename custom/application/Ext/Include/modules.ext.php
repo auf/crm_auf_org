@@ -1,6 +1,20 @@
 <?php 
  //WARNING: The contents of this file are auto-generated
 
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['fs_fourniseur'] = 'fs_fourniseur';
+$beanFiles['fs_fourniseur'] = 'modules/fs_fourniseur/fs_fourniseur.php';
+$moduleList[] = 'fs_fourniseur';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['sm_Responsable'] = 'sm_Responsable';
+$beanFiles['sm_Responsable'] = 'modules/sm_Responsable/sm_Responsable.php';
+$moduleList[] = 'sm_Responsable';
+
+
 
 $beanList['AM_ProjectTemplates'] = 'AM_ProjectTemplates';
 $beanFiles['AM_ProjectTemplates'] = 'modules/AM_ProjectTemplates/AM_ProjectTemplates.php';
@@ -21,20 +35,6 @@ $modInvisList[] = 'AM_ProjectHolidays';
 $beanList['auf_implantation'] = 'auf_implantation';
 $beanFiles['auf_implantation'] = 'modules/auf_implantation/auf_implantation.php';
 $moduleList[] = 'auf_implantation';
-
-
- 
- //WARNING: The contents of this file are auto-generated
-$beanList['sm_Responsable'] = 'sm_Responsable';
-$beanFiles['sm_Responsable'] = 'modules/sm_Responsable/sm_Responsable.php';
-$moduleList[] = 'sm_Responsable';
-
-
- 
- //WARNING: The contents of this file are auto-generated
-$beanList['fs_fourniseur'] = 'fs_fourniseur';
-$beanFiles['fs_fourniseur'] = 'modules/fs_fourniseur/fs_fourniseur.php';
-$moduleList[] = 'fs_fourniseur';
 
 
 ?>

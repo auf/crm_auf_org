@@ -1,8 +1,8 @@
 <?php
-// created: 2016-05-30 17:58:24
+// created: 2016-08-18 15:34:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date de création:',
+  'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_MODIFIED' => 'Modifié par',
   'LBL_MODIFIED_ID' => 'Modifié par (ID)',
@@ -42,5 +42,5 @@ $mod_strings = array (
   'LBL_ESTIMATED_EFFORT' => 'Effort estimé (heures)',
   'LBL_UTILIZATION' => 'Utilisation (%)',
   'LBL_DURATION' => 'Durée (jours)',
-  'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Modèles de projets',
+  'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Modèle de projet',
 );

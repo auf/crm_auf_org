@@ -1,8 +1,6 @@
 <?php
-// created: 2016-05-30 17:58:47
+// created: 2016-08-18 15:34:31
 $mod_strings = array (
-  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
@@ -16,6 +14,13 @@ $mod_strings = array (
   'LBL_NAME' => 'Title',
   'LBL_CREATED_USER' => 'Created by User',
   'LBL_MODIFIED_USER' => 'Modified by User',
+  'LBL_LIST_NAME' => 'Name',
+  'LBL_EDIT_BUTTON' => 'Edit',
+  'LBL_REMOVE' => 'Remove',
+  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+  'LBL_SECURITYGROUPS' => 'Security Groups',
+  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
   'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Are you sure you want to remove this account from this project?',
   'ERR_DELETE_RECORD' => 'A record number must be specified to delete the account.',
   'LBL_ACCOUNT_NAME' => 'Title',
@@ -178,4 +183,12 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Shipping Tax (Default Currency)',
   'LBL_GRAND_TOTAL_USDOLLAR' => 'Grand Total (Default Currency)',
   'LBL_QUOTE_TO' => 'Quote To',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_EMAILS_FROM_EMAILS_TITLE' => 'Activités:Courriels',
+  'LBL_AOS_QUOTES_TASKS_1_FROM_TASKS_TITLE' => 'Activités:Tâches1',
+  'LBL_AOS_QUOTES_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE' => 'Responsables',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_MEETINGS_FROM_MEETINGS_TITLE' => 'Activités:Réunions',
+  'LBL_OPPORTUNITIES_AOS_QUOTES_1_FROM_OPPORTUNITIES_TITLE' => 'Projets',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_NOTES_FROM_NOTES_TITLE' => 'Activités:Notes',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_CALLS_FROM_CALLS_TITLE' => 'Activités:Appels',
+  'LBL_AOS_QUOTES_ACTIVITIES_1_TASKS_FROM_TASKS_TITLE' => 'Activités:Tâches',
 );

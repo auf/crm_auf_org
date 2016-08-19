@@ -2,6 +2,35 @@
  //WARNING: The contents of this file are auto-generated
 
 
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsables';
+$mod_strings['LBL_SM_RESPONSABLE_CONTACTS_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
+$mod_strings['LBL_SM_RESPONSABLE_CONTACTS_2_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
+
+
+
+$mod_strings = array_merge($mod_strings,
+	array(
+		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Groupes de sécurité",
+	)
+);
+
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_SM_RESPONSABLE_CONTACTS_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
+$mod_strings['LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
+$mod_strings['LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE'] = 'Fournisseurs';
+$mod_strings['LBL_AUF_IMPLANTATION_CONTACTS_1_FROM_AUF_IMPLANTATION_TITLE'] = 'Implantation';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_SM_RESPONSABLE_CONTACTS_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
+$mod_strings['LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
+$mod_strings['LBL_AUF_IMPLANTATION_CONTACTS_1_FROM_AUF_IMPLANTATION_TITLE'] = 'Implantation';
+$mod_strings['LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE'] = 'Fournisseurs';
+
+
 /**
  *
  * @package Advanced OpenPortal
@@ -42,26 +71,5 @@ $mod_strings['LBL_PORTAL_ACCOUNT_DISABLED'] = "Compte désactivé";
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
 $mod_strings['LBL_SM_RESPONSABLE_CONTACTS_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
 $mod_strings['LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
-
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_SM_RESPONSABLE_CONTACTS_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
-$mod_strings['LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
-$mod_strings['LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE'] = 'Fournisseurs';
-
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_CONTACTS_SM_RESPONSABLE_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsables';
-$mod_strings['LBL_SM_RESPONSABLE_CONTACTS_1_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
-$mod_strings['LBL_SM_RESPONSABLE_CONTACTS_2_FROM_SM_RESPONSABLE_TITLE'] = 'Responsable';
-
-
-
-$mod_strings = array_merge($mod_strings,
-	array(
-		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Groupes de sécurité",
-	)
-);
-
 
 ?>

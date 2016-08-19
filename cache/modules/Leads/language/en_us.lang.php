@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-30 17:58:47
+// created: 2016-08-18 15:34:16
 $mod_strings = array (
   'db_last_name' => 'LBL_LIST_LAST_NAME',
   'db_first_name' => 'LBL_LIST_FIRST_NAME',
@@ -7,7 +7,7 @@ $mod_strings = array (
   'db_email1' => 'LBL_LIST_EMAIL_ADDRESS',
   'db_account_name' => 'LBL_LIST_ACCOUNT_NAME',
   'db_email2' => 'LBL_LIST_EMAIL_ADDRESS',
-  'ERR_DELETE_RECORD' => 'en_us A record number must be specified to delete the lead.',
+  'ERR_DELETE_RECORD' => 'A record number must be specified to delete the lead.',
   'LBL_ACCOUNT_DESCRIPTION' => 'Account Description',
   'LBL_ACCOUNT_ID' => 'Account ID',
   'LBL_ACCOUNT_NAME' => 'Account Name:',
@@ -221,4 +221,6 @@ $mod_strings = array (
   'LBL_LOADING' => 'Loading',
   'LBL_EDIT_INLINE' => 'Edit',
   'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+  'LBL_FS_FOURNISEUR_LEADS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
+  'LBL_SM_RESPONSABLE_LEADS_1_FROM_SM_RESPONSABLE_TITLE' => 'Responsables',
 );
