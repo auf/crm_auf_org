@@ -40,7 +40,7 @@
 $relationships = array (
   'fs_fourniseur_modified_user' => 
   array (
-    'id' => '6b9de44b-d794-d93a-523b-57b60de8ea28',
+    'id' => '2960a367-6baa-86da-b3a7-57bdc0956162',
     'relationship_name' => 'fs_fourniseur_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -66,7 +66,7 @@ $relationships = array (
   ),
   'fs_fourniseur_created_by' => 
   array (
-    'id' => '6c06e6df-c251-3086-70d1-57b60df4ea69',
+    'id' => '29df21a8-c0ac-0acf-396d-57bdc065c4ec',
     'relationship_name' => 'fs_fourniseur_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -92,7 +92,7 @@ $relationships = array (
   ),
   'fs_fourniseur_assigned_user' => 
   array (
-    'id' => '6c35fcaf-d56b-0584-d824-57b60d898da4',
+    'id' => '2a1894dd-8917-c25d-5130-57bdc0776054',
     'relationship_name' => 'fs_fourniseur_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -118,7 +118,7 @@ $relationships = array (
   ),
   'fs_fourniseur_aos_contracts_1' => 
   array (
-    'id' => '906413bb-25ff-208a-a710-57b60d6bbed6',
+    'id' => '513f39e1-c1ab-fd06-4169-57bdc0d3c2c7',
     'relationship_name' => 'fs_fourniseur_aos_contracts_1',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -142,9 +142,35 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
   ),
+  'fs_fourniseur_tasks_1' => 
+  array (
+    'id' => '51b8f1ce-ef8b-8f2b-d3f0-57bdc08b0726',
+    'relationship_name' => 'fs_fourniseur_tasks_1',
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'id',
+    'join_table' => 'fs_fourniseur_tasks_1_c',
+    'join_key_lhs' => 'fs_fourniseur_tasks_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_tasks_1tasks_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'fs_fourniseur_activities_1_notes' => 
   array (
-    'id' => '916ebf37-f6c6-f845-0c60-57b60ddfa5ce',
+    'id' => '52b5e524-9140-9d4c-75af-57bdc063f84f',
     'relationship_name' => 'fs_fourniseur_activities_1_notes',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -170,7 +196,7 @@ $relationships = array (
   ),
   'fs_fourniseur_leads_1' => 
   array (
-    'id' => '929b275f-4c8c-715b-5903-57b60d530eae',
+    'id' => '53fee8ab-05e7-15cc-1d3a-57bdc066a81c',
     'relationship_name' => 'fs_fourniseur_leads_1',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -196,7 +222,7 @@ $relationships = array (
   ),
   'fs_fourniseur_campaigns_1' => 
   array (
-    'id' => '9368f3fe-a58f-85e0-4cea-57b60dfc2254',
+    'id' => '54d5be3b-0cd1-7e12-c03e-57bdc00c2844',
     'relationship_name' => 'fs_fourniseur_campaigns_1',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -222,7 +248,7 @@ $relationships = array (
   ),
   'fs_fourniseur_opportunities_1' => 
   array (
-    'id' => '939b395f-babe-feb9-00f6-57b60d8cd2c1',
+    'id' => '550751bd-40ad-408d-762b-57bdc0dd755f',
     'relationship_name' => 'fs_fourniseur_opportunities_1',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -246,35 +272,9 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
   ),
-  'fs_fourniseur_contacts_1' => 
-  array (
-    'id' => '93fe24cb-654b-1080-dbc4-57b60d9cf16b',
-    'relationship_name' => 'fs_fourniseur_contacts_1',
-    'lhs_module' => 'fs_fourniseur',
-    'lhs_table' => 'fs_fourniseur',
-    'lhs_key' => 'id',
-    'rhs_module' => 'Contacts',
-    'rhs_table' => 'contacts',
-    'rhs_key' => 'id',
-    'join_table' => 'fs_fourniseur_contacts_1_c',
-    'join_key_lhs' => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
-    'join_key_rhs' => 'fs_fourniseur_contacts_1contacts_idb',
-    'relationship_type' => 'many-to-many',
-    'relationship_role_column' => NULL,
-    'relationship_role_column_value' => NULL,
-    'reverse' => '0',
-    'deleted' => '0',
-    'readonly' => true,
-    'rhs_subpanel' => 'default',
-    'lhs_subpanel' => NULL,
-    'from_studio' => true,
-    'is_custom' => true,
-    'relationship_only' => false,
-    'for_activities' => false,
-  ),
   'fs_fourniseur_activities_1_tasks' => 
   array (
-    'id' => '969f2dbd-cf92-3bac-4439-57b60de7f6f6',
+    'id' => '58655914-7898-6b7f-26ee-57bdc0c6e811',
     'relationship_name' => 'fs_fourniseur_activities_1_tasks',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -291,7 +291,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => NULL,
+    'rhs_subpanel' => 'default',
     'lhs_subpanel' => NULL,
     'is_custom' => true,
     'relationship_only' => false,
@@ -300,7 +300,7 @@ $relationships = array (
   ),
   'fs_fourniseur_activities_1_calls' => 
   array (
-    'id' => '973e6900-70a9-c1ad-3f49-57b60d7e8bc8',
+    'id' => '58da3602-8f0f-99e5-c353-57bdc08e0ee9',
     'relationship_name' => 'fs_fourniseur_activities_1_calls',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -326,7 +326,7 @@ $relationships = array (
   ),
   'fs_fourniseur_activities_1_meetings' => 
   array (
-    'id' => '98de9d11-2412-7cc9-5d5c-57b60d7dda1a',
+    'id' => '5a7d301d-663f-47d7-1098-57bdc065354f',
     'relationship_name' => 'fs_fourniseur_activities_1_meetings',
     'lhs_module' => 'fs_fourniseur',
     'lhs_table' => 'fs_fourniseur',
@@ -350,13 +350,39 @@ $relationships = array (
     'for_activities' => false,
     'from_studio' => true,
   ),
-  'fs_fourniseur_tasks_1' => 
+  'fs_fourniseur_aos_quotes_1' => 
   array (
-    'rhs_label' => 'Tâches',
+    'id' => '5aef7e7d-a6a6-b20b-c302-57bdc033e0db',
+    'relationship_name' => 'fs_fourniseur_aos_quotes_1',
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Quotes',
+    'rhs_table' => 'aos_quotes',
+    'rhs_key' => 'id',
+    'join_table' => 'fs_fourniseur_aos_quotes_1_c',
+    'join_key_lhs' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_aos_quotes_1aos_quotes_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
+  'fs_fourniseur_contacts_1' => 
+  array (
+    'rhs_label' => 'Contact(s)',
     'lhs_label' => 'Fournisseurs',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'fs_fourniseur',
-    'rhs_module' => 'Tasks',
+    'rhs_module' => 'Contacts',
     'relationship_type' => 'one-to-many',
     'readonly' => true,
     'deleted' => false,
@@ -364,6 +390,6 @@ $relationships = array (
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => true,
-    'relationship_name' => 'fs_fourniseur_tasks_1',
+    'relationship_name' => 'fs_fourniseur_contacts_1',
   ),
 );

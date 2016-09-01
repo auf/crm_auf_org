@@ -5658,3 +5658,11 @@ $GLOBALS['app_list_strings']['sales_stage_dom']=array (
   'Closed Won' => 'Fermé Gagné',
   'Closed Lost' => 'Fermé Perdu',
 );
+$GLOBALS['app_list_strings']['typetache_list']=array (
+  '' => '',
+  'cffcoda' => 'Création Fiche Four. Coda',
+);
+$GLOBALS['app_list_strings']['typetache_0']=array (
+  '' => '',
+  'cffcoda' => 'Création fiche four. Coda',
+);

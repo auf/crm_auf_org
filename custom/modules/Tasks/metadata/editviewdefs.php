@@ -73,34 +73,13 @@ array (
         array (
           0 => 
           array (
-            'name' => 'cre_fic_four_coda_c',
-            'label' => 'LBL_CRE_FIC_FOUR_CODA',
+            'name' => 'typetache_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPETACHE',
           ),
-          1 => 
-          array (
-            'name' => 'demandeur_c',
-            'label' => 'LBL_DEMANDEUR',
-          ),
+          1 => 'assigned_user_name',
         ),
         2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'date_start',
-            'type' => 'datetimecombo',
-            'displayParams' => 
-            array (
-              'showNoneCheckbox' => true,
-              'showFormats' => true,
-            ),
-          ),
-          1 => 
-          array (
-            'name' => 'assignea_c',
-            'label' => 'LBL_ASSIGNEA',
-          ),
-        ),
-        3 => 
         array (
           0 => 
           array (
@@ -110,13 +89,23 @@ array (
           ),
           1 => 
           array (
+            'name' => 'date_start',
+            'type' => 'datetimecombo',
+            'displayParams' => 
+            array (
+              'showNoneCheckbox' => true,
+              'showFormats' => true,
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'parent_name',
             'label' => 'LBL_LIST_RELATED_TO',
           ),
-        ),
-        4 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'date_due',
             'type' => 'datetimecombo',
@@ -126,15 +115,15 @@ array (
               'showFormats' => true,
             ),
           ),
-          1 => 
+        ),
+        4 => 
+        array (
+          0 => 
           array (
             'name' => 'contact_name',
             'label' => 'LBL_CONTACT_NAME',
           ),
-        ),
-        5 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'priority',
             'displayParams' => 
@@ -142,16 +131,23 @@ array (
               'required' => true,
             ),
           ),
-          1 => 
+        ),
+        5 => 
+        array (
+          0 => 
           array (
             'name' => 'aos_quotes_tasks_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'description',
           ),
         ),
         6 => 
         array (
           0 => 
           array (
-            'name' => 'description',
+            'name' => 'sm_responsable_activities_1_tasks_name',
           ),
           1 => 
           array (
@@ -162,7 +158,7 @@ array (
         array (
           0 => 
           array (
-            'name' => 'sm_responsable_activities_1_tasks_name',
+            'name' => 'fs_fourniseur_activities_1_tasks_name',
           ),
           1 => 
           array (
@@ -176,13 +172,6 @@ array (
             'name' => 'fs_fourniseur_activities_1_tasks_name',
           ),
           1 => 
-          array (
-            'name' => 'fs_fourniseur_activities_1_tasks_name',
-          ),
-        ),
-        9 => 
-        array (
-          0 => 
           array (
             'name' => 'fs_fourniseur_tasks_1_name',
           ),

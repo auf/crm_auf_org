@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-15 14:34:32
+// created: 2016-08-25 14:10:29
 $mod_strings = array (
   'LBL_ACCOUNT' => 'Compte',
   'LBL_OPPORTUNITY' => 'Projet',
@@ -10,7 +10,7 @@ $mod_strings = array (
   'LBL_CONTACT_NAME' => 'Nom du Contact',
   'LBL_CONTACT_PHONE' => 'Téléphone du Contact',
   'LBL_DESCRIPTION' => 'Description',
-  'LBL_DUE_DATE' => 'Date échéance',
+  'LBL_DUE_DATE' => 'Date d&#039;échéance',
   'LBL_DUE_TIME' => 'Heure échéance',
   'LBL_EMAIL_ADDRESS' => 'Adresse Courriel',
   'LBL_PARENT_ID' => 'ID Parent',
@@ -21,7 +21,6 @@ $mod_strings = array (
   'LBL_SUBJECT' => 'Sujet',
   'LBL_CRE_FIC_FOUR_CODA' => 'Création fiche fournisseur CODA',
   'LBL_DEMANDEUR' => 'Demandeur',
-  'LBL_ASSIGNEA' => 'Assigné à',
   'LNK_NEW_TASK' => 'Créer Tâche',
   'LNK_TASK_LIST' => 'Tâches',
   'LNK_IMPORT_TASKS' => 'Import Tâche',
@@ -32,4 +31,5 @@ $mod_strings = array (
   'LBL_CONTRACT' => 'Contrat',
   'LBL_NOTES' => 'Note',
   'LBL_AOS_INVOICES_ACTIVITIES_1_TASKS_FROM_AOS_INVOICES_TITLE' => 'Activités:Facture',
+  'LBL_TYPETACHE' => 'Type de tâche',
 );

@@ -1,10 +1,6 @@
 <?php
-// created: 2016-08-18 15:34:31
+// created: 2016-09-01 10:41:14
 $mod_strings = array (
-  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
-  'LBL_SECURITYGROUPS' => 'Groupes de sécurité',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
   'ERR_DELETE_RECORD' => 'Un numéro d\'enregistrement doit être spécifié pour toute suppression.',
   'LBL_ACCOUNT_ID' => 'Compte (ID)',
   'LBL_CASE_ID' => 'Ticket (ID)',
@@ -94,4 +90,5 @@ $mod_strings = array (
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_NOTES_FROM_FS_FOURNISEUR_TITLE' => 'Activités:Fournisseurs',
   'LBL_PROP_PROPOSITION_ACTIVITIES_1_NOTES_FROM_PROP_PROPOSITION_TITLE' => 'Activités:Prop_Proposition',
   'LBL_AOS_QUOTES_ACTIVITIES_1_NOTES_FROM_AOS_QUOTES_TITLE' => 'Activités1:Devis',
+  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
 );

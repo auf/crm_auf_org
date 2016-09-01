@@ -112,20 +112,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'sm_responsable_contacts_1_name',
-            'label' => 'LBL_SM_RESPONSABLE_CONTACTS_1_FROM_CONTACTS_TITLE',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
             'name' => 'commentaire',
             'studio' => 'visible',
             'label' => 'LBL_COMMENTAIRE',
           ),
         ),
-        7 => 
+        6 => 
         array (
           0 => 'date_modified',
           1 => 

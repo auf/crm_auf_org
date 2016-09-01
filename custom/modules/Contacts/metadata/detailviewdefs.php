@@ -220,7 +220,6 @@ array (
             'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
-          1 => '',
         ),
         7 => 
         array (
@@ -228,6 +227,10 @@ array (
           array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'fs_fourniseur_contacts_1_name',
           ),
         ),
       ),

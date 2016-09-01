@@ -1,6 +1,8 @@
 <?php
-// created: 2016-08-18 15:34:15
+// created: 2016-09-01 10:41:13
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigné à:',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de Création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -12,14 +14,12 @@ $mod_strings = array (
   'LBL_DESCRIPTION' => 'Description:',
   'LBL_DELETED' => 'Supprimer',
   'LBL_NAME' => 'Nom',
-  'LBL_CREATED_USER' => 'Créé par l\'Utilisateur',
-  'LBL_MODIFIED_USER' => 'Modifié par l\'Utilisateur',
+  'LBL_CREATED_USER' => 'Créé par l`Utilisateur',
+  'LBL_MODIFIED_USER' => 'Modifié par l`Utilisateur',
   'LBL_LIST_NAME' => 'Nom',
   'LBL_EDIT_BUTTON' => 'Configuration du module:',
   'LBL_REMOVE' => 'Enlever',
-  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigné à:',
-  'LBL_LIST_FORM_TITLE' => 'Liste d\'Alerte',
+  'LBL_LIST_FORM_TITLE' => 'Liste d`Alerte',
   'LBL_MODULE_NAME' => 'Alerte',
   'LBL_MODULE_TITLE' => 'Alerte',
   'LBL_HOMEPAGE_TITLE' => 'Mon Alerte',

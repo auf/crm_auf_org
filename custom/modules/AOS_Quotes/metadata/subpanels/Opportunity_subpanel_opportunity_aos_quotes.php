@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-10 11:49:59
+// created: 2016-08-19 14:23:53
 $subpanel_layout['list_fields'] = array (
   'number' => 
   array (
@@ -14,11 +14,31 @@ $subpanel_layout['list_fields'] = array (
     'width' => '25%',
     'default' => true,
   ),
+  'approval_status' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'vname' => 'LBL_APPROVAL_STATUS',
+    'width' => '10%',
+    'default' => true,
+  ),
   'billing_account' => 
   array (
     'width' => '20%',
     'vname' => 'LBL_BILLING_ACCOUNT',
     'default' => true,
+  ),
+  'fs_fourniseur_aos_quotes_1_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'vname' => 'LBL_FS_FOURNISEUR_AOS_QUOTES_1_FROM_FS_FOURNISEUR_TITLE',
+    'id' => 'FS_FOURNISEUR_AOS_QUOTES_1FS_FOURNISEUR_IDA',
+    'width' => '10%',
+    'default' => true,
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => 'fs_fourniseur',
+    'target_record_key' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
   ),
   'total_amount' => 
   array (

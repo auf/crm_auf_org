@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-18 15:34:15
+// created: 2016-09-01 10:41:23
 $mod_strings = array (
   'LBL_SECURITYGROUPS' => 'Groupes de sécurité',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
@@ -44,11 +44,11 @@ $mod_strings = array (
   'LNK_EMAIL_TEMPLATE_LIST' => 'Voir Modèles Email',
   'LNK_IMPORT_NOTES' => 'Import Notes',
   'LNK_NEW_ARCHIVE_EMAIL' => 'Nouvel Email Archivé',
-  'LNK_NEW_EMAIL_TEMPLATE' => 'Nouveau Modèle d\'email',
+  'LNK_NEW_EMAIL_TEMPLATE' => 'Nouveau Modèle d`email',
   'LNK_NEW_EMAIL' => 'Archiver Email',
   'LNK_NEW_SEND_EMAIL' => 'Envoyer un Email',
   'LNK_SENT_EMAIL_LIST' => 'Emails Envoyés',
-  'LNK_VIEW_CALENDAR' => 'Aujourd\'hui',
+  'LNK_VIEW_CALENDAR' => 'Aujourd`hui',
   'LBL_NEW' => 'Nouveau',
   'LNK_CHECK_MY_INBOX' => 'Vérifier Mes Emails',
   'LNK_GROUP_INBOX' => 'Emails Groupés',
@@ -65,7 +65,7 @@ $mod_strings = array (
   'LBL_CREATED_BY' => 'Créé par',
   'LBL_FROM_ADDRESS' => 'De (Adresse)',
   'LBL_PUBLISHED' => 'Publié',
-  'LBL_ACTIVITIES_REPORTS' => 'Rapport d\'activités',
+  'LBL_ACTIVITIES_REPORTS' => 'Rapport d`activités',
   'LNK_VIEW_MY_INBOX' => 'Mes Emails',
   'LBL_ASSIGNED_TO_ID' => 'Assigné à',
   'LBL_EDIT_LAYOUT' => 'Modifier la mise en page',

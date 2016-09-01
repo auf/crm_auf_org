@@ -40,6 +40,12 @@ $dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_aos_contracts_1"] = array 
 );
 
 
+ // created: 2016-08-24 12:20:40
+$dictionary['fs_fourniseur']['fields']['billing_address_street_num_c']['inline_edit']='1';
+$dictionary['fs_fourniseur']['fields']['billing_address_street_num_c']['labelValue']='billing address street num';
+
+ 
+
  // created: 2016-08-18 14:53:43
 $dictionary['fs_fourniseur']['fields']['commentaires_c']['inline_edit']='1';
 $dictionary['fs_fourniseur']['fields']['commentaires_c']['labelValue']='Commentaires';
@@ -239,6 +245,19 @@ $dictionary['fs_fourniseur']['fields']['nomcomptebanque2_c']['labelValue']='Nom 
 
  
 
+// created: 2016-08-19 14:21:13
+$dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_aos_quotes_1"] = array (
+  'name' => 'fs_fourniseur_aos_quotes_1',
+  'type' => 'link',
+  'relationship' => 'fs_fourniseur_aos_quotes_1',
+  'source' => 'non-db',
+  'module' => 'AOS_Quotes',
+  'bean_name' => 'AOS_Quotes',
+  'side' => 'right',
+  'vname' => 'LBL_FS_FOURNISEUR_AOS_QUOTES_1_FROM_AOS_QUOTES_TITLE',
+);
+
+
 // created: 2016-07-25 16:10:38
 $dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_leads_1"] = array (
   'name' => 'fs_fourniseur_leads_1',
@@ -257,6 +276,12 @@ $dictionary['fs_fourniseur']['fields']['description']['inline_edit']=true;
 $dictionary['fs_fourniseur']['fields']['description']['comments']='Full text of the note';
 $dictionary['fs_fourniseur']['fields']['description']['importable']='false';
 $dictionary['fs_fourniseur']['fields']['description']['merge_filter']='disabled';
+
+ 
+
+ // created: 2016-08-24 09:50:43
+$dictionary['fs_fourniseur']['fields']['num_taxe_tps_c']['inline_edit']='1';
+$dictionary['fs_fourniseur']['fields']['num_taxe_tps_c']['labelValue']='Num. taxe TPS (Canada)';
 
  
 
@@ -285,7 +310,7 @@ $dictionary['fs_fourniseur']['fields']['adressebanq_c']['labelValue']='Adresse B
 
  
 
- // created: 2016-05-30 12:26:44
+ // created: 2016-08-24 12:21:01
 $dictionary['fs_fourniseur']['fields']['shipping_address_street_num_c']['inline_edit']='1';
 $dictionary['fs_fourniseur']['fields']['shipping_address_street_num_c']['labelValue']='shipping address street num';
 
@@ -325,7 +350,7 @@ $dictionary['fs_fourniseur']['fields']['employees']['merge_filter']='disabled';
 
  
 
- // created: 2016-08-18 15:26:35
+ // created: 2016-08-24 09:46:31
 $dictionary['fs_fourniseur']['fields']['website']['inline_edit']=true;
 $dictionary['fs_fourniseur']['fields']['website']['comments']='URL of website for the company';
 $dictionary['fs_fourniseur']['fields']['website']['importable']='false';
@@ -357,13 +382,7 @@ $dictionary['fs_fourniseur']['fields']['shipping_address_country']['type']='enum
 
  
 
- // created: 2016-07-28 10:10:09
-$dictionary['fs_fourniseur']['fields']['tvq_c']['inline_edit']='1';
-$dictionary['fs_fourniseur']['fields']['tvq_c']['labelValue']='Num. TVQ (Canada)';
-
- 
-
-// created: 2016-07-25 16:16:29
+// created: 2016-08-24 11:43:19
 $dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_contacts_1"] = array (
   'name' => 'fs_fourniseur_contacts_1',
   'type' => 'link',
@@ -371,6 +390,7 @@ $dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_contacts_1"] = array (
   'source' => 'non-db',
   'module' => 'Contacts',
   'bean_name' => 'Contact',
+  'side' => 'right',
   'vname' => 'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_CONTACTS_TITLE',
 );
 
@@ -393,6 +413,24 @@ $dictionary['fs_fourniseur']['fields']['billing_address_city']['merge_filter']='
 $dictionary['fs_fourniseur']['fields']['billing_address_street']['inline_edit']=true;
 $dictionary['fs_fourniseur']['fields']['billing_address_street']['comments']='The street address used for billing address';
 $dictionary['fs_fourniseur']['fields']['billing_address_street']['merge_filter']='disabled';
+
+ 
+
+ // created: 2016-08-24 09:47:26
+$dictionary['fs_fourniseur']['fields']['poste_ext2_c']['inline_edit']='1';
+$dictionary['fs_fourniseur']['fields']['poste_ext2_c']['labelValue']='Poste 2';
+
+ 
+
+ // created: 2016-08-24 09:49:59
+$dictionary['fs_fourniseur']['fields']['poste_ext1_c']['inline_edit']='1';
+$dictionary['fs_fourniseur']['fields']['poste_ext1_c']['labelValue']='Poste 1';
+
+ 
+
+ // created: 2016-08-24 09:49:36
+$dictionary['fs_fourniseur']['fields']['num_tvq_c']['inline_edit']='1';
+$dictionary['fs_fourniseur']['fields']['num_tvq_c']['labelValue']='Num. TVQ (Canada)';
 
  
 
@@ -448,7 +486,7 @@ $dictionary['fs_fourniseur']['fields']['adresse_swift2_c']['labelValue']='Adress
 
  
 
- // created: 2016-08-18 15:26:51
+ // created: 2016-08-25 14:17:38
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['len']=100;
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['inline_edit']=true;
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['comments']='The Company is of this type';
@@ -482,7 +520,7 @@ $dictionary['fs_fourniseur']['fields']['numcompte_c']['labelValue']='Numéro com
 
  
 
- // created: 2016-06-08 18:17:45
+ // created: 2016-08-24 11:58:54
 $dictionary['fs_fourniseur']['fields']['cedex_c']['inline_edit']='1';
 $dictionary['fs_fourniseur']['fields']['cedex_c']['labelValue']='Cedex';
 
@@ -491,12 +529,6 @@ $dictionary['fs_fourniseur']['fields']['cedex_c']['labelValue']='Cedex';
  // created: 2016-08-18 15:00:09
 $dictionary['fs_fourniseur']['fields']['nom_court_c']['inline_edit']='1';
 $dictionary['fs_fourniseur']['fields']['nom_court_c']['labelValue']='Nom court';
-
- 
-
- // created: 2016-07-28 10:12:45
-$dictionary['fs_fourniseur']['fields']['tps_c']['inline_edit']='1';
-$dictionary['fs_fourniseur']['fields']['tps_c']['labelValue']='Num. taxe TPS (Canada)';
 
  
 

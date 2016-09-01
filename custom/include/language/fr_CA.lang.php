@@ -3880,3 +3880,11 @@ $app_list_strings['moduleListSingular']['jjwg_Areas']='Zone de la carte';
 $app_list_strings['moduleListSingular']['jjwg_Address_Cache']='Cache du plan de l&#039;adresse';
 $app_list_strings['record_type_display']['Contacts']='Contact';
 $app_list_strings['record_type_display_notes']['Contacts']='Contact';
+$GLOBALS['app_list_strings']['typetache_list']=array (
+  '' => '',
+  'cffcoda' => 'Création Fiche Four. Coda',
+);
+$GLOBALS['app_list_strings']['typetache_0']=array (
+  '' => '',
+  'cffcoda' => 'Création fiche four. Coda',
+);

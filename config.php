@@ -226,8 +226,8 @@ $sugar_config = array (
   'default_password' => '',
   'default_permissions' => 
   array (
-    'dir_mode' => 1528,
-    'file_mode' => 432,
+    'dir_mode' => 1533,
+    'file_mode' => 509,
     'user' => '',
     'group' => '',
   ),

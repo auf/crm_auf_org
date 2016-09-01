@@ -68,15 +68,28 @@ array (
         ),
         1 => 
         array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'opportunities_aos_quotes_1_name',
+            'label' => 'LBL_OPPORTUNITIES_AOS_QUOTES_1_FROM_OPPORTUNITIES_TITLE',
+          ),
+        ),
+        2 => 
+        array (
           0 => 
           array (
             'name' => 'type_p_c',
             'studio' => 'visible',
             'label' => 'LBL_TYPE_P',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'invoice_status',
+            'label' => 'LBL_INVOICE_STATUS',
+          ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -86,11 +99,11 @@ array (
           ),
           1 => 
           array (
-            'name' => 'stage',
-            'label' => 'LBL_STAGE',
+            'name' => 'term',
+            'label' => 'LBL_TERM',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -99,21 +112,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'invoice_status',
-            'label' => 'LBL_INVOICE_STATUS',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
-          ),
-          1 => 
-          array (
-            'name' => 'term',
-            'label' => 'LBL_TERM',
+            'name' => 'approval_issue',
+            'label' => 'LBL_APPROVAL_ISSUE',
           ),
         ),
         5 => 
@@ -125,17 +125,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'approval_issue',
-            'label' => 'LBL_APPROVAL_ISSUE',
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'opportunities_aos_quotes_1_name',
-          ),
-          1 => '',
         ),
       ),
       'lbl_address_information' => 
@@ -167,6 +159,17 @@ array (
         array (
           0 => 
           array (
+            'name' => 'fs_fourniseur_aos_quotes_1_name',
+          ),
+        ),
+        2 => 
+        array (
+          0 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'billing_contact',
             'label' => 'LBL_BILLING_CONTACT',
             'displayParams' => 
@@ -175,7 +178,16 @@ array (
             ),
           ),
         ),
-        2 => 
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'currency_id',
+            'studio' => 'visible',
+            'label' => 'LBL_CURRENCY',
+          ),
+        ),
+        5 => 
         array (
           0 => 
           array (

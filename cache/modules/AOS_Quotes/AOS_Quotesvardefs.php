@@ -229,6 +229,10 @@
       'audited' => 1,
       'reportable' => true,
       'studio' => 'visible',
+      'inline_edit' => true,
+      'merge_filter' => 'disabled',
+      'rows' => '4',
+      'cols' => '20',
     ),
     'billing_account_id' => 
     array (
@@ -806,7 +810,7 @@
     ),
     'stage' => 
     array (
-      'required' => '1',
+      'required' => false,
       'name' => 'stage',
       'vname' => 'LBL_STAGE',
       'type' => 'enum',
@@ -822,6 +826,8 @@
       'len' => 100,
       'options' => 'quote_stage_dom',
       'studio' => 'visible',
+      'inline_edit' => true,
+      'merge_filter' => 'disabled',
     ),
     'term' => 
     array (
@@ -1038,6 +1044,34 @@
       'id' => 'AOS_Quotestype_p_c',
       'custom_module' => 'AOS_Quotes',
     ),
+    'montant_total_c' => 
+    array (
+      'inline_edit' => '1',
+      'labelValue' => 'montant total',
+      'required' => false,
+      'source' => 'custom_fields',
+      'name' => 'montant_total_c',
+      'vname' => 'LBL_MONTANT_TOTAL',
+      'type' => 'currency',
+      'massupdate' => '0',
+      'default' => '',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '26',
+      'size' => '20',
+      'enable_range_search' => false,
+      'precision' => 6,
+      'id' => 'AOS_Quotesmontant_total_c',
+      'custom_module' => 'AOS_Quotes',
+    ),
     'opportunities_aos_quotes_1' => 
     array (
       'name' => 'opportunities_aos_quotes_1',
@@ -1081,6 +1115,40 @@
       'module' => 'Notes',
       'bean_name' => 'Note',
       'vname' => 'LBL_AOS_QUOTES_ACTIVITIES_1_NOTES_FROM_NOTES_TITLE',
+    ),
+    'fs_fourniseur_aos_quotes_1' => 
+    array (
+      'name' => 'fs_fourniseur_aos_quotes_1',
+      'type' => 'link',
+      'relationship' => 'fs_fourniseur_aos_quotes_1',
+      'source' => 'non-db',
+      'module' => 'fs_fourniseur',
+      'bean_name' => 'fs_fourniseur',
+      'vname' => 'LBL_FS_FOURNISEUR_AOS_QUOTES_1_FROM_FS_FOURNISEUR_TITLE',
+      'id_name' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+    ),
+    'fs_fourniseur_aos_quotes_1_name' => 
+    array (
+      'name' => 'fs_fourniseur_aos_quotes_1_name',
+      'type' => 'relate',
+      'source' => 'non-db',
+      'vname' => 'LBL_FS_FOURNISEUR_AOS_QUOTES_1_FROM_FS_FOURNISEUR_TITLE',
+      'save' => true,
+      'id_name' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+      'link' => 'fs_fourniseur_aos_quotes_1',
+      'table' => 'fs_fourniseur',
+      'module' => 'fs_fourniseur',
+      'rname' => 'name',
+    ),
+    'fs_fourniseur_aos_quotes_1fs_fourniseur_ida' => 
+    array (
+      'name' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+      'type' => 'link',
+      'relationship' => 'fs_fourniseur_aos_quotes_1',
+      'source' => 'non-db',
+      'reportable' => false,
+      'side' => 'right',
+      'vname' => 'LBL_FS_FOURNISEUR_AOS_QUOTES_1_FROM_AOS_QUOTES_TITLE',
     ),
     'aos_quotes_activities_1_meetings' => 
     array (

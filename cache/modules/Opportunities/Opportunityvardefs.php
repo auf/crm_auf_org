@@ -315,7 +315,7 @@
       'comment' => 'Unconverted amount of the opportunity',
       'importable' => 'required',
       'duplicate_merge' => 'enabled',
-      'required' => true,
+      'required' => false,
       'options' => 'numeric_range_search_dom',
       'enable_range_search' => true,
       'inline_edit' => true,

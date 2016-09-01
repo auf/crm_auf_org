@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-18 15:34:16
+// created: 2016-09-01 10:41:14
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Tâches',
   'LBL_TASK' => 'Tâches:',
@@ -20,7 +20,7 @@ $mod_strings = array (
   'LBL_LIST_DUE_TIME' => 'Heure Échéance',
   'LBL_SUBJECT' => 'Sujet',
   'LBL_STATUS' => 'Statut',
-  'LBL_DUE_DATE' => 'Date échéance',
+  'LBL_DUE_DATE' => 'Date d&#039;échéance',
   'LBL_DUE_TIME' => 'Heure échéance',
   'LBL_PRIORITY' => 'Priorité',
   'LBL_COLON' => ':',
@@ -77,12 +77,12 @@ $mod_strings = array (
   'LBL_PROJECTS' => '(DNU) Projets',
   'LBL_CRE_FIC_FOUR_CODA' => 'Création fiche fournisseur CODA',
   'LBL_DEMANDEUR' => 'Demandeur',
-  'LBL_ASSIGNEA' => 'Assigné à',
   'LBL_BUGS' => 'Bugs',
   'LBL_LEADS' => 'Prospect',
   'LBL_CONTRACT' => 'Contrat',
   'LBL_NOTES' => 'Note',
   'LBL_AOS_INVOICES_ACTIVITIES_1_TASKS_FROM_AOS_INVOICES_TITLE' => 'Activités:Factures',
+  'LBL_TYPETACHE' => 'Type de tâche',
   'LBL_SM_RESPONSABLE_ACTIVITIES_1_TASKS_FROM_SM_RESPONSABLE_TITLE' => 'Activités:Responsable',
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_TASKS_FROM_FS_FOURNISEUR_TITLE' => 'Activités:Fournisseurs',
   'LBL_FS_FOURNISEUR_TASKS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',

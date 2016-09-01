@@ -1,8 +1,6 @@
 <?php
-// created: 2016-08-18 15:34:16
+// created: 2016-09-01 10:41:09
 $mod_strings = array (
-  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
@@ -19,6 +17,8 @@ $mod_strings = array (
   'LBL_LIST_NAME' => 'Name',
   'LBL_EDIT_BUTTON' => 'Edit',
   'LBL_REMOVE' => 'Remove',
+  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Are you sure you want to remove this account from this project?',
   'ERR_DELETE_RECORD' => 'A record number must be specified to delete the account.',
   'LBL_ACCOUNT_NAME' => 'Company Name:',
@@ -118,7 +118,7 @@ $mod_strings = array (
   'LNK_IMPORT_FS_FOURNISEUR' => 'Import Fournisseurs',
   'LBL_FS_FOURNISEUR_SUBPANEL_TITLE' => 'fourniseurs',
   'LBL_FS_FOURNISEUR_LEADS_1_FROM_LEADS_TITLE' => 'Prospects',
-  'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contacts',
+  'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contact(s)',
   'LBL_FS_FOURNISEUR_AOS_PRODUCTS_1_FROM_AOS_PRODUCTS_TITLE' => 'Produits / Services',
   'LBL_FS_FOURNISEUR_CAMPAIGNS_1_FROM_CAMPAIGNS_TITLE' => 'Campagnes',
   'LBL_FS_FOURNISEUR_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE' => 'Projets',
@@ -126,6 +126,7 @@ $mod_strings = array (
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_EMAILS_FROM_EMAILS_TITLE' => 'Activités:Courriels',
   'LBL_FS_FOURNISEUR_TASKS_1_FROM_TASKS_TITLE' => 'Tâches',
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_NOTES_FROM_NOTES_TITLE' => 'Activités:Notes',
+  'LBL_FS_FOURNISEUR_AOS_QUOTES_1_FROM_AOS_QUOTES_TITLE' => 'Propositions',
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_MEETINGS_FROM_MEETINGS_TITLE' => 'Activités:Réunions',
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_CALLS_FROM_CALLS_TITLE' => 'Activités:Appels',
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_TASKS_FROM_TASKS_TITLE' => 'Activités:Tâches',

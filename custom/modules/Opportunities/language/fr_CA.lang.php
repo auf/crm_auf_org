@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-15 14:34:31
+// created: 2016-08-19 14:23:22
 $mod_strings = array (
   'LBL_ACCOUNT_NAME' => 'Compte',
   'LBL_ACCOUNTS' => 'Établissement',
@@ -33,7 +33,7 @@ $mod_strings = array (
   'LBL_SCIENTIFIQUE ' => 'Scientifique',
   'LBL_FAMILLES' => 'Familles',
   'AOS_Quotes' => 'Propositions',
-  'LBL_OPPORTUNITIES_AOS_QUOTES_1_FROM_AOS_QUOTES_TITLE' => 'Partenariat',
+  'LBL_OPPORTUNITIES_AOS_QUOTES_1_FROM_AOS_QUOTES_TITLE' => 'Partenariat(s)',
   'LBL_OPPORTUNITY' => 'Opportunité',
   'UPDATE_BUGFOUND_COUNT' => 'Bugs trouvés',
   'UPDATE_BUG_COUNT' => 'Bugs trouvés, tentative de correction',

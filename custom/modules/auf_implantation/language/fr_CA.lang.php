@@ -116,4 +116,5 @@ $mod_strings = array (
   'LBL_DELETED' => 'Supprimé',
   'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
+  'LBL_GROUPTAB1_1452010804' => 'AUF',
 );

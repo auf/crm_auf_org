@@ -1,6 +1,8 @@
 <?php
-// created: 2016-08-18 15:34:15
+// created: 2016-09-01 10:41:14
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
+  'LBL_ASSIGNED_TO_NAME' => 'Utilisateur',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -15,12 +17,6 @@ $mod_strings = array (
   'LBL_CREATED_USER' => 'Créé par',
   'LBL_MODIFIED_USER' => 'Modifié par',
   'LBL_LIST_NAME' => 'Nom',
-  'LBL_EDIT_BUTTON' => 'Modifier',
-  'LBL_REMOVE' => 'Supprimer',
-  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
-  'LBL_ASSIGNED_TO_NAME' => 'Utilisateur',
-  'LBL_SECURITYGROUPS' => 'Groupes de sécurité',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
   'LBL_LIST_FORM_TITLE' => 'Liste des zones',
   'LBL_MODULE_NAME' => 'Zones',
   'LBL_MODULE_TITLE' => 'Zones',

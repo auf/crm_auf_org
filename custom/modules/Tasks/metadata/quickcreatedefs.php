@@ -53,36 +53,13 @@ array (
         array (
           0 => 
           array (
-            'name' => 'cre_fic_four_coda_c',
-            'label' => 'LBL_CRE_FIC_FOUR_CODA',
-          ),
-          1 => 
-          array (
-            'name' => 'demandeur_c',
-            'label' => 'LBL_DEMANDEUR',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'date_start',
-            'type' => 'datetimecombo',
+            'name' => 'name',
             'displayParams' => 
             array (
-              'showNoneCheckbox' => true,
-              'showFormats' => true,
+              'required' => true,
             ),
           ),
           1 => 
-          array (
-            'name' => 'assignea_c',
-            'label' => 'LBL_ASSIGNEA',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
           array (
             'name' => 'status',
             'displayParams' => 
@@ -90,12 +67,37 @@ array (
               'required' => true,
             ),
           ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'typetache_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPETACHE',
+          ),
           1 => 
           array (
-            'name' => 'priority',
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_entered',
+            'comment' => 'Date record created',
+            'label' => 'LBL_DATE_ENTERED',
+          ),
+          1 => 
+          array (
+            'name' => 'date_start',
+            'type' => 'datetimecombo',
             'displayParams' => 
             array (
-              'required' => true,
+              'showNoneCheckbox' => true,
+              'showFormats' => true,
             ),
           ),
         ),
@@ -106,19 +108,18 @@ array (
             'name' => 'contact_name',
             'label' => 'LBL_CONTACT_NAME',
           ),
-          1 => '',
-        ),
-        4 => 
-        array (
-          0 => 
+          1 => 
           array (
-            'name' => 'name',
+            'name' => 'priority',
             'displayParams' => 
             array (
               'required' => true,
             ),
           ),
-          1 => 
+        ),
+        4 => 
+        array (
+          0 => 
           array (
             'name' => 'parent_name',
             'label' => 'LBL_LIST_RELATED_TO',

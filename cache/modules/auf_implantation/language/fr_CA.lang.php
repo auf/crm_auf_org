@@ -1,6 +1,8 @@
 <?php
-// created: 2016-08-18 15:34:15
+// created: 2016-09-01 10:41:14
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
+  'LBL_ASSIGNED_TO_NAME' => 'Responsable de l`implantation',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -17,8 +19,6 @@ $mod_strings = array (
   'LBL_LIST_NAME' => 'Nom',
   'LBL_EDIT_BUTTON' => 'Modifier',
   'LBL_REMOVE' => 'Supprimer',
-  'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
-  'LBL_ASSIGNED_TO_NAME' => 'Responsable de l`implantation',
   'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Etes-vous sûr de vouloir supprimer compte de ce projet ?',
   'ERR_DELETE_RECORD' => 'Un identifiant d`enregistrement doit être spécifié pour toute suppression.',
   'LBL_ACCOUNT_NAME' => 'Nom de l`implantation',
@@ -155,6 +155,7 @@ $mod_strings = array (
   'LBL_NUM' => 'Numéro civique',
   'LBL_EDITVIEW_PANEL5' => 'Nouveau Panneau 5',
   'LBL_JJWG_MAPS_ADDRESS' => 'Adresse géocodage',
+  'LBL_GROUPTAB1_1452010804' => 'AUF',
   'LBL_AUF_IMPLANTATION_AOS_CONTRACTS_1_FROM_AOS_CONTRACTS_TITLE' => 'Contrats',
   'LBL_AUF_IMPLANTATION_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contacts',
   'LBL_AUF_IMPLANTATION_AUF_IMPLANTATION_1_FROM_AUF_IMPLANTATION_L_TITLE' => 'Implantation',

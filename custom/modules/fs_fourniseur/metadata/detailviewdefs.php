@@ -31,27 +31,22 @@ array (
           'field' => '30',
         ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_ACCOUNT_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_ADDRESS_INFORMATION' => 
         array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EMAIL_ADDRESSES' => 
-        array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_DESCRIPTION_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL1' => 
@@ -82,19 +77,19 @@ array (
             'name' => 'numero_coda_c',
             'label' => 'LBL_NUMERO_CODA',
           ),
-          1 => '',
+          1 => 'fs_fourniseur_type',
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'tps_c',
-            'label' => 'LBL_TPS',
+            'name' => 'num_taxe_tps_c',
+            'label' => 'LBL_NUM_TAXE_TPS',
           ),
           1 => 
           array (
-            'name' => 'tvq_c',
-            'label' => 'LBL_TVQ',
+            'name' => 'num_tvq_c',
+            'label' => 'LBL_NUM_TVQ',
           ),
         ),
         3 => 
@@ -146,48 +141,62 @@ array (
       array (
         0 => 
         array (
-          0 => 'shipping_address_street',
-          1 => '',
+          0 => 'phone_office',
+          1 => 
+          array (
+            'name' => 'num_phone_ship_c',
+            'label' => 'LBL_NUM_PHONE_SHIP',
+          ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'num_phone_ship_c',
-            'label' => 'LBL_NUM_PHONE_SHIP',
+            'name' => 'poste_ext1_c',
+            'label' => 'LBL_POSTE_EXT1',
           ),
+          1 => 
+          array (
+            'name' => 'poste_ext2_c',
+            'label' => 'LBL_POSTE_EXT2',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 'email1',
+          1 => 'website',
+        ),
+        3 => 
+        array (
+          0 => 'phone_fax',
           1 => 
           array (
             'name' => 'num_fax_ship_c',
             'label' => 'LBL_NUM_FAX_SHIP',
           ),
         ),
-        2 => 
-        array (
-          0 => 'email1',
-          1 => '',
-        ),
-      ),
-      'lbl_email_addresses' => 
-      array (
-        0 => 
-        array (
-          0 => 'billing_address_street',
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 'phone_office',
-          1 => 'phone_fax',
-        ),
-        2 => 
+        4 => 
         array (
           0 => 
           array (
-            'name' => 'email2_c',
-            'label' => 'LBL_EMAIL2',
+            'name' => 'billing_address_street',
+            'label' => 'LBL_BILLING_ADDRESS',
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'billing',
+            ),
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'shipping_address_street',
+            'label' => 'LBL_SHIPPING_ADDRESS',
+            'type' => 'ShipAddress',
+            'displayParams' => 
+            array (
+              'key' => 'shipping',
+            ),
+          ),
         ),
       ),
       'lbl_description_information' => 
@@ -223,16 +232,16 @@ array (
           ),
           1 => 
           array (
-            'name' => 'adressebanq_state_c',
-            'label' => 'LBL_ADRESSEBANQ_STATE',
+            'name' => 'adressebanq_city_c',
+            'label' => 'LBL_ADRESSEBANQ_CITY',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'adressebanq_city_c',
-            'label' => 'LBL_ADRESSEBANQ_CITY',
+            'name' => 'adressebanq_state_c',
+            'label' => 'LBL_ADRESSEBANQ_STATE',
           ),
           1 => 
           array (
@@ -280,11 +289,6 @@ array (
         ),
         2 => 
         array (
-          0 => '',
-          1 => '',
-        ),
-        3 => 
-        array (
           0 => 
           array (
             'name' => 'banque2_c',
@@ -292,16 +296,16 @@ array (
           ),
           1 => 
           array (
-            'name' => 'banque2_state_c',
-            'label' => 'LBL_BANQUE2_STATE',
+            'name' => 'banque2_city_c',
+            'label' => 'LBL_BANQUE2_CITY',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
-            'name' => 'banque2_city_c',
-            'label' => 'LBL_BANQUE2_CITY',
+            'name' => 'banque2_state_c',
+            'label' => 'LBL_BANQUE2_STATE',
           ),
           1 => 
           array (
@@ -309,7 +313,7 @@ array (
             'label' => 'LBL_BANQUE2_POSTALCODE',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (

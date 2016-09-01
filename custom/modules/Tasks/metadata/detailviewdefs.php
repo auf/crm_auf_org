@@ -97,25 +97,17 @@ array (
         array (
           0 => 
           array (
-            'name' => 'cre_fic_four_coda_c',
-            'label' => 'LBL_CRE_FIC_FOUR_CODA',
+            'name' => 'typetache_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPETACHE',
           ),
           1 => 
           array (
-            'name' => 'demandeur_c',
-            'label' => 'LBL_DEMANDEUR',
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO',
           ),
         ),
         2 => 
-        array (
-          0 => 'date_start',
-          1 => 
-          array (
-            'name' => 'assignea_c',
-            'label' => 'LBL_ASSIGNEA',
-          ),
-        ),
-        3 => 
         array (
           0 => 
           array (
@@ -123,32 +115,40 @@ array (
             'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
             'label' => 'LBL_DATE_ENTERED',
           ),
-          1 => 
+          1 => 'date_start',
+        ),
+        3 => 
+        array (
+          0 => 
           array (
             'name' => 'parent_name',
             'customLabel' => '{sugar_translate label=\'LBL_MODULE_NAME\' module=$fields.parent_type.value}',
           ),
+          1 => 'date_due',
         ),
         4 => 
         array (
-          0 => 'date_due',
-          1 => 
+          0 => 
           array (
             'name' => 'contact_name',
             'label' => 'LBL_CONTACT',
           ),
+          1 => 'priority',
         ),
         5 => 
         array (
-          0 => 'priority',
-          1 => 
+          0 => 
           array (
             'name' => 'aos_quotes_tasks_1_name',
           ),
+          1 => 'description',
         ),
         6 => 
         array (
-          0 => 'description',
+          0 => 
+          array (
+            'name' => 'sm_responsable_activities_1_tasks_name',
+          ),
           1 => 
           array (
             'name' => 'sm_responsable_activities_1_tasks_name',
@@ -158,7 +158,7 @@ array (
         array (
           0 => 
           array (
-            'name' => 'sm_responsable_activities_1_tasks_name',
+            'name' => 'fs_fourniseur_activities_1_tasks_name',
           ),
           1 => 
           array (
@@ -172,13 +172,6 @@ array (
             'name' => 'fs_fourniseur_activities_1_tasks_name',
           ),
           1 => 
-          array (
-            'name' => 'fs_fourniseur_activities_1_tasks_name',
-          ),
-        ),
-        9 => 
-        array (
-          0 => 
           array (
             'name' => 'fs_fourniseur_tasks_1_name',
           ),

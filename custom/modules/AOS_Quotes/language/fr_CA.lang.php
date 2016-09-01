@@ -1,8 +1,8 @@
 <?php
-// created: 2016-08-15 14:34:32
+// created: 2016-08-24 10:52:43
 $mod_strings = array (
   'LBL_BILLING_ACCOUNT' => 'Établissement',
-  'LBL_OPPORTUNITY' => 'Projet',
+  'LBL_OPPORTUNITY' => 'Projet (proposition)',
   'LBL_BILLING_ADDRESS' => 'Facturation - Adresse',
   'LBL_BILLING_ADDRESS_CITY' => 'Facturation - Ville',
   'LBL_BILLING_ADDRESS_COUNTRY' => 'Facturation - Pays ',
@@ -61,4 +61,7 @@ $mod_strings = array (
   'LBL_AOS_QUOTES_ACTIVITIES_1_MEETINGS_FROM_MEETINGS_TITLE' => 'Activités:Réunion',
   'LBL_AOS_QUOTES_ACTIVITIES_1_EMAILS_FROM_EMAILS_TITLE' => 'Activités:Courriel',
   'LBL_AOS_QUOTES_ACTIVITIES_1_CALLS_FROM_CALLS_TITLE' => 'Activités:Appel',
+  'LBL_APPROVAL_ISSUE' => 'Commentaires',
+  'LBL_OPPORTUNITIES_AOS_QUOTES_1_FROM_OPPORTUNITIES_TITLE' => 'Projets (partenariat)',
+  'LBL_MONTANT_TOTAL' => 'montant total',
 );

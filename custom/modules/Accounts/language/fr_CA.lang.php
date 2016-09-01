@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-15 14:34:31
+// created: 2016-08-25 16:39:08
 $mod_strings = array (
   'LBL_DATE_MODIFIED' => 'Modifié le',
   'LBL_NAME' => 'Intitulé',
@@ -162,4 +162,6 @@ $mod_strings = array (
   'LBL_CONTACTS' => 'Contact',
   'LBL_LEADS' => 'Prospect',
   'LBL_PROSPECT_LIST' => 'Liste de cibles',
+  'LBL_GROUPTAB1_1452010804' => 'AUF',
+  'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Projets',
 );

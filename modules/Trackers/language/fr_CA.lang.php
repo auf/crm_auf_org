@@ -89,7 +89,7 @@ $mod_strings = array (
 		  'LBL_TRACKER_SESSIONS_HELP' => 'Suivi des utilisateurs actifs et des informations de sessions des utilisateurs',
 		  'LBL_TRACKER_DESC' => 'Suivi des Actions',
 		  'LBL_TRACKER_HELP' => 'Suivi des pages vues par les utilisateurs (enregistrements et modules accédés) et des enregistrements sauvegardés',
-		  'LBL_TRACKER_PRUNE_INTERVAL' => 'Nombre de jours durant lesquels les données de Suivi sont sauvegardées avant d\'être purgées par le planificateur de tâches.',
+		  'LBL_TRACKER_PRUNE_INTERVAL' => 'Nombre de jours durant lesquels les données de Suivi sont sauvegardées avant d`être purgées par le planificateur de tâches.',
 		  'LBL_TRACKER_PRUNE_RANGE' => 'Nombre de jours',
 );
 ?>

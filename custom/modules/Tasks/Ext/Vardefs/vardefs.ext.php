@@ -2,6 +2,18 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2016-08-24 11:16:03
+$dictionary['Task']['fields']['date_due']['inline_edit']=true;
+$dictionary['Task']['fields']['date_due']['merge_filter']='disabled';
+
+ 
+
+ // created: 2016-08-25 14:10:29
+$dictionary['Task']['fields']['typetache_c']['inline_edit']='1';
+$dictionary['Task']['fields']['typetache_c']['labelValue']='Type de tâche';
+
+ 
+
 // created: 2016-08-11 12:52:24
 $dictionary["Task"]["fields"]["aos_invoices_activities_1_tasks"] = array (
   'name' => 'aos_invoices_activities_1_tasks',
@@ -63,12 +75,6 @@ $dictionary["Task"]["fields"]["fs_fourniseur_tasks_1fs_fourniseur_ida"] = array 
  // created: 2016-08-08 16:08:02
 $dictionary['Task']['fields']['cre_fic_four_coda_c']['inline_edit']='1';
 $dictionary['Task']['fields']['cre_fic_four_coda_c']['labelValue']='Création fiche fournisseur CODA';
-
- 
-
- // created: 2016-08-08 16:11:56
-$dictionary['Task']['fields']['assignea_c']['inline_edit']='1';
-$dictionary['Task']['fields']['assignea_c']['labelValue']='Assigné à';
 
  
 

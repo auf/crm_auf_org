@@ -8830,7 +8830,7 @@
   'fs_fourniseur_contacts_1' => 
   array (
     'name' => 'fs_fourniseur_contacts_1',
-    'true_relationship_type' => 'many-to-many',
+    'true_relationship_type' => 'one-to-many',
     'from_studio' => true,
     'relationships' => 
     array (
@@ -8896,12 +8896,20 @@
       ),
       1 => 
       array (
+        'name' => 'fs_fourniseur_contacts_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
+        ),
+      ),
+      2 => 
+      array (
         'name' => 'fs_fourniseur_contacts_1_alt',
         'type' => 'alternate_key',
         'fields' => 
         array (
-          0 => 'fs_fourniseur_contacts_1fs_fourniseur_ida',
-          1 => 'fs_fourniseur_contacts_1contacts_idb',
+          0 => 'fs_fourniseur_contacts_1contacts_idb',
         ),
       ),
     ),
@@ -10421,6 +10429,103 @@
     'relationship_type' => 'one-to-many',
     'relationship_role_column' => 'parent_type',
     'relationship_role_column_value' => 'sm_Responsable',
+  ),
+  'fs_fourniseur_aos_quotes_1' => 
+  array (
+    'name' => 'fs_fourniseur_aos_quotes_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'fs_fourniseur_aos_quotes_1' => 
+      array (
+        'lhs_module' => 'fs_fourniseur',
+        'lhs_table' => 'fs_fourniseur',
+        'lhs_key' => 'id',
+        'rhs_module' => 'AOS_Quotes',
+        'rhs_table' => 'aos_quotes',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'fs_fourniseur_aos_quotes_1_c',
+        'join_key_lhs' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+        'join_key_rhs' => 'fs_fourniseur_aos_quotes_1aos_quotes_idb',
+      ),
+    ),
+    'table' => 'fs_fourniseur_aos_quotes_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'fs_fourniseur_aos_quotes_1aos_quotes_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'fs_fourniseur_aos_quotes_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'fs_fourniseur_aos_quotes_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'fs_fourniseur_aos_quotes_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'fs_fourniseur_aos_quotes_1aos_quotes_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'fs_fourniseur',
+    'lhs_table' => 'fs_fourniseur',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Quotes',
+    'rhs_table' => 'aos_quotes',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'fs_fourniseur_aos_quotes_1_c',
+    'join_key_lhs' => 'fs_fourniseur_aos_quotes_1fs_fourniseur_ida',
+    'join_key_rhs' => 'fs_fourniseur_aos_quotes_1aos_quotes_idb',
   ),
   'sm_responsable_activities_1_meetings' => 
   array (
@@ -16111,6 +16216,39 @@
     'lhs_key' => 'id',
     'rhs_module' => 'sm_Responsable',
     'rhs_table' => 'sm_responsable',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'am_projectholidays_modified_user' => 
+  array (
+    'name' => 'am_projectholidays_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AM_ProjectHolidays',
+    'rhs_table' => 'am_projectholidays',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'am_projectholidays_created_by' => 
+  array (
+    'name' => 'am_projectholidays_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AM_ProjectHolidays',
+    'rhs_table' => 'am_projectholidays',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'am_projectholidays_assigned_user' => 
+  array (
+    'name' => 'am_projectholidays_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AM_ProjectHolidays',
+    'rhs_table' => 'am_projectholidays',
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),
