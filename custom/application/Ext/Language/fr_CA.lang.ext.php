@@ -687,9 +687,10 @@ $app_list_strings['record_type_display_notes']['Prop_Proposition'] = 'Prop_Propo
  * @author Salesagility Ltd <info@salesagility.com>
  */
 
-$app_strings['LBL_QUICK_ACCOUNT'] = 'Créer Compte';
+$app_strings['LBL_QUICK_ACCOUNT'] = 'Créer Établissement';
+$app_strings['LBL_QUICK_FOURNISSEUR'] = 'Créer Compte';
 $app_strings['LBL_QUICK_CONTACT'] = 'Créer Contact';
-$app_strings['LBL_QUICK_OPPORTUNITY'] = 'Créer Opportunité';
+$app_strings['LBL_QUICK_OPPORTUNITY'] = 'Créer Projet';
 $app_strings['LBL_QUICK_LEAD'] = 'Créer Prospect';
 $app_strings['LBL_QUICK_DOCUMENT'] = 'Créer Document';
 $app_strings['LBL_QUICK_CALL'] = 'Planifier Appel';

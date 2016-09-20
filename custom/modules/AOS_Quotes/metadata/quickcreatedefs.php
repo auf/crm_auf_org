@@ -73,7 +73,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_TYPE_P',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -135,7 +134,6 @@ array (
             'name' => 'opportunities_aos_quotes_1_name',
             'label' => 'LBL_OPPORTUNITIES_AOS_QUOTES_1_FROM_OPPORTUNITIES_TITLE',
           ),
-          1 => '',
         ),
       ),
       'lbl_address_information' => 

@@ -105,8 +105,9 @@ $GLOBALS["app_list_strings"] =
     'sm_Responsable' => 'Responsables',
     'fs_company' => 'fourniseurs',
     'fs_ODA' => 'LBL_FIRM',
-    'fs_fourniseur' => 'Fournisseurs',
+    'fs_fourniseur' => 'Comptes',
     'auf_implantation' => 'Implantations',
+	'CPT_Compte' => 'Établissements',
   ),
   'moduleListSingular' => 
   array (
@@ -141,9 +142,10 @@ $GLOBALS["app_list_strings"] =
     'Reminders' => 'Reminder',
     'Reminders_Invitees' => 'Reminder_Invitee',
     'auf_implantation' => 'Implantation',
-    'fs_fourniseur' => 'Fournisseur',
+    'fs_fourniseur' => 'Compte',
     'sm_Responsable' => 'Responsable',
     'FP_events' => 'Évènements',
+	'CPT_Compte' => 'Établissements',
   ),
   'checkbox_dom' => 
   array (
@@ -464,7 +466,7 @@ $GLOBALS["app_list_strings"] =
     'Low' => 'Basse',
   ),
   'project_priority_default' => 'Moyenne',
-  'record_type_default_key' => 'Comptes',
+  'record_type_default_key' => 'Établissements',
   'record_type_display' => 
   array (
     '' => '',
@@ -503,7 +505,7 @@ $GLOBALS["app_list_strings"] =
 	'Contacts' => 'Contact',
 	'Leads' => 'Lead',
 	'sm_Responsable' => 'Responsable',
-	'fs_fourniseur' => 'Fournisseur',
+	'fs_fourniseur' => 'Compte',
 	'Opportunities' => 'Projet',
 	'AOS_Quotes' => 'Devis',
 	'Tasks' => 'Tâche',
@@ -919,7 +921,7 @@ $GLOBALS["app_list_strings"] =
     'Users' => 'Utilisateurs',
     'Prospects' => 'Cibles',
     'Leads' => 'Prospects',
-    'Accounts' => 'Comptes',
+    'Accounts' => 'Établissements',
   ),
   'merge_operators_dom' => 
   array (
@@ -2154,7 +2156,7 @@ $GLOBALS["app_list_strings"] =
   ),
   'map_module_type_list' => 
   array (
-    'Accounts' => 'Comptes',
+    'Accounts' => 'Établissements',
     'Contacts' => 'Contacts',
     'Cases' => 'Tickets',
     'Leads' => 'Prospects',
@@ -2165,7 +2167,7 @@ $GLOBALS["app_list_strings"] =
   ),
   'map_relate_type_list' => 
   array (
-    'Accounts' => 'Comptes',
+    'Accounts' => 'Établissements',
     'Contacts' => 'Contact',
     'Cases' => 'Tickets',
     'Leads' => 'Leads',
@@ -2666,7 +2668,7 @@ $GLOBALS["app_list_strings"] =
     'AOS_Quotes' => 'Devis',
     'AOS_Invoices' => 'Factures',
     'AOS_Contracts' => 'Contrats',
-    'Accounts' => 'Comptes',
+    'Accounts' => 'Établissements',
     'Contacts' => 'Contacts',
     'Leads' => 'Prospects',
   ),
@@ -2683,7 +2685,7 @@ $GLOBALS["app_list_strings"] =
   'contract_type_list' => 
   array (
     'Type' => 'Type',
-    0 => 'Convention d\'hébergement',
+    0 => 'Convention d&#39;hébergement',
     1 => 'Accord de siège',
   ),
   'fs_fourniseur_type_dom' => 
@@ -2927,7 +2929,7 @@ $GLOBALS["app_list_strings"] =
     'Users' => 'Utilisateurs',
     'DocumentRevisions' => 'Version des documents',
     'jjwg_Areas' => 'Zones de la carte',
-    'fs_fourniseur' => 'fourniseurs',
+    'fs_fourniseur' => 'Comptes',
     'FP_events' => 'Évènements',
   ),
   'type_implantation_list' => 
@@ -3887,4 +3889,25 @@ $GLOBALS['app_list_strings']['typetache_list']=array (
 $GLOBALS['app_list_strings']['typetache_0']=array (
   '' => '',
   'cffcoda' => 'Création fiche four. Coda',
+);
+$app_list_strings['moduleList']['CPT_Compte']='Compte_DNU';
+$app_list_strings['moduleListSingular']['CPT_Compte']='Compte_DNU';
+$app_list_strings['moduleList']['fs_fourniseur']='Comptes';
+$app_list_strings['moduleListSingular']['fs_fourniseur']='Compte';
+$app_list_strings['parent_type_display']['fs_fourniseur']='Compte';
+$GLOBALS['app_list_strings']['fs_fourniseur_type_dom']=array (
+  '' => '',
+  'fournisseur' => 'Fournisseur',
+  'Analyst' => 'Analyste',
+  'Competitor' => 'Concurent',
+  'Customer' => 'Client',
+  'Integrator' => 'Intégrateur',
+  'Investor' => 'Investisseur',
+  'Partner' => 'Partenaire',
+  'Press' => 'Presse',
+  'Prospect' => 'Prospect',
+  'Reseller' => 'Revendeur',
+  'Other' => 'Autre',
+  'Provider' => 'Поставщик',
+  'Delivery service' => 'Служба доставки',
 );

@@ -68,7 +68,6 @@ array (
         ),
         1 => 
         array (
-          0 => '',
           1 => 
           array (
             'name' => 'opportunities_aos_quotes_1_name',
@@ -164,7 +163,6 @@ array (
         ),
         2 => 
         array (
-          0 => '',
         ),
         3 => 
         array (

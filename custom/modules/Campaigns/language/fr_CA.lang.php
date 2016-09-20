@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-15 14:34:31
+// created: 2016-09-19 10:14:27
 $mod_strings = array (
   'LBL_ACCOUNTS' => 'Établissement',
   'LBL_OPPORTUNITIES' => 'Projets',
@@ -84,4 +84,5 @@ $mod_strings = array (
   'LBL_NOT_VALID_EMAIL_ADDRESS' => 'Adresse courriel invalide',
   'LBL_LEADS' => 'Prospect',
   'LBL_CONTACTS' => 'Contact',
+  'LBL_FS_FOURNISEUR_CAMPAIGNS_1_FROM_FS_FOURNISEUR_TITLE' => 'Comptes',
 );

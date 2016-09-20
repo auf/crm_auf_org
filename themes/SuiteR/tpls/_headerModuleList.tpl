@@ -346,6 +346,7 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="index.php?module=Accounts&action=EditView&return_module=Accounts&return_action=DetailView">{$APP.LBL_QUICK_ACCOUNT}</a></li>
+					<li><a href="index.php?module=fs_fourniseur&action=EditView&return_module=fs_fourniseur&return_action=DetailView">{$APP.LBL_QUICK_FOURNISSEUR}</a></li>
                     <li><a href="index.php?module=Contacts&action=EditView&return_module=Contacts&return_action=DetailView">{$APP.LBL_QUICK_CONTACT}</a></li>
                     <li><a href="index.php?module=Opportunities&action=EditView&return_module=Opportunities&return_action=DetailView">{$APP.LBL_QUICK_OPPORTUNITY}</a></li>
                     <li><a href="index.php?module=Leads&action=EditView&return_module=Leads&return_action=DetailView">{$APP.LBL_QUICK_LEAD}</a></li>

@@ -229,7 +229,6 @@ array (
         ),
         1 => 
         array (
-          0 => '',
           1 => 
           array (
             'name' => 'shipping_address_position_cp_c',
@@ -239,7 +238,6 @@ array (
         ),
         2 => 
         array (
-          0 => '',
           1 => 
           array (
             'name' => 'shipping_address_precision_avant_c',
@@ -248,7 +246,6 @@ array (
         ),
         3 => 
         array (
-          0 => '',
           1 => 
           array (
             'name' => 'shipping_address_precision_apres_c',

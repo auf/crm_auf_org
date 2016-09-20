@@ -50,13 +50,13 @@ array (
     ),
     'advanced_search' => 
     array (
-      0 => 
+      'first_name' => 
       array (
         'name' => 'first_name',
         'default' => true,
         'width' => '10%',
       ),
-      1 => 
+      'email' => 
       array (
         'name' => 'email',
         'label' => 'LBL_ANY_EMAIL',
@@ -64,7 +64,7 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      2 => 
+      'phone' => 
       array (
         'name' => 'phone',
         'label' => 'LBL_ANY_PHONE',
@@ -72,13 +72,13 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      3 => 
+      'last_name' => 
       array (
         'name' => 'last_name',
         'default' => true,
         'width' => '10%',
       ),
-      4 => 
+      'address_street' => 
       array (
         'name' => 'address_street',
         'label' => 'LBL_ANY_ADDRESS',
@@ -86,7 +86,7 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      5 => 
+      'address_city' => 
       array (
         'name' => 'address_city',
         'label' => 'LBL_CITY',
@@ -94,13 +94,13 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      6 => 
+      'account_name' => 
       array (
         'name' => 'account_name',
         'default' => true,
         'width' => '10%',
       ),
-      7 => 
+      'address_state' => 
       array (
         'name' => 'address_state',
         'label' => 'LBL_STATE',
@@ -108,7 +108,7 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      8 => 
+      'address_postalcode' => 
       array (
         'name' => 'address_postalcode',
         'label' => 'LBL_POSTAL_CODE',
@@ -116,7 +116,7 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      9 => 
+      'assigned_user_id' => 
       array (
         'name' => 'assigned_user_id',
         'type' => 'enum',
@@ -132,7 +132,7 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      10 => 
+      'country_c' => 
       array (
         'type' => 'enum',
         'default' => true,
@@ -141,7 +141,7 @@ array (
         'width' => '10%',
         'name' => 'country_c',
       ),
-      11 => 
+      'lead_source' => 
       array (
         'name' => 'lead_source',
         'default' => true,

@@ -31,18 +31,6 @@ $dictionary["Meeting"]["fields"]["aos_quotes_activities_1_meetings"] = array (
 );
 
 
-// created: 2016-08-10 15:12:22
-$dictionary["Meeting"]["fields"]["prop_proposition_activities_1_meetings"] = array (
-  'name' => 'prop_proposition_activities_1_meetings',
-  'type' => 'link',
-  'relationship' => 'prop_proposition_activities_1_meetings',
-  'source' => 'non-db',
-  'module' => 'Prop_Proposition',
-  'bean_name' => 'Prop_Proposition',
-  'vname' => 'LBL_PROP_PROPOSITION_ACTIVITIES_1_MEETINGS_FROM_PROP_PROPOSITION_TITLE',
-);
-
-
  // created: 2015-10-21 11:18:00
 $dictionary['Meeting']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 
@@ -52,18 +40,6 @@ $dictionary['Meeting']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 $dictionary['Meeting']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
-
-// created: 2016-08-10 15:12:51
-$dictionary["Meeting"]["fields"]["part_partenariat_activities_1_meetings"] = array (
-  'name' => 'part_partenariat_activities_1_meetings',
-  'type' => 'link',
-  'relationship' => 'part_partenariat_activities_1_meetings',
-  'source' => 'non-db',
-  'module' => 'part_Partenariat',
-  'bean_name' => 'part_Partenariat',
-  'vname' => 'LBL_PART_PARTENARIAT_ACTIVITIES_1_MEETINGS_FROM_PART_PARTENARIAT_TITLE',
-);
-
 
  // created: 2015-10-21 11:18:00
 $dictionary['Meeting']['fields']['jjwg_maps_lng_c']['inline_edit']=1;

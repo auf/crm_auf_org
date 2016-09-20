@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-19 14:23:22
+// created: 2016-09-19 10:14:27
 $mod_strings = array (
   'LBL_ACCOUNT_NAME' => 'Compte',
   'LBL_ACCOUNTS' => 'Établissement',
@@ -54,4 +54,5 @@ $mod_strings = array (
   'LBL_CALLS' => 'Appel',
   'LBL_EMAILS' => 'Courriel',
   'LBL_LEADS' => 'Prospect',
+  'LBL_FS_FOURNISEUR_OPPORTUNITIES_1_FROM_FS_FOURNISEUR_TITLE' => 'Comptes',
 );

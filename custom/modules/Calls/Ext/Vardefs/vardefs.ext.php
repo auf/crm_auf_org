@@ -14,18 +14,6 @@ $dictionary["Call"]["fields"]["aos_invoices_activities_1_calls"] = array (
 );
 
 
-// created: 2016-08-10 15:12:51
-$dictionary["Call"]["fields"]["part_partenariat_activities_1_calls"] = array (
-  'name' => 'part_partenariat_activities_1_calls',
-  'type' => 'link',
-  'relationship' => 'part_partenariat_activities_1_calls',
-  'source' => 'non-db',
-  'module' => 'part_Partenariat',
-  'bean_name' => 'part_Partenariat',
-  'vname' => 'LBL_PART_PARTENARIAT_ACTIVITIES_1_CALLS_FROM_PART_PARTENARIAT_TITLE',
-);
-
-
 // created: 2015-12-22 14:51:54
 $dictionary["Call"]["fields"]["sm_responsable_activities_1_calls"] = array (
   'name' => 'sm_responsable_activities_1_calls',
@@ -47,18 +35,6 @@ $dictionary["Call"]["fields"]["fs_fourniseur_activities_1_calls"] = array (
   'module' => 'fs_fourniseur',
   'bean_name' => 'fs_fourniseur',
   'vname' => 'LBL_FS_FOURNISEUR_ACTIVITIES_1_CALLS_FROM_FS_FOURNISEUR_TITLE',
-);
-
-
-// created: 2016-08-10 15:12:22
-$dictionary["Call"]["fields"]["prop_proposition_activities_1_calls"] = array (
-  'name' => 'prop_proposition_activities_1_calls',
-  'type' => 'link',
-  'relationship' => 'prop_proposition_activities_1_calls',
-  'source' => 'non-db',
-  'module' => 'Prop_Proposition',
-  'bean_name' => 'Prop_Proposition',
-  'vname' => 'LBL_PROP_PROPOSITION_ACTIVITIES_1_CALLS_FROM_PROP_PROPOSITION_TITLE',
 );
 
 

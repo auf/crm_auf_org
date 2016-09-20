@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-25 16:39:08
+// created: 2016-09-20 10:55:44
 $mod_strings = array (
   'LBL_DATE_MODIFIED' => 'Modifié le',
   'LBL_NAME' => 'Intitulé',
@@ -127,7 +127,7 @@ $mod_strings = array (
   'LBL_MODULE_TITLE' => 'Établissements: Accueil',
   'LBL_NEW_FORM_TITLE' => 'Nouvel Établissement',
   'LBL_VIEW_FORM_TITLE' => 'Vue Établissements',
-  'MSG_DUPLICATE' => 'Créer cet établissement est une source de doublon potentielle. Vous pouvez soit sélectionner un compte dans la liste ci dessous ou cliquer sur &#38;Sauvegarder&#38; pour poursuivre la création de la fiche compte avec les données saisies.',
+  'MSG_DUPLICATE' => 'Créer cet établissement est une source de doublon potentielle. Vous pouvez soit sélectionner un établissement dans la liste ci dessous ou cliquer sur &#38;Sauvegarder&#38; pour poursuivre la création de la fiche de l`établissement avec les données saisies.',
   'LBL_ACCOUNT_INFORMATION' => 'Information sur l`Établissement',
   'LBL_ACCOUNT_NAME' => 'Nom de l`Établissement',
   'LBL_ACCOUNT_TYPE' => 'Type d`Établissement',
@@ -146,7 +146,7 @@ $mod_strings = array (
   'LBL_LIST_EMAIL_ADDRESS' => 'Adresse courriel',
   'LBL_OTHER_EMAIL_ADDRESS' => 'Courriel Autre',
   'DB_BILLING_ADDRESS_CITY' => 'Ville de facturation',
-  'DB_NAME' => 'Nom du compte',
+  'DB_NAME' => 'Nom de l`établissement',
   'DB_WEBSITE' => 'Site web',
   'LBL_ANNEE_DADHESION' => 'Année d`adhésion',
   'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Historique des courriels des contacts liés',

@@ -1,6 +1,26 @@
 <?php
-// created: 2016-08-11 13:40:01
+// created: 2016-09-19 10:16:40
 $unified_search_modules_display = array (
+  'Campaigns' => 
+  array (
+    'visible' => true,
+  ),
+  'AOS_Quotes' => 
+  array (
+    'visible' => true,
+  ),
+  'AOS_Products' => 
+  array (
+    'visible' => true,
+  ),
+  'AOD_Index' => 
+  array (
+    'visible' => true,
+  ),
+  'fs_fourniseur' => 
+  array (
+    'visible' => true,
+  ),
   'Accounts' => 
   array (
     'visible' => true,
@@ -40,10 +60,6 @@ $unified_search_modules_display = array (
   'Opportunities' => 
   array (
     'visible' => true,
-  ),
-  'AOD_Index' => 
-  array (
-    'visible' => false,
   ),
   'AOD_IndexEvent' => 
   array (
@@ -85,14 +101,6 @@ $unified_search_modules_display = array (
   array (
     'visible' => false,
   ),
-  'AOS_Products' => 
-  array (
-    'visible' => false,
-  ),
-  'AOS_Quotes' => 
-  array (
-    'visible' => false,
-  ),
   'AOW_Processed' => 
   array (
     'visible' => false,
@@ -106,10 +114,6 @@ $unified_search_modules_display = array (
     'visible' => false,
   ),
   'Calls_Reschedule' => 
-  array (
-    'visible' => false,
-  ),
-  'Campaigns' => 
   array (
     'visible' => false,
   ),

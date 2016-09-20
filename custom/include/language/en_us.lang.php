@@ -1,7 +1,7 @@
 <?php 
 $GLOBALS["app_list_strings"] = 
 	array (
-  'language_pack_name' => 'Français (Canada) - fr_CA',
+  'language_pack_name' => 'English (US)',
   'moduleList' => 
   array (
     'Home' => 'Accueil',
@@ -107,6 +107,8 @@ $GLOBALS["app_list_strings"] =
     'fs_ODA' => 'LBL_FIRM',
     'fs_fourniseur' => 'fourniseurs',
     'auf_implantation' => 'Implantation',
+	'CPT_Compte' => 'Comptes',
+	
   ),
   'moduleListSingular' => 
   array (
@@ -143,6 +145,7 @@ $GLOBALS["app_list_strings"] =
     'auf_implantation' => 'Implantation',
     'fs_fourniseur' => 'Fournisseur',
     'sm_Responsable' => 'Responsable',
+	'CPT_Compte' => 'Compte',
   ),
   'checkbox_dom' => 
   array (
@@ -5665,4 +5668,20 @@ $GLOBALS['app_list_strings']['typetache_list']=array (
 $GLOBALS['app_list_strings']['typetache_0']=array (
   '' => '',
   'cffcoda' => 'Création fiche four. Coda',
+);
+$GLOBALS['app_list_strings']['fs_fourniseur_type_dom']=array (
+  '' => '',
+  'Analyst' => 'Analyste',
+  'Competitor' => 'Concurent',
+  'Customer' => 'Client',
+  'Integrator' => 'Intégrateur',
+  'Investor' => 'Investisseur',
+  'Partner' => 'Partenaire',
+  'Press' => 'Presse',
+  'Prospect' => 'Prospect',
+  'Reseller' => 'Revendeur',
+  'Other' => 'Autre',
+  'Provider' => 'Поставщик',
+  'Delivery service' => 'Служба доставки',
+  'fournisseur' => 'Fournisseur',
 );

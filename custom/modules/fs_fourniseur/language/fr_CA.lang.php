@@ -1,13 +1,13 @@
 <?php
-// created: 2016-08-24 14:30:34
+// created: 2016-09-19 10:19:48
 $mod_strings = array (
-  'LNK_NEW_RECORD' => 'Créer Fournisseurs',
-  'LNK_LIST' => 'Vue Fournisseurs',
+  'LNK_NEW_RECORD' => 'Créer Comptes',
+  'LNK_LIST' => 'Vue Comptes',
   'LNK_IMPORT_FS_FOURNISEUR' => 'Import fournisseurs',
   'MSG_SHOW_DUPLICATES' => 'Créer ce Compte peut potentiellement créer un Compte dupliqué. Vous pouvez cliquer sur Sauvegarder pour continuer de créer ce nouveau Compte  avec les données précédemment saisies ou cliquer sur Annuler.',
-  'LBL_LIST_FORM_TITLE' => 'Fournisseur liste',
-  'LBL_SEARCH_FORM_TITLE' => 'Recherche Fournisseur',
-  'LBL_HOMEPAGE_TITLE' => 'Mes Fournisseurs',
+  'LBL_LIST_FORM_TITLE' => 'Compte liste',
+  'LBL_SEARCH_FORM_TITLE' => 'Recherche Compte',
+  'LBL_HOMEPAGE_TITLE' => 'Mes Comptes',
   'LBL_SHIPPING_ADDRESS_STREET_NUM' => 'shipping address street num',
   'LBL_CEDEX' => 'Cedex',
   'LBL_VILLE_LG_ORIGINE' => 'Ville (langue d`origine)',
@@ -66,7 +66,7 @@ $mod_strings = array (
   'LBL_NAME' => 'Nom complet',
   'LBL_NOM_COURT' => 'Nom court',
   'LBL_NUMERO_CODA' => 'Numéro CODA',
-  'LBL_DEVISE' => 'Devise du fournisseur',
+  'LBL_DEVISE' => 'Devise',
   'LBL_MODE_PAIEMENT' => 'Mode de paiement usuel',
   'LBL_COND_PAIEMENT' => 'Condition de paiement',
   'LBL_FS_FOURNISEUR_ACTIVITIES_1_CALLS_FROM_CALLS_TITLE' => 'Activités:Appel',

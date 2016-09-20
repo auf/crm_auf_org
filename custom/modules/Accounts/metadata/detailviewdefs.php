@@ -351,7 +351,6 @@ array (
             'name' => 'prive_c',
             'label' => 'LBL_PRIVE',
           ),
-          1 => '',
         ),
         1 => 
         array (

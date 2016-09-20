@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-15 14:34:32
+// created: 2016-09-19 10:14:27
 $mod_strings = array (
   'LBL_AUF_IMPLANTATION_AOS_CONTRACTS_1_FROM_AUF_IMPLANTATION_TITLE' => 'Implantation',
   'LBL_OPPORTUNITY' => 'Affaires',
@@ -13,4 +13,5 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Rechercher des contrats',
   'LBL_CONTACT' => 'Contact',
   'LBL_EMAILS' => 'Courriel',
+  'LBL_FS_FOURNISEUR_AOS_CONTRACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Comptes',
 );

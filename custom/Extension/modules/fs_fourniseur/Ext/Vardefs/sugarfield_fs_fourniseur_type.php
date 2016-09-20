@@ -1,5 +1,5 @@
 <?php
- // created: 2016-08-25 14:17:38
+ // created: 2016-09-19 10:18:34
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['len']=100;
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['inline_edit']=true;
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['comments']='The Company is of this type';

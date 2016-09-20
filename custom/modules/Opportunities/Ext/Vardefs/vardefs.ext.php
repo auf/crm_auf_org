@@ -2,19 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2016-08-10 15:09:18
-$dictionary["Opportunity"]["fields"]["opportunities_part_partenariat_1"] = array (
-  'name' => 'opportunities_part_partenariat_1',
-  'type' => 'link',
-  'relationship' => 'opportunities_part_partenariat_1',
-  'source' => 'non-db',
-  'module' => 'part_Partenariat',
-  'bean_name' => 'part_Partenariat',
-  'side' => 'right',
-  'vname' => 'LBL_OPPORTUNITIES_PART_PARTENARIAT_1_FROM_PART_PARTENARIAT_TITLE',
-);
-
-
  // created: 2016-08-12 13:26:38
 $dictionary['Opportunity']['fields']['montant_finance_c']['inline_edit']='1';
 $dictionary['Opportunity']['fields']['montant_finance_c']['labelValue']='Montant financé';
@@ -43,19 +30,6 @@ $dictionary['Opportunity']['fields']['montant_initial_c']['inline_edit']='1';
 $dictionary['Opportunity']['fields']['montant_initial_c']['labelValue']='Montant initial';
 
  
-
-// created: 2016-08-10 15:08:56
-$dictionary["Opportunity"]["fields"]["opportunities_prop_proposition_1"] = array (
-  'name' => 'opportunities_prop_proposition_1',
-  'type' => 'link',
-  'relationship' => 'opportunities_prop_proposition_1',
-  'source' => 'non-db',
-  'module' => 'Prop_Proposition',
-  'bean_name' => 'Prop_Proposition',
-  'side' => 'right',
-  'vname' => 'LBL_OPPORTUNITIES_PROP_PROPOSITION_1_FROM_PROP_PROPOSITION_TITLE',
-);
-
 
 // created: 2016-08-18 15:33:13
 $dictionary["Opportunity"]["fields"]["fs_fourniseur_opportunities_1"] = array (

@@ -171,10 +171,6 @@ array (
           array (
             'name' => 'fs_fourniseur_activities_1_tasks_name',
           ),
-          1 => 
-          array (
-            'name' => 'fs_fourniseur_tasks_1_name',
-          ),
         ),
       ),
     ),

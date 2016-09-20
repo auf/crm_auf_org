@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-15 14:34:31
+// created: 2016-09-19 10:14:27
 $mod_strings = array (
   'LBL_EMAILS_ACCOUNTS_REL' => 'Emails:Établissement',
   'LBL_EMAILS_OPPORTUNITIES_REL' => 'Emails:Projets',
@@ -16,4 +16,5 @@ $mod_strings = array (
   'LBL_EMAILS_NOTES_REL' => 'Emails:Note',
   'LBL_EMAILS_MEETINGS_REL' => 'Emails : Réunion',
   'LBL_AOS_INVOICES_ACTIVITIES_1_EMAILS_FROM_AOS_INVOICES_TITLE' => 'Activités:Facture',
+  'LBL_FS_FOURNISEUR_ACTIVITIES_1_EMAILS_FROM_FS_FOURNISEUR_TITLE' => 'Activités:Comptes',
 );

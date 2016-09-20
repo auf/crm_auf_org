@@ -120,7 +120,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_COND_PAIEMENT',
           ),
-          1 => '',
         ),
         5 => 
         array (
@@ -243,7 +242,6 @@ array (
             'name' => 'numcompte_c',
             'label' => 'LBL_NUMCOMPTE',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -307,7 +305,6 @@ array (
             'name' => 'numcompte2_c',
             'label' => 'LBL_NUMCOMPTE2',
           ),
-          1 => '',
         ),
         2 => 
         array (

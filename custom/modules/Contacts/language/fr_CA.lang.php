@@ -1,5 +1,5 @@
 <?php
-// created: 2016-08-15 14:34:31
+// created: 2016-09-19 10:14:27
 $mod_strings = array (
   'LBL_FIRST_NAME' => 'Prénom',
   'LBL_EMAIL_ADDRESS' => 'Courriel',
@@ -22,7 +22,7 @@ $mod_strings = array (
   'LBL_GENRE' => 'Genre',
   'LBL_COUNTRY' => 'Pays',
   'LBL_MODIFIED' => 'Modifié',
-  'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Fournisseurs',
+  'LBL_FS_FOURNISEUR_CONTACTS_1_FROM_FS_FOURNISEUR_TITLE' => 'Comptes',
   'LBL_JOOMLA_ACCOUNT_ID' => 'Joomla Account ID',
   'LBL_ALT_ADDRESS_COUNTRY' => 'Adresse Secondaire - Pays',
   'LBL_PRIMARY_ADDRESS_STREET_NUM' => 'No. Rue',

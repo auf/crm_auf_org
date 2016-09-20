@@ -139,19 +139,6 @@ $dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_opportunities_1"] = array 
 );
 
 
-// created: 2016-08-18 15:34:14
-$dictionary["fs_fourniseur"]["fields"]["fs_fourniseur_tasks_1"] = array (
-  'name' => 'fs_fourniseur_tasks_1',
-  'type' => 'link',
-  'relationship' => 'fs_fourniseur_tasks_1',
-  'source' => 'non-db',
-  'module' => 'Tasks',
-  'bean_name' => 'Task',
-  'side' => 'right',
-  'vname' => 'LBL_FS_FOURNISEUR_TASKS_1_FROM_TASKS_TITLE',
-);
-
-
  // created: 2016-07-28 09:56:50
 $dictionary['fs_fourniseur']['fields']['name']['audited']=false;
 $dictionary['fs_fourniseur']['fields']['name']['inline_edit']=true;
@@ -486,7 +473,7 @@ $dictionary['fs_fourniseur']['fields']['adresse_swift2_c']['labelValue']='Adress
 
  
 
- // created: 2016-08-25 14:17:38
+ // created: 2016-09-19 10:18:34
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['len']=100;
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['inline_edit']=true;
 $dictionary['fs_fourniseur']['fields']['fs_fourniseur_type']['comments']='The Company is of this type';
